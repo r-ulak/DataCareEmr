@@ -1,0 +1,207 @@
+
+<div id="addorderResult">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span ng-show="vm.orderResult.isNew">@L("AddOrderResult")</span>
+            <span ng-hide="vm.orderResult.isNew">@L("EditOrderResult")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addOrderResultCreateForm" orderResult="form" class="form-horizontal form-label-left" novalidate>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ResultByName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class=" form-control"
+                                    ng-model="vm.orderResult.resultById"
+                                    ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.administeredByIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ResultStatusCodeName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-disabled="!vm.canSignOffLabResult" ng-model="vm.orderResult.resultStatusCodeId" ng-options="item.resultStatusCodeId as item.resultStatusCodeName for item in vm.resultStatusCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("TestCode")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <span ng-hide="vm.orderResult.isNew">{{vm.orderResult.shortName}}&nbsp; ({{vm.orderResult.loincCodeId}})</span>
+                            <input ng-model="LoincCodeId"
+                                   ng-show="vm.orderResult.isNew"
+                                   uib-typeahead="loinc as  loinc.longCommonName + ' (' + loinc.loincCodeId + ')' for loinc in vm.getLabRadCodeData($viewValue)"
+                                   typeahead-show-hint="true"
+                                   typeahead-on-select="vm.loincCodeSelect($item, $model, $label)"
+                                   typeahead-min-length="3"
+                                   typeahead-wait-ms="250"
+                                   class="form-control"
+                                   name="loincCodeId"
+                                   autocomplete="off"
+                                   placeholder="@L("LabRadCode")"
+                                   required="required"
+                                   typeahead-loading="loadingLocations"
+                                   typeahead-no-results="noResults"
+                                   data-validate-length="2">
+                            <i ng-show="loadingLocations" class="fa fa-spin fa-spinner"></i>
+                            <div ng-show="noResults">
+                                <i class="fa fa-plus text-success"></i> <a class="abp-clickable" ng-click="vm.openAddLoincCodeModal(LoincCodeId)">add new custom code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group" id="parenttestCode">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ParentTestCode")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select ng-show="vm.orderResult.isNew" class="form-control" ng-model="vm.orderResult.parentLoincCodeId"
+                                    ng-options="item.loincCodeId as item.longCommonName for item in vm.parentLoincCode"></select>
+                            <span ng-hide="vm.orderResult.isNew">{{vm.orderResult.parentLonicLongName}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ResultDataCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.orderResult.resultDataCodeId" ng-options="item.resultDataCodeId as item.resultDataCodeName for item in vm.resultDataCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12" ng-hide="vm.orderResult.isRad">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ResultData")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="vm.orderResult.resultData"
+                                   class="form-control"
+                                   data-validate-length-range="2,255"
+                                   name="orderResultResultData"
+                                   required="required"
+                                   data-validate-length="255">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12" ng-hide="vm.orderResult.isRad">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministrationSite")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-model="vm.orderResult.administrationSiteId"
+                                    ng-options="item.administrationSiteId as item.administrationSiteName for item in vm.administrationSiteData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12" ng-hide="vm.orderResult.isRad">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("UnitCodeId")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="vm.orderResult.unit"
+                                   uib-typeahead="unit as unit for unit in vm.orderResult.suggestedUnits"
+                                   typeahead-min-length="0"
+                                   typeahead-show-hint="true"
+                                   class="form-control"
+                                   placeholder="@L("UnitPlaceholder")"
+                                   name="units"
+                                   autocomplete="off"
+                                   typeahead-editable="true"
+                                   data-validate-length="10">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12" ng-hide="vm.orderResult.isRad">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("RangeValue")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="vm.orderResult.rangeValue"
+                                   uib-typeahead="range as range for range in vm.orderResult.suggestedRange"
+                                   typeahead-show-hint="true"
+                                   typeahead-min-length="0"
+                                   placeholder="@L("RangePlaceholder")"
+                                   class="form-control"
+                                   name="orderResultRangeValue"
+                                   autocomplete="off"
+                                   typeahead-editable="true"
+                                   data-validate-length="255">
+                        </div>
+                    </div>
+                </div>
+                   
+                <div class="col-md-6 col-sm-6 col-xs-12" ng-hide="vm.orderResult.isRad" >
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AbnormalCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.orderResult.abnormalCodeId" ng-options="item.abnormalCodeId as item.abnormalCodeName for item in vm.abnormalCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ResultDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker
+                                       ng-model="vm.orderResult.resultDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="surgeryDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.orderResult.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <button class="btn btn-success pull-right" ng-click="vm.addUpload()">Upload More</button>
+                    <div ng-repeat="upload in vm.uploadDocs">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            @Html.Partial("~/App/Main/views/Image/upload.cshtml")
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+
+        <button type="submit" class="btn btn-primary pull-right blue " ng-hide="vm.orderResult.isNew"
+                ng-disabled="addOrderResultCreateForm.$invalid" ng-click="vm.saveOrderResult()">
+            Update
+        </button>
+        <button type="submit" class="btn btn-success pull-right" ng-show="vm.orderResult.isNew" ng-disabled="addOrderResultCreateForm.$invalid"
+                ng-click="vm.saveOrderResult('addmore')">
+            Save and add another
+        </button>
+        <button type="submit" class="btn btn-success pull-right" ng-show="vm.orderResult.isNew" ng-disabled="addOrderResultCreateForm.$invalid"
+                ng-click="vm.saveOrderResult()">
+            Save
+        </button>
+    </div>
+</div>

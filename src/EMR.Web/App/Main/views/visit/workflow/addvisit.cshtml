@@ -1,0 +1,61 @@
+<div id="addvisit">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddVisit")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addVisitCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("ReasonForVisit")*</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <textarea type="text" class="form-control" data-validate-length-range="5,1500" rows="5" ng-model="vm.visit.reason"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("VisitCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.visit.visitCodeId" ng-options="item.visitCodeId as item.visitCodeName for item in vm.visitCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministrationSite")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class=" form-control" ng-model="vm.visit.administrationSiteId" ng-options="item.administrationSiteId as item.administrationSiteName for item in vm.administrationSiteData"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("VisitingDoctor")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class=" form-control"
+                                    ng-model="vm.visit.doctorId"
+                                    ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.allUserData | filter:{ roleName : 'doctor' }"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AssignedNurse")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class=" form-control"
+                                    ng-model="vm.visit.nurseId"
+                                    ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.allUserData | filter:{ roleName : 'nurse' }"></select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addVisitCreateForm.$invalid" id="addVisit" ng-click="vm.saveVisit()">Save</button>
+    </div>
+</div>

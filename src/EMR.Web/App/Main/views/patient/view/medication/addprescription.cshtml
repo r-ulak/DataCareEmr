@@ -1,0 +1,252 @@
+<div id="addprescription">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddPrescription")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addPrescriptionCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("PrescriptionName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="RxNormNameId"
+                                   uib-typeahead="prescription as  prescription.name + ' (' + prescription.rxcui + ')' for prescription in vm.getRxNormData($viewValue)"
+                                   typeahead-show-hint="true"
+                                   typeahead-min-length="3"
+                                   typeahead-wait-ms="500"
+                                   autocomplete="off"
+                                   class="form-control"
+                                   name="prescriptionICDCodePCSId"
+                                   placeholder="@L("DrugName")"
+                                   required="required"
+                                   typeahead-loading="loadingLocations"
+                                   typeahead-no-results="noResults"
+                                   data-validate-length="2">
+                            <i ng-show="loadingLocations" class="fa fa-spin fa-spinner"></i>
+                            <div ng-show="noResults">
+                                <i class="fa fa-plus text-success"></i> <a class="abp-clickable" ng-click="vm.openAddICDCodePCSModal(ICDCodePCSId)">add new custom code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DoseSize")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="number" class="form-control" name="doseSize" ng-model="vm.prescription.doseSize" data-validate-minmax="0,"   required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DoseUnit")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-init="vm.prescription.doseUnitCodeId = vm.doseUnitCodeData[0].doseUnitCodeId"
+                                    ng-model="vm.prescription.doseUnitCodeId"
+                                    ng-options="item.doseUnitCodeId as item.doseUnitCodeName for item in vm.doseUnitCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Dosage")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="number" class="form-control" name="dosage" ng-model="vm.prescription.dosage" data-validate-minmax="0,"   required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DrugFormCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-init="vm.prescription.drugFormCodeId = vm.drugFormCodeData[0].drugFormCodeId"
+                                    ng-model="vm.prescription.drugFormCodeId"
+                                    ng-options="item.drugFormCodeId as item.drugFormCodeName for item in vm.drugFormCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DrugRouteCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-init="vm.prescription.drugRouteCodeId = vm.drugRouteCodeData[0].drugRouteCodeId"
+                                    ng-model="vm.prescription.drugRouteCodeId"
+                                    ng-options="item.drugRouteCodeId as item.drugRouteCodeName for item in vm.drugRouteCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Frequency")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-init="vm.prescription.frequencyCodeId = vm.frequencyCodeData[0].frequencyCodeId"
+                                    ng-model="vm.prescription.frequencyCodeId"
+                                    ng-options="item.frequencyCodeId as item.frequencyCodeName for item in vm.frequencyCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Quantity")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="number" class="form-control" name="quantity" ng-model="vm.prescription.quantity" data-validate-minmax="0,"   required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DurationDays")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="number" class="form-control" name="quantity" ng-model="vm.prescription.duration" data-validate-minmax="0,"   required>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("TherapyCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control"
+                                    ng-init="vm.prescription.therapyCodeId = vm.therapyCodeData[0].therapyCodeId"
+                                    ng-model="vm.prescription.therapyCodeId" ng-options="item.therapyCodeId as item.therapyCodeName for item in vm.therapyCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Provider")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class=" form-control"
+                                    ng-model="vm.prescription.providerId"
+                                    ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.administeredByIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("StartDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker ng-model="vm.prescription.startDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="startDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/ng-template" id="condition-autocomplete-template">
+                    <small>{{data.icdCodeCNName}}</small>
+                    <small>({{data.icdCodeCNId}})</small>
+                </script>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("PrimaryCondition")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <tags-input ng-model="vm.prescription.primaryCondition"
+                                        key-property="icdCodeCNId"
+                                        display-property="icdCodeCNName"
+                                        placeholder="Add a primary condition"
+                                        replace-spaces-with-dashes="false"
+                                        add-from-autocomplete-only="true"
+                                        template="condition-autocomplete-template"
+                                        add-on-paste="true">
+                                <auto-complete source="vm.getCNCodeData($query)"
+                                               min-length="2"
+                                               debounce-delay="500"
+                                               highlight-matched-text="true"
+                                               display-property="icdCodeCNName"
+                                               max-results-to-show="32"
+                                               template="condition-autocomplete-template">
+                                </auto-complete>
+                            </tags-input>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("SecondaryCondition")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <tags-input ng-model="vm.prescription.secondaryCondition"
+                                        key-property="icdCodeCNId"
+                                        display-property="icdCodeCNName"
+                                        placeholder="Add a secondary condition"
+                                        replace-spaces-with-dashes="false"
+                                        add-from-autocomplete-only="true"
+                                        template="condition-autocomplete-template"
+                                        add-on-paste="true">
+                                <auto-complete source="vm.getCNCodeData($query)"
+                                               min-length="2"
+                                               debounce-delay="500"
+                                               highlight-matched-text="true"
+                                               display-property="icdCodeCNName"
+                                               max-results-to-show="32"
+                                               template="condition-autocomplete-template">
+                                </auto-complete>
+                            </tags-input>
+
+                        </div>
+                    </div>
+                </div>
+              
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("RefillDate")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input date-range-picker ng-model="vm.prescription.refillDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="refillDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-4">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Refills")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="number" class="form-control" name="refills" ng-model="vm.prescription.refills" data-validate-minmax="0," >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.prescription.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addPrescriptionCreateForm.$invalid" ng-click="vm.savePrescription('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addPrescriptionCreateForm.$invalid" ng-click="vm.savePrescription()">Save</button>
+    </div>
+</div>

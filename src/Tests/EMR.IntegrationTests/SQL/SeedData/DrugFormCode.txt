@@ -1,0 +1,12 @@
+1	suspension
+2	tablet
+3	capsule
+4	solution
+5	tsp
+6	ml
+7	units
+8	inhalation
+9	gtts(drops)
+10	cream
+11	ointment
+12	Per Oris

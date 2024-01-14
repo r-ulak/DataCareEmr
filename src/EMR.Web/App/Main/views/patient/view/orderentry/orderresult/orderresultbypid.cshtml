@@ -1,0 +1,67 @@
+<div class="x_title">
+    <h2>
+        <span ng-show="vm.radFilterIn">
+            Radiology Results
+        </span>
+        <span ng-hide="vm.radFilterIn">
+            Lab Results
+        </span>
+        <a class="abp-clickable blue margin-left10 margin-right10" title="@L("orderResultDetail")" ng-click="vm.openorderResultDetailModal()"><i class="fa fa-info-circle text-primary"></i></a>
+    </h2>
+    <ul class="nav navbar-right panel_toolbox">
+        <li>
+            <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+        </li>
+        <li>
+            <a class="close-link"><i class="fa fa-close"></i></a>
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+<div class="x_content">
+    <div class="table-responsive">
+        <div class="col-sm-8 col-xs-8 col-md-8">
+            <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+        </div>
+        <div class="col-sm-4 col-xs-4 col-md-4">
+            <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                <i class="fa fa-eraser margin-right5"></i>Clear Filter
+            </button>
+        </div>
+        <table class="table table-hover table-striped" st-table="displayedCollection" st-safe-src="vm.orderResultData" sttablefilter="vm.searchQuery">
+            <thead class="thead-inverse">
+                <tr class="abp-clickable">
+                    <th st-sort="LongCommonName">@L("ShortName")</th>
+                    <th st-sort="resultStatusCodeId">@L("StatusCodeName")</th>
+                    <th st-sort="resultData" ng-hide="vm.radFilterIn">@L("ResultData")</th>
+                    <th st-sort="rangeValue" ng-hide="vm.radFilterIn">@L("RangeValue")</th>
+                    <th st-sort="abnormalCodeName" ng-hide="vm.radFilterIn">@L("AbnormalCodeName")</th>
+            </thead>
+            <tbody ng-repeat="resultwithChild in (displayedCollection)">
+                <tr ng-if="resultwithChild.isPanel"
+                    class="abp-clickable" ng-click="vm.openPanelDetailModal(resultwithChild.orderId)">
+                    <td colspan="7" ng-click="">
+                        <i class="fa fa-lg fa-window-restore margin-right5"></i>
+                        {{resultwithChild.longCommonName}}
+                    </td>
+                </tr>
+                <tr ng-repeat="result in resultwithChild.orderResult"
+                    ng-if="!resultwithChild.isPanel"
+                    class="abp-clickable" ng-click="vm.openOrderDetailModal()">
+                    <td ng-class="{'font-bold red': result.abnormalCodeId != 2}">{{result.shortName}}&nbsp;({{result.loincCodeId}})</td>
+                    <td>{{result.resultStatusCodeName}}</td>
+                    <td>{{result.resultData}}&nbsp;{{result.unitCodeName}}</td>
+                    <td>{{result.rangeValue}}</td>
+                    <td>{{result.abnormalCodeName}}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7" class="text-center">
+                        <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>

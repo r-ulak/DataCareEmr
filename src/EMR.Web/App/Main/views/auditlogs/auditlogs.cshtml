@@ -1,0 +1,90 @@
+﻿<div class="" ng-controller="app.views.abpAuditLogs.view as vm">
+    <div class="page-title">
+        <div class="title_left">
+            <h3>AuditLogs <small>Search</small></h3>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="x_panel">
+                <div class="x_content" id="auditLogsList">
+                    @Html.Partial("~/App/Main/views/auditLogs/filter.cshtml")
+
+                    <div class="table-responsive">
+                        <div class="col-sm-8 col-xs-8 col-md-8">
+                            <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                        </div>
+                        <div class="col-sm-4 col-xs-4 col-md-4">
+                            <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                                <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                            </button>
+                        </div>
+                        <table class="table table-hover table-striped" st-table="displayedCollection" sttablefilter="vm.searchQuery" st-safe-src="vm.auditLogsData">
+                            <thead class="thead-inverse">
+                                <tr class="abp-clickable">
+                                    <th title="detail"></th>
+                                    <th title="exception"></th>
+                                    <th st-sort="executionTime">@L("Time")</th>
+                                    <th st-sort="userName">@L("UserName")</th>
+                                    <th st-sort="serviceName">@L("Service")</th>
+                                    <th st-sort="methodName">@L("Action")</th>
+                                    <th st-sort="executionDuration">@L("Duration")</th>
+                                    <th st-sort="clientIpAddress">@L("IpAddress")</th>
+                                    <th st-sort="browserInfo">@L("Browser")</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat-start="log in (displayedCollection)" class="abp-clickable" ng-click="log.expanded = !log.expanded ">
+                                    <td><span ng-class="{true:'fa fa-search-plus text-info', false:'fa fa-search-minus text-success'}[!log.expanded]"></span></td>
+                                    <td><span ng-class="{true:'fa fa-check text-success', false:'fa fa-warning text-danger'}[!log.exception]"></span></td>
+                                    <td>{{log.executionTime | utctolocal : 'L' }}</td>
+                                    <td><a class="blue" ng-click="vm.searchQuery = log.userName">{{log.userName}}</a></td>
+                                    <td><a class="blue" ng-click="vm.searchQuery = log.serviceName">{{log.serviceName}}</a></td>
+                                    <td><a class="blue" ng-click="vm.searchQuery = log.methodName">{{log.methodName}}</a></td>
+                                    <td>{{log.executionDuration}} ms</td>
+                                    <td>{{log.clientIpAddress}}</td>
+                                    <td><a class="blue" ng-click="vm.searchQuery = log.browserInfo">{{log.browserInfo}}</a></td>
+                                </tr>
+                                <tr ng-if="log.expanded" class="abp-clickable table-borderless" ng-repeat-end="" ng-click="log.expanded = !log.expanded ">
+                                    <td colspan="10" class="noborder">
+                                        <table class="table table-borderless wrapcontent-table table-responsive">
+                                            <tr>
+                                                <td class="col-md-2"><small>@L("ClientName")</small></td>
+                                                <td class="col-md-4"><small>@L("Parameters")</small></td>
+                                                <td class="col-md-2"><small>@L("CustomData")</small></td>
+                                                <td class="col-md-4"><small>@L("Exception")</small></td>
+                                            </tr>
+                                            <tr class="success">
+                                                <td class="col-md-2"><h6>{{log.clientName}}</h6></td>
+                                                <td class="col-md-4"><h6>{{log.parameters}}</h6></td>
+                                                <td class="col-md-2"><h6>{{log.customData}}</h6></td>
+                                                <td class="col-md-4"><h6>{{log.exception}}</h6></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot ng-show="vm.auditLogsData.length > 0">
+                                <tr>
+                                    <td colspan="10" class="text-center">
+                                        <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="10" class="text-center">
+                                        <a ng-show="vm.auditLogsData.length % vm.maxPageSize == 0" 
+                                           href="javascript:void(0)" 
+                                           ng-click="vm.showMore()"
+                                            class="btn btn-default btn-lg btn-block withripple">SHOW MORE<div class="ripple-wrapper"></div></a>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

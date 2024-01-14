@@ -1,0 +1,6 @@
+1	Yes
+2	No
+3	High
+4	Low
+5	Above upper panic limits
+6	Below lower panic limits

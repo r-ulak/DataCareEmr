@@ -1,0 +1,72 @@
+﻿<div class="" ng-controller="app.views.appointment as vm">
+    @Html.Partial("~/App/Main/views/appointment/topRow.cshtml")
+    <div class="row">
+        <div class="col-md-2 col-sm-12 col-xs-12">
+            <div class="row">
+                <button class="btn btn-primary btn-sm" ng-click="vm.resetFilter()">Reset Filter</button>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="margin-left-10">@L("AdministrationSite")</label>
+                        <select class="form-control"
+                                ng-model="vm.administrationSiteIdFilter"
+                                ng-change="vm.administrationSiteFilterChanged()"
+                                ng-options="item.administrationSiteId as item.administrationSiteName for item in vm.administrationSiteData"></select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="margin-left-10">@L("Category")</label>
+                        <select class="form-control"
+                                ng-model="vm.appointmentCodeIdFilter"
+                                ng-change="vm.appointmentCodeFilterChanged()"
+                                ng-options="item.appointmentCodeId as item.appointmentCodeName for item in vm.appointmentCodeData"></select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h5 class="margin-left-20">
+                    <label>
+                        <input ng-change="vm.checkAll(vm.masterCalendarChecked); vm.providerFilterChanged ()"
+                               ng-init="vm.masterCalendarChecked=true"
+                               ng-model="vm.masterCalendarChecked" type="checkbox" /> All
+                    </label> @L("Provider")
+                </h5>
+                <div class="row">
+                    <div class="col-md-12 col-sm-4 col-xs-6" ng-repeat="provider in vm.providerCodeData | filter:{ roleName : 'doctor' }">
+                        <p>
+                            <input type="checkbox"
+                                   ng-change="vm.providerFilterChanged()"
+                                   ng-init="provider.calendarChecked=true"
+                                   ng-checked="provider.calendarChecked"
+                                   ng-model="provider.calendarChecked">
+                            <i class="fa fa-square margin-right5" ng-style="{'color' : provider.calendarColor}"></i>{{provider.fullName}} ({{provider.roleName}})
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-10 col-sm-12 col-xs-12">
+            <mwl-calendar events="vm.events"
+                          view="vm.calendarView"
+                          view-title="vm.calendarTitle"
+                          view-date="vm.viewDate"
+                          cell-is-open="vm.cellIsOpen"
+                          day-view-start="06:00"
+                          day-view-end="22:59"
+                          day-view-split="30"
+                          on-timespan-click="vm.timespanClicked(calendarDate, calendarCell)"
+                          on-date-range-select="vm.rangeSelected(calendarRangeStartDate, calendarRangeEndDate)"
+                          on-event-click="vm.eventClicked(calendarEvent);"
+                          cell-auto-open-disabled="true">
+            </mwl-calendar>
+        </div>
+    </div>
+</div>

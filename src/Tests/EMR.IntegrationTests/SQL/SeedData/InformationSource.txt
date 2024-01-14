@@ -1,0 +1,5 @@
+1	Patient
+2	Hospital
+3	Provider
+4	Clinic
+5	Other

@@ -1,0 +1,6 @@
+1	Registration
+2	Ready For Nurse
+3	With Nurse
+4	Ready For Physician
+5	With Physician
+6	Discharged

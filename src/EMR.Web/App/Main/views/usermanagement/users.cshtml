@@ -1,0 +1,121 @@
+﻿<div class="" ng-controller="app.views.usermanagement.users as vm">
+    <div class="page-title">
+        <div class="title_left">
+            <h3>Users <small>Management</small></h3>
+        </div>
+        <div class="title_right">
+            <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                <div class="input-group">
+                    <button class="btn btn-sm btn-primary" ng-click="vm.openCreateUserModal()">
+                        <span class="fa fa-plus"></span>
+                        Create New User
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>Users</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                        <li>
+                            <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                        </li>
+                        <li>
+                            <a class="close-link"><i class="fa fa-close"></i></a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content" id="userList">
+                    <p>Manage users and assign permissions to users</p>
+                    @Html.Partial("~/App/Main/views/usermanagement/filterByRole.cshtml")
+                    <div class="table-responsive">
+                        <div class="col-sm-8 col-xs-8 col-md-8">
+                            <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                        </div>
+                        <div class="col-sm-4 col-xs-4 col-md-4">
+                            <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                                <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                            </button>
+                        </div>
+                        <table class="table table-hover table-striped" st-table="displayedCollection" sttablefilter="vm.searchQuery" st-safe-src="vm.usersData">
+                            <thead class="thead-inverse">
+                                <tr class="abp-clickable">
+                                    <th>@L("Actions")</th>
+                                    <th st-sort="name">@L("Name")</th>
+                                    <th st-sort="emailAddress">@L("EmailAddress")</th>
+                                    <th st-sort="isEmailConfirmed">@L("IsEmailConfirmed")</th>
+                                    <th st-sort="lastLoginTime">@L("LastLoginTime")</th>
+                                    <th st-sort="isActive">@L("IsActive")</th>
+                                    <th st-sort="creationTime">@L("CreationTime")</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="user in (displayedCollection)">
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm btn-primary dropdown-toggle"
+                                                    type="button" data-toggle="dropdown">
+                                                <span class="fa fa-cog"></span>
+                                                Actions
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" uib-dropdown-menu user="menu" aria-labelledby="single-button">
+                                                <li class="" user="menuitem">
+                                                    <a ng-click="vm.unlock(user)">
+                                                        <h5>
+                                                            @L("Unlock")
+                                                        </h5>
+                                                    </a>
+                                                </li>
+                                                <li class="" user="menuitem">
+                                                    <a ng-click="vm.openEditUserModal(user)">
+                                                        <h5>
+                                                            @L("Edit")
+                                                        </h5>
+                                                    </a>
+                                                </li>
+                                                <li class="" user="menuitem" ng-hide="user.isEmailConfirmed">
+                                                    <a ng-click="vm.sendActivationEmail(user)">
+                                                        <h5>
+                                                            @L("SendActivationEmail")
+                                                        </h5>
+                                                    </a>
+                                                </li>
+                                                <li class="" user="menuitem">
+                                                    <a ng-click="vm.delete(user)">
+                                                        <h5>
+                                                            @L("Delete")
+                                                        </h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>{{user.name}}</td>
+                                    <td>{{user.emailAddress}}</td>
+                                    <td>{{user.isEmailConfirmed |  yesNo}}</td>
+                                    <td>{{user.lastLoginTime |  utctolocal : ''}}</td>
+                                    <td>{{user.isActive |  yesNo}}</td>
+                                    <td>{{user.creationTime |  utctolocal : ''}}</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="7" class="text-center">
+                                        <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

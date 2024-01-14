@@ -1,0 +1,26 @@
+﻿<div ng-controller="app.views.patientVital.vitaltooltip as vm">
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count" ng-show="vm.vital.displayAge">
+        <span class="count_top"><i class="fa fa-user"></i> Age</span>
+        <div class="count">{{vm.vital.dateofservice| age}}</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count" ng-show="vm.vital.weight > 0">
+        <span class="count_top"><i class="fa fa-clock-o"></i> Weight</span>
+        <div class="count">{{vm.vital.weight}}</div>
+        <span class="count_bottom"><i ng-class="{'green': vm.vital.weightChange >= 0, 'red': vm.vital.weightChange < 0}"><i class="fa" ng-class="{'fa-sort-asc': vm.vital.weightChange >= 0, 'fa-sort-desc': vm.vital.weightChange < 0}"></i>{{vm.vital.weightChange}}% </i> From last Measurement</span>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count" ng-show="vm.vital.pulse > 0">
+        <span class="count_top"><i class="fa fa-clock-o"></i> Pulse</span>
+        <div class="count">{{vm.vital.pulse}}</div>
+        <span class="count_bottom"><i ng-class="{'green': vm.vital.pulseChange >= 0, 'red': vm.vital.pulseChange < 0}"><i class="fa" ng-class="{'fa-sort-asc': vm.vital.pulseChange >= 0, 'fa-sort-desc': vm.vital.pulseChange < 0}"></i>{{vm.vital.pulseChange}}% </i> From last Measurement</span>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count" ng-show="vm.vital.bps > 0">
+        <span class="count_top"><i class="fa fa-user"></i> Blood Pressure Systolic</span>
+        <div class="count">{{vm.vital.bps}}</div>
+        <span class="count_bottom"><i ng-class="{'green': vm.vital.bpsChange >= 0, 'red': vm.vital.bpsChange < 0}"><i class="fa" ng-class="{'fa-sort-asc': vm.vital.bpsChange >= 0, 'fa-sort-desc': vm.vital.bpsChange < 0}"></i>{{vm.vital.bpsChange}}% </i> From last Measurement</span>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count" ng-show="vm.vital.bpd > 0">
+        <span class="count_top"><i class="fa fa-clock-o"></i> Blood Pressure Diastolic</span>
+        <div class="count">{{vm.vital.bpd}}</div>
+        <span class="count_bottom"><i ng-class="{'green': vm.vital.bpdChange >= 0, 'red': vm.vital.bpdChange < 0}"><i class="fa" ng-class="{'fa-sort-asc': vm.vital.bpdChange >= 0, 'fa-sort-desc': vm.vital.bpdChange < 0}"></i>{{vm.vital.bpdChange}}% </i> From last Measurement</span>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+﻿<div class="x_panel tile fixed_height_390" ng-controller="app.views.patientdata.prescription as vm">
+    <div class="x_title">
+        <h2>
+            Medication
+            <a class="abp-clickable blue margin-left10 margin-right10" title="@L("MedicationListDetail")" ng-click="vm.openPrescriptionModal()"><i class="fa fa-info-circle text-primary"></i></a>
+            <a class="abp-clickable blue margin-right10" title="@L("MedicationTimeline")" ng-click="vm.openPrescriptionTimelineModal()"><i class="fa fa-calendar-times-o text-primary"></i></a>
+            <a class="abp-clickable blue" title="@L("AddPrescription")" ng-click="vm.openAddPrescriptionModal()"><i class="fa fa-plus-circle text-primary"></i></a>
+        </h2>
+        <ul class="nav navbar-right panel_toolbox">
+            <li> 
+                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="#">Settings 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings 2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a class="close-link"><i class="fa fa-close"></i></a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <div class="x_content">
+        <div class="table-responsive" ng-show="vm.prescriptionData.length>0">
+                <div class="col-sm-8 col-xs-8 col-md-8">
+                    <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4">
+                    <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                        <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                    </button>
+                </div>
+            <table st-table="displayedCollection" st-safe-src="vm.prescriptionData" sttablefilter="vm.searchQuery" class="table table-hover">
+                <thead class="thead-inverse">
+                    <tr class="abp-clickable">
+                        <td st-sort="drugName">@L("Medication")</td>
+                        <td st-sort="dose">@L("Dose")</td>
+                        <td st-sort="frequencyCodeName">@L("Frequency")</td>
+                        <td st-sort="quantity">@L("Quantity")</td>
+                        <td st-sort="startDate" st-sort-default="reverse">@L("StartDate")</td>
+                        <td st-sort="statusCodeName">@L("StatusCodeName")</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="medication in (displayedCollection) " class="abp-clickable" ng-click="vm.openPrescriptionModal()">
+                        <td><strong>{{medication.drugName}}</strong></td>
+                        <td>{{medication.dose}}</td>
+                        <td>{{medication.frequencyCodeName}}</td>
+                        <td>{{medication.quantity}}</td>
+                        <td>{{medication.startDate | utctolocal : 'L' }}</td>
+                        <td>{{medication.statusCodeName}}</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" class="text-center">
+                            <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

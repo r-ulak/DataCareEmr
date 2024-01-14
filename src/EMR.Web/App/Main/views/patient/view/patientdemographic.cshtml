@@ -1,0 +1,5 @@
+﻿<small class="font12px fontbold margin-right2">{{vm.patientData.gender | gender}} </small>:
+<small class="font12px fontbold margin-right2">{{vm.patientData.dob | date: 'mediumDate'}} ({{vm.patientData.dob | age}})</small>:
+<small class="font12px fontbold margin-right2">{{vm.patientData.lname}}, {{vm.patientData.fname}} </small>:
+<small class="font12px fontbold margin-right2" title="Patinet unique identifier">PID &nbsp;{{vm.patientData.pid}} </small>
+@Html.Partial("~/App/Main/views/patient/view/allergy/allergyTop.cshtml")

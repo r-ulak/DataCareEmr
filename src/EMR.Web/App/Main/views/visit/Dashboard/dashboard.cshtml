@@ -1,0 +1,16 @@
+﻿<div class="padding-top-40" ng-controller="app.views.visit.dashboard as vm">
+    <uib-tabset active="0">
+        <uib-tab index="0" ng-if="vm.showActiveVisit">
+            <uib-tab-heading class="themecolor">
+                <i class="fa fa-2x fa-stethoscope margin-right5"></i> Active Visit
+            </uib-tab-heading>
+            @Html.Partial("~/App/Main/views/visit/dashboard/activevisit/activevisit.cshtml")
+        </uib-tab>
+        <uib-tab index="1">
+            <uib-tab-heading class="themecolor">
+                <i class="fa fa-2x fa fa-calendar margin-right5"></i>Today's Appointments
+            </uib-tab-heading>
+            @Html.Partial("~/App/Main/views/visit/dashboard/todaysappointment/todaysappointment.cshtml")
+        </uib-tab>
+    </uib-tabset>
+</div>

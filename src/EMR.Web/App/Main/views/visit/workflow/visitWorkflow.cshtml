@@ -1,0 +1,25 @@
+﻿<h2>Visit WorkFlow</h2>
+@Html.Partial("~/App/Main/views/patient/view/allergy/allergyTop.cshtml")
+<hr />
+<div id="patientworkflow">
+    <uib-tabset type="pills">
+        <uib-tab>
+            <uib-tab-heading class="themecolor">
+                <i class="fa fa-2x fa-user-plus margin-right5"></i> Registration
+            </uib-tab-heading>
+            @Html.Partial("~/App/Main/views/visit/workflow/registration/index.cshtml")
+        </uib-tab>
+        <uib-tab>
+            <uib-tab-heading class="themecolor">
+                <i class="fa fa-2x fa fa-heartbeat margin-right5"></i> Clinical History
+            </uib-tab-heading>
+            @Html.Partial("~/App/Main/views/visit/workflow/clinicalhistory/index.cshtml")
+        </uib-tab>
+        <uib-tab>
+            <uib-tab-heading class="themecolor">
+                <i class="fa fa-2x fa fa-heartbeat margin-right5"></i> Physical Encounter
+            </uib-tab-heading>
+            @Html.Partial("~/App/Main/views/visit/workflow/physicalencounter/index.cshtml")
+        </uib-tab>
+    </uib-tabset>
+</div>

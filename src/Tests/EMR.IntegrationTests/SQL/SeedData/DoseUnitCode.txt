@@ -1,0 +1,9 @@
+1	mg
+2	mg/1cc
+3	mg/2cc
+4	mg/3cc
+5	mg/4cc
+6	mg/5cc
+7	mcg
+8	grams
+9	mL

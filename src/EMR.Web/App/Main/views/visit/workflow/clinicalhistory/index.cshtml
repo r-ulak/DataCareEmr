@@ -1,0 +1,56 @@
+﻿<h2>Clinical History</h2>
+<div smartwizard ng-controller="app.views.visit.workflow.clinicalhistory as vm" id="wiazrd_workflowStep2ClinicalEncounter" class="form_wizard wizard_horizontal">
+    <ul class="list-unstyled wizard_steps">
+        <li>
+            <a href="#clinicalhistoryStep1Allergy" title="Allergy">
+                <span class="step_no">1</span>
+                <span class="step_descr">
+                    Step 1<br>
+                    <small>Allergy</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#clinicalhistoryStep2Immunization" ng-click="vm.onShowStepCallback(2)" title="Immunization">
+                <span class="step_no">2</span>
+                <span class="step_descr">
+                    Step 2<br>
+                    <small>Immunization</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#clinicalhistoryStep3Surgical" title="Surgical" ng-click="vm.onShowStepCallback(3)">
+                <span class="step_no">3</span>
+                <span class="step_descr">
+                    Step 3<br>
+                    <small>Surgical</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#clinicalhistoryStep4FamilyHistory" title="Family History" ng-click="vm.onShowStepCallback(4)">
+                <span class="step_no">4</span>
+                <span class="step_descr">
+                    Step 4<br>
+                    <small>Family History</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#clinicalhistoryStep5LifeStyle" title="Life Style" ng-click="vm.onShowStepCallback(5)">
+                <span class="step_no">5</span>
+                <span class="step_descr">
+                    Step 5<br>
+                    <small>Life Style</small>
+                </span>
+            </a>
+        </li>
+    </ul>
+    @Html.Partial("~/App/Main/views/visit/workflow/clinicalhistory/allergy.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/clinicalhistory/immunization.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/clinicalhistory/surgical.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/clinicalhistory/familyhistory.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/clinicalhistory/lifestyle.cshtml")
+</div>
+<!-- End SmartWizard Content -->

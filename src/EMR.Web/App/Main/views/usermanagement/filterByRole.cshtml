@@ -1,0 +1,19 @@
+﻿<div class="row padding-bottom15">
+    <div class="form-group">
+        <div class="col-md-9 col-sm-9 col-xs-12">
+            <select class="select2_single form-control"
+                    ng-options="role.name for role in vm.allRoles"
+                    ng-change="vm.rolesSelect()"
+                    ng-model="vm.selectedRole"
+                    tabindex="-1">
+                <option value="">- Filter By Roles -</option>
+            </select>
+        </div>
+        <div class="col-sm-3 col-md-3 col-xs-12">
+            <button type="button" ng-click="vm.clearFilterRole()" class="btn btn-sm btn-primary">
+                <i class="fa fa-refresh margin-right5"></i>Refresh
+            </button>
+        </div>
+    </div>
+</div>
+<hr />

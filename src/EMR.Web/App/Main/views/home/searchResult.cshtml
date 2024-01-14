@@ -1,0 +1,82 @@
+﻿<div class="col-md-12 col-xs-12 col-sm-12 padding-top-20">
+    <div class="table-responsive" ng-show="vm.patientdatas.length>0">
+        <table class="table table-hover table-striped" id="searchResult">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>@L("Action")</th>
+                    <th>@L("PatientIdentifier")</th>
+                    <th>@L("Name")</th>
+                    <th>@L("Gender")</th>
+                    <th>@L("Age")</th>
+                    <th>@L("DOB")</th>
+                    <th>@L("Visit")</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="patient in vm.patientdatas" class="abp-clickable">
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-primary dropdown-toggle"
+                                    type="button" data-toggle="dropdown">
+                                <span class="fa fa-cog"></span>
+                                Actions
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                                <li class="" role="menuitem">
+                                    <a ng-click="vm.editProfile(patient)">
+                                        <h6>
+                                            Edit
+                                        </h6>
+                                    </a>
+                                </li>
+                                <li class="" role="menuitem">
+                                    <a ng-click="vm.openVisitHistory(patient)">
+                                        <h6>
+                                            Visit History
+                                        </h6>
+                                    </a>
+                                </li>
+                                <li class="" role="menuitem">
+                                    <a ng-click="vm.showDetail(patient)">
+                                        <h6>
+                                            View
+                                        </h6>
+                                    </a>
+                                </li>
+                                <li class="" role="menuitem" ng-hide="patient.currentlyInVisit">
+                                    <a ng-click="vm.openAddVisitModal(patient)">
+                                        <h6>
+                                            Start Visit
+                                        </h6>
+                                    </a>
+                                </li>
+                                <li class="" role="menuitem" ng-show="patient.currentlyInVisit">
+                                    <a ng-click="vm.resumeWorkflow(patient)">
+                                        <h6>
+                                            Visit WorkFlow
+                                        </h6>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td ng-click="vm.showDetail(patient)">{{patient.pid}}</td>
+                    <td ng-click="vm.showDetail(patient)">{{patient.fname + " " +  patient.lname}}</td>
+                    <td ng-click="vm.showDetail(patient)">{{patient.gender}}</td>
+                    <td ng-click="vm.showDetail(patient)">{{patient.dob| age}}</td>
+                    <td ng-click="vm.showDetail(patient)">{{patient.dob | date: 'longDate'}}</td>
+                    <td ng-hide="patient.currentlyInVisit" ng-click="vm.openAddVisitModal(patient)">
+                        <button class="btn btn-sm btn-success startVisit" ng-disabled="!vm.createVisit">
+                            <i class="fa fa-lg fa-stethoscope margin-right5"></i> Start Visit
+                        </button>
+                    </td>
+                    <td ng-show="patient.currentlyInVisit">
+                        <i class="fa fa-user-md fa-lg text-success margin-right5"></i> In Progress
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <a ng-show="vm.resultCount == vm.maxPageSize" href="javascript:void(0)" ng-click="vm.showMore()" class="btn btn-default btn-lg btn-block withripple">SHOW MORE<div class="ripple-wrapper"></div></a>
+</div>

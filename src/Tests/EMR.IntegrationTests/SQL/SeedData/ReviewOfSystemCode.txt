@@ -1,0 +1,245 @@
+1	1	Weight Change	0
+2	1	Weakness	0
+3	1	Fatigue	0
+4	1	Anorexia	0
+5	1	Fever	0
+6	1	Chills	0
+7	1	Night Sweats	0
+8	1	Insomnia	0
+9	1	Irritability	0
+10	1	Heat or Cold	0
+11	1	Intolerance	0
+12	2	Change in Vision	0
+13	2	Family History of Glaucoma	0
+14	2	Eye Pain	0
+15	2	Irritation	0
+16	2	Redness	0
+17	2	Excessive Tearing	0
+18	2	Double Vision	0
+19	2	Blind Spots	0
+20	2	Photophobia	0
+21	3	Hearing Loss	0
+22	3	Discharge	0
+23	3	Pain	0
+24	3	Vertigo	0
+25	3	Tinnitus	0
+26	3	Frequent Colds	0
+27	3	Sore Throat	0
+28	3	Sinus Problems	0
+29	3	Post Nasal Drip	0
+30	3	Nosebleed	0
+31	3	Snoring	0
+32	3	Apnea	0
+33	4	Breast Mass	0
+34	4	Discharge	0
+35	4	Biopsy	0
+36	4	Abnormal Mammogram	0
+37	5	Cough	0
+38	5	Sputum	0
+39	5	Shortness of Breath	0
+40	5	Wheezing	0
+41	5	Hemoptysis	0
+42	5	Asthma	0
+43	5	COPD	0
+44	6	Chest Pain	0
+45	6	Palpitation	0
+46	6	Syncope	0
+47	6	PND	0
+48	6	DOE	0
+49	6	Orthopnea	0
+50	6	Peripheral	0
+51	6	Edema	0
+52	6	Leg Pain/Cramping	0
+53	6	History of Heart Murmur	0
+54	6	Arrythmia	0
+55	6	Heart Problem	0
+56	7	Dysphagia	0
+57	7	Heartburn	0
+58	7	Bloating	0
+59	7	Belching	0
+60	7	Flatulence	0
+61	7	Nausea	0
+62	7	Vomiting	0
+63	7	Hematemesis	0
+64	7	Pain	0
+65	7	Food Intolerance	0
+66	7	H/O Hepatitis	0
+67	7	Jaundice	0
+68	7	Hematochezia	0
+69	7	Changed Bowel	0
+70	7	Diarrhea	0
+71	7	Constipation	0
+72	8	Polyuria	0
+73	8	Polydypsia	0
+74	8	Dysuria	0
+75	8	Hematuria	0
+76	8	Frequency	0
+77	8	Urgency	0
+78	8	Incontinence	0
+79	8	Renal Stones	0
+80	8	UTIs	0
+81	9	Hesitancy	0
+82	9	Dribbling	0
+83	9	Stream	0
+84	9	Nocturia	0
+85	9	Erections	0
+86	9	Ejaculations	0
+87	10	Female G	0
+88	10	Female P	0
+89	10	Female AP	0
+90	10	Female LC	0
+91	10	Menarche	0
+92	10	Menopause	0
+93	10	LMP	0
+94	10	Frequency	0
+95	10	Flow	0
+96	10	Symptoms	0
+97	10	Abnormal Hair Growth	0
+98	10	F/H Female Hirsutism/Striae	0
+99	11	Chronic Joint Pain	0
+100	11	Swelling	0
+101	11	Redness	0
+102	11	Warm	0
+103	11	Stiffness	0
+104	11	Muscle	0
+105	11	Aches	0
+106	11	FMS	0
+107	11	Arthritis	0
+108	12	LOC	0
+109	12	Seizures	0
+110	12	Stroke	0
+111	12	TIA	0
+112	12	Numbness	0
+113	12	Weakness	0
+114	12	Paralysis	0
+115	12	Intellectual Decline	0
+116	12	Memory Problems	0
+117	12	Dementia	0
+118	12	Headache	0
+119	13	Cancer	0
+120	13	Psoriasis	0
+121	13	Acne	0
+122	13	Other	0
+123	13	Disease	0
+124	14	Psychiatric Diagnosis	0
+125	14	Psychiatric Medication	0
+126	14	Depression	0
+127	14	Anxiety	0
+128	14	Social Difficulties	0
+129	15	Thyroid Problems	0
+130	15	Diabetes	0
+131	15	Abnormal Blood Test	0
+132	16	Anemia	0
+133	16	F/H Blood Problems	0
+134	16	Bleeding Problems	0
+135	16	Allergies	0
+136	16	Frequent Illness	0
+137	16	HIV	0
+138	16	HAI Status	0
+139	17	Fever	1
+140	17	Chills	1
+141	17	Night Sweats	1
+142	17	Weight Loss	1
+143	17	Poor Appetite	1
+144	17	Insomnia	1
+145	17	Fatigued	1
+146	17	Depressed	1
+147	17	Hyperactive	1
+148	17	Exposure to Foreign Countries	1
+149	18	Cataracts	1
+150	18	Cataract Surgery	1
+151	18	Glaucoma	1
+152	18	Double Vision	1
+153	18	Blurred Vision	1
+154	18	Poor Hearing	1
+155	18	Headaches	1
+156	18	Ringing in Ears	1
+157	18	Bloody Nose	1
+158	18	Sinusitis	1
+159	18	Sinus Surgery	1
+160	18	Dry Mouth	1
+161	18	Strep Throat	1
+162	18	Tonsillectomy	1
+163	18	Swollen Lymph Nodes	1
+164	18	Throat Cancer	1
+165	18	Throat Cancer Surgery	1
+166	19	Heart Attack	1
+167	19	Irregular Heart Beat	1
+168	19	Chest Pains	1
+169	19	Shortness of Breath	1
+170	19	High Blood Pressure	1
+171	19	Heart Failure	1
+172	19	Poor Circulation	1
+173	19	Vascular Surgery	1
+174	19	Cardiac Catheterization	1
+175	19	Coronary Artery Bypass	1
+176	19	Heart Transplant	1
+177	19	Stress Test	1
+178	20	Emphysema	1
+179	20	Chronic Bronchitis	1
+180	20	Interstitial Lung Disease	1
+181	20	Shortness of Breath	1
+182	20	Lung Cancer	1
+183	20	Lung Cancer Surgery	1
+184	20	Pheumothorax	1
+185	21	Stomach Pains	1
+186	21	Peptic Ulcer Disease	1
+187	21	Gastritis	1
+188	21	Endoscopy	1
+189	21	Polyps	1
+190	21	Colonoscopy	1
+191	21	Colon Cancer	1
+192	21	Colon Cancer Surgery	1
+193	21	Ulcerative Colitis	1
+194	21	Crohn`s Disease	1
+195	21	Appendectomy	1
+196	21	Diverticulitis	1
+197	21	Diverticulitis Surgery	1
+198	21	Gall Stones	1
+199	21	Cholecystectomy	1
+200	21	Hepatitis	1
+201	21	Cirrhosis of the Liver	1
+202	21	Splenectomy	1
+203	22	Osetoarthritis	1
+204	22	Rheumotoid Arthritis	1
+205	22	Lupus	1
+206	22	Ankylosing Spondlilitis	1
+207	22	Swollen Joints	1
+208	22	Stiff Joints	1
+209	22	Broken Bones	1
+210	22	Neck Problems	1
+211	22	Back Problems	1
+212	22	Back Surgery	1
+213	22	Scoliosis	1
+214	22	Herniated Disc	1
+215	22	Shoulder Problems	1
+216	22	Elbow Problems	1
+217	22	Wrist Problems	1
+218	22	Hand Problems	1
+219	22	Hip Problems	1
+220	22	Knee Problems	1
+221	22	Ankle Problems	1
+222	22	Foot Problems	1
+223	23	Rashes	1
+224	23	Infections	1
+225	23	Ulcerations	1
+226	23	Pemphigus	1
+227	23	Herpes	1
+228	24	Insulin Dependent Diabetes	1
+229	24	Non-Insulin Dependent Diabetes	1
+230	24	Hypothyroidism	1
+231	24	Hyperthyroidism	1
+232	24	Cushing Syndrome	1
+233	24	Addison Syndrome	1
+234	25	Kidney Failure	1
+235	25	Kidney Stones	1
+236	25	Kidney Cancer	1
+237	25	Kidney Infections	1
+238	25	Bladder Infections	1
+239	25	Bladder Cancer	1
+240	25	Prostate Problems	1
+241	25	Prostate Cancer	1
+242	25	Kidney Transplant	1
+243	25	Sexually Transmitted Disease	1
+244	25	Burning with Urination	1
+245	25	Discharge From Urethra	1

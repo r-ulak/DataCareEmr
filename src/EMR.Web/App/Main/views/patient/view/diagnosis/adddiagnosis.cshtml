@@ -1,0 +1,109 @@
+<div id="adddiagnosis">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddDiagnosis")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addDiagnosisCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ICDCodeCNId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="ICDCodeCNId"
+                                   uib-typeahead="diagnosis as  diagnosis.icdCodeCNName + ' (' + diagnosis.icdCodeCNId + ')' for diagnosis in vm.getCNCodeData($viewValue)"
+                                   typeahead-show-hint="true"
+                                   typeahead-min-length="3"
+                                   typeahead-wait-ms="250"
+                                   class="form-control"
+                                   name="diagnosisICDCodeCNId"
+                                   placeholder="@L("ICDCustomCNCode")"
+                                   required="required"
+                                   autocomplete="off"
+                                   typeahead-loading="loadingLocations"
+                                   typeahead-no-results="noResults"
+                                   data-validate-length="2">
+                            <i ng-show="loadingLocations" class="fa fa-spin fa-spinner"></i>
+                            <div ng-show="noResults">
+                                <i class="fa fa-plus text-success"></i> <a class="abp-clickable" ng-click="vm.openAddICDCodeCNModal(ICDCodeCNId)">add new custom code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DiagnosedBy")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class=" form-control"
+                                    ng-model="vm.diagnosis.administeredById"
+                                    ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.administeredByIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministrationSite")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-model="vm.diagnosis.administrationSiteId"
+                                    ng-options="item.administrationSiteId as item.administrationSiteName for item in vm.administrationSiteData"></select>
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.diagnosis.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("StatusCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control"
+                                    ng-init="vm.diagnosis.statusCodeId = vm.statusCodeIdCodeData[0].statusCodeId"
+                                    ng-model="vm.diagnosis.statusCodeId"
+                                    ng-options="item.statusCodeId as item.statusCodeName for item in vm.statusCodeIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("DiagnosisDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker ng-model="vm.diagnosis.diagnosisDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="diagnosisDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addDiagnosisCreateForm.$invalid" ng-click="vm.saveDiagnosis('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addDiagnosisCreateForm.$invalid" ng-click="vm.saveDiagnosis()">Save</button>
+    </div>
+</div>

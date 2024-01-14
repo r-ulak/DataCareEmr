@@ -1,0 +1,57 @@
+
+<div id="addiCDCodePCS">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddICDCodePCS")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addICDCodePCSCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("ICDCodePCSId")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="input-group">
+                            <span class="input-group-addon">CU</span>
+                            <input type="text" class="form-control" required="required" data-validate-length-range="3,5" ng-model="vm.iCDCodePCS.iCDCodePCSId" />
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("ICDCodePCSShortName")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input type="text" class="form-control" required="required" data-validate-length-range="5,60" ng-model="vm.iCDCodePCS.iCDCodePCSShortName" />
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("ICDCodePCSNameLong")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <textarea type="text" class="form-control" rows="5" required="required" data-validate-length-range="5,1000" ng-model="vm.iCDCodePCS.iCDCodePCSName" ></textarea>
+                    </div>
+                </div>
+
+
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addICDCodePCSCreateForm.$invalid" ng-click="vm.saveICDCodePCS('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addICDCodePCSCreateForm.$invalid" ng-click="vm.saveICDCodePCS()">Save</button>
+    </div>
+</div>

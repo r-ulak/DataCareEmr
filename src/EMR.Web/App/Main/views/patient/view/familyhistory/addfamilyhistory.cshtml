@@ -1,0 +1,89 @@
+<div id="addfamilyHistory">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddFamilyHistory")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addFamilyHistoryCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ICDCodeCNId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="ICDCodeCNId"
+                                   uib-typeahead="familyHistory as  familyHistory.icdCodeCNName + ' (' + familyHistory.icdCodeCNId + ')' for familyHistory in vm.getCNCodeData($viewValue)"
+                                   typeahead-show-hint="true"
+                                   typeahead-min-length="3"
+                                   typeahead-wait-ms="250"
+                                   autocomplete="off"
+                                   class="form-control"
+                                   name="familyHistoryICDCodeCNId"
+                                   placeholder="@L("ICDCustomCNCode")"
+                                   required="required"
+                                   typeahead-loading="loadingLocations"
+                                   typeahead-no-results="noResults"
+                                   data-validate-length="2">
+                            <i ng-show="loadingLocations" class="fa fa-spin fa-spinner"></i>
+                            <div ng-show="noResults">
+                                <i class="fa fa-plus text-success"></i> <a class="abp-clickable" ng-click="vm.openAddICDCodeCNModal(ICDCodeCNId)">add new custom code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("RealtionshipCodeName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control"
+                                    ng-init="vm.familyHistory.relationshipCodeId = vm.relationshipCodeIdCodeData[0].relationshipCodeId"
+                                    ng-model="vm.familyHistory.relationshipCodeId"
+                                    ng-options="item.relationshipCodeId as item.relationshipCodeName for item in vm.relationshipCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.familyHistory.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("StatusCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control"
+                                    ng-init="vm.familyHistory.statusCodeId = vm.statusCodeIdCodeData[0].statusCodeId"
+                                    ng-model="vm.familyHistory.statusCodeId"
+                                    ng-options="item.statusCodeId as item.statusCodeName for item in vm.statusCodeIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+       
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addFamilyHistoryCreateForm.$invalid" ng-click="vm.saveFamilyHistory('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addFamilyHistoryCreateForm.$invalid" ng-click="vm.saveFamilyHistory()">Save</button>
+    </div>
+</div>

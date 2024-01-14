@@ -1,0 +1,103 @@
+<table st-table="orderResultCollection"
+       st-safe-src="orderResultGroup.orderResult" class="table">
+    <thead class="thead-inverse">
+        <tr>
+            <th>
+                <label>
+                    <input ng-hide="vm.readonlyview" ng-change="resultvm.checkAll(orderResultGroup.master, orderResultGroup.orderResult)"
+                           ng-model="orderResultGroup.master" type="checkbox" /> All
+                </label>
+            </th>
+            <th st-sort="shortName">@L("ShortName")</th>
+            <th st-sort="resultStatusCodeId">@L("StatusCodeName")</th>
+            <th st-sort="resultData" ng-hide="orderResultGroup.isRad">@L("ResultData")</th>
+            <th st-sort="unitCodeName" ng-hide="orderResultGroup.isRad">@L("UnitCodeName")</th>
+            <th st-sort="rangeValue" ng-hide="orderResultGroup.isRad">@L("RangeValue")</th>
+            <th st-sort="abnormalCodeName" ng-hide="orderResultGroup.isRad">@L("AbnormalCodeName")</th>
+            <th st-sort="resultDate">@L("ResultDate")</th>
+            <th st-sort="documentId"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="orderResult in (orderResultCollection)| filter:{ orderId: resultvm.orderId }">
+            <td class="abp-clickable font-bold">
+                <div class="checkbox">
+                    <input type="checkbox"
+                           ng-show="orderResult.resultStatusCodeId == 1 && resultvm.canUpdateLabResult && !vm.readonlyview"
+                           ng-checked="orderResult.checked"
+                           ng-model="orderResult.checked">
+                </div>
+                <a ng-show="orderResult.resultStatusCodeId == 1 && resultvm.canUpdateLabResult && !vm.readonlyview" title="edit"
+                   ng-click="resultvm.openModalEditResult(orderResult)">
+                    <i class="fa fa-pencil-square-o fa-2x"></i>
+                </a>
+            </td>
+            <td ng-class="{'font-bold red': orderResult.abnormalCodeId != 2}">{{orderResult.shortName}}&nbsp;({{orderResult.loincCodeId}})</td>
+            <td>{{orderResult.resultStatusCodeName}}</td>
+            <td ng-hide="orderResult.isRad">
+                <input ng-model="orderResult.resultData"
+                       ng-change="orderResult.checked = true"
+                       class="form-control"
+                       data-validate-length-range="2,255"
+                       name="orderResultResultData"
+                       ng-disabled="!resultvm.canUpdateLabResult || orderResult.resultStatusCodeId != 1 || vm.readonlyview"
+                       required="required"
+                       data-validate-length="255">
+            </td>
+            <td ng-hide="orderResult.isRad">
+                <input ng-model="orderResult.unit"
+                       uib-typeahead="unit as unit for unit in orderResult.suggestedUnits"
+                       typeahead-min-length="0"
+                       typeahead-show-hint="true"
+                       class="form-control"
+                       placeholder="@L("UnitPlaceholder")"
+                       name="units"
+                       ng-change="orderResult.checked = true"
+                       ng-disabled="!resultvm.canUpdateLabResult || orderResult.resultStatusCodeId != 1 || vm.readonlyview"
+                       autocomplete="off"
+                       required="required"
+                       typeahead-editable="true"
+                       data-validate-length="10">
+            </td>
+            <td ng-hide="orderResult.isRad">
+                <input ng-model="orderResult.rangeValue"
+                       uib-typeahead="range as range for range in orderResult.suggestedRange"
+                       typeahead-show-hint="true"
+                       typeahead-min-length="0"
+                       placeholder="@L("RangePlaceholder")"
+                       class="form-control"
+                       name="orderResultRangeValue"
+                       ng-change="orderResult.checked = true"
+                       ng-disabled="!resultvm.canUpdateLabResult || orderResult.resultStatusCodeId != 1 || vm.readonlyview"
+                       autocomplete="off"
+                       required="required"
+                       typeahead-editable="true"
+                       data-validate-length="255">
+            </td>
+            <td ng-hide="orderResult.isRad">
+                <select required
+                        class="required form-control"
+                        ng-model="orderResult.abnormalCodeId"
+                        ng-change="orderResult.checked = true"
+                        ng-disabled="!resultvm.canUpdateLabResult || orderResult.resultStatusCodeId != 1 || vm.readonlyview"
+                        ng-options="item.abnormalCodeId as item.abnormalCodeName for item in resultvm.abnormalCodeData"></select>
+            </td>
+            <td>
+                <div class="input-prepend input-group">
+                    <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                    <input required date-range-picker
+                           ng-model="orderResult.resultDate"
+                           options="resultvm.datepickerOption"
+                           ng-disabled="!resultvm.canUpdateLabResult || orderResult.resultStatusCodeId != 1 || vm.readonlyview"
+                           class="form-control has-feedback-left" name="resultDate">
+                </div>
+            </td>
+            <td>
+                <a class="abp-clickable"
+                   ng-click="resultvm.viewImageModal(orderResult.id)">
+                    <i class="fa fa-2x fa-picture-o margin-right5 "></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>

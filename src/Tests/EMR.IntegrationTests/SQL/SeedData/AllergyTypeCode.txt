@@ -1,0 +1,10 @@
+1	drug	1
+2	food	2
+3	skin	3
+4	dust	4
+5	pet	5
+6	inscet	6
+7	eye	7
+8	allergic rhinitis	8
+9	latex	9
+10	mold	10

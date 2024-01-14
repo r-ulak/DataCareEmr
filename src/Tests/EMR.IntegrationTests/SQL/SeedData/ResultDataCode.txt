@@ -1,0 +1,4 @@
+1	String
+2	Numeric
+3	Formatted
+4	Long text

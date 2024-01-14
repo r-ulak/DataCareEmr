@@ -1,0 +1,59 @@
+
+<div id="addlifeStyle">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddLifeStyle")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addLifeStyleCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("LifeStyleTypeName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.lifeStyle.lifeStyleTypeId" ng-options="item.lifeStyleTypeId as item.lifeStyleTypeName for item in vm.lifeStyleCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <small for="status">Active Use</small>
+                        <select class="form-control"
+                                ng-options="o.v as o.n for o in [{ n: 'No', v: false }, { n: 'Yes', v: true }]"
+                                ng-model="vm.lifeStyle.currentlyActive"></select>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.lifeStyle.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addLifeStyleCreateForm.$invalid" ng-click="vm.saveLifeStyle('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addLifeStyleCreateForm.$invalid" ng-click="vm.saveLifeStyle()">Save</button>
+    </div>
+</div>

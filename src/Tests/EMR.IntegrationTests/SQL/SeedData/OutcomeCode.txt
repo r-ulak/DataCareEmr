@@ -1,0 +1,6 @@
+0	Unassigned
+1	Resolved
+2	Improved
+3	Statusquo
+4	Worse
+5	Pendingfollowup

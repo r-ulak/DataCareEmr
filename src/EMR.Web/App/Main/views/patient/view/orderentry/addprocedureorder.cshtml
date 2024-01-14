@@ -1,0 +1,81 @@
+<div id="addprocedureOrder">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddProcedureOrder")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addProcedureOrderCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("PriorityCodeId")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.procedureOrder.priorityCodeId" ng-options="item.priorityCodeId as item.priorityCodeName for item in vm.priorityCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("OrderdByName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.procedureOrder.orderdById" ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.administeredByIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("TestCode")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="LoincCodeId"
+                                   uib-typeahead="loinc as  loinc.longCommonName + ' (' + loinc.loincCodeId + ')' for loinc in vm.getLabRadCodeData($viewValue)"
+                                   typeahead-show-hint="true"
+                                   typeahead-on-select="vm.loincCodeSelect($item, $model, $label)"
+                                   typeahead-min-length="3"
+                                   typeahead-wait-ms="250"
+                                   autocomplete="off"
+                                   class="form-control"
+                                   name="loincCodeId"
+                                   placeholder="@L("LabRadCode")"
+                                   required="required"
+                                   typeahead-loading="loadingLocations"
+                                   typeahead-no-results="noResults"
+                                   data-validate-length="2">
+                            <i ng-show="loadingLocations" class="fa fa-spin fa-spinner"></i>
+                            <div ng-show="noResults">
+                                <i class="fa fa-plus text-success"></i> <a class="abp-clickable" ng-click="vm.openAddLoincCodeModal(LoincCodeId)">add new custom code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.orderResult.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addProcedureOrderCreateForm.$invalid" ng-click="vm.saveProcedureOrder('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addProcedureOrderCreateForm.$invalid" ng-click="vm.saveProcedureOrder()">Save</button>
+    </div>
+</div>

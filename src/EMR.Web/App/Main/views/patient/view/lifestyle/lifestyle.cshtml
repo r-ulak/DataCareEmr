@@ -1,0 +1,62 @@
+<div class="x_panel tile fixed_height_390" ng-controller="app.views.patient.lifeStyle as vm">
+    <div class="x_title">
+        <h2>
+            LifeStyles
+            <a class="abp-clickable blue margin-left10 margin-right10" title="@L("LifeStyleDetail")" ng-click="vm.openLifeStyleDetailModal()"><i class="fa fa-info-circle text-primary"></i></a>
+            <a class="abp-clickable blue" title="@L("AddLifeStyle")" ng-click="vm.openAddLifeStyleModal()"><i class="fa fa-plus-circle text-primary"></i></a>
+        </h2>
+        <ul class="nav navbar-right panel_toolbox">
+            <li>
+                <a class="collapse-link">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+            </li>
+            <li>
+                <a class="close-link">
+                    <i class="fa fa-close"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <div class="x_content">
+        <div class="table-responsive">
+            <div class="col-sm-8 col-xs-8 col-md-8">
+                <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+            </div>
+            <div class="col-sm-4 col-xs-4 col-md-4">
+                <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                    <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                </button>
+            </div>
+            <table class="table table-hover table-striped" st-table="displayedCollection" st-safe-src="vm.lifeStyleData" sttablefilter="vm.searchQuery">
+                <thead class="thead-inverse">
+                    <tr class="abp-clickable">
+
+                        <th st-sort="lifeStyleTypeId">@L("LifeStyleTypeName")</th>
+
+                        <th st-sort="currentlyActive">@L("CurrentlyActive")</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="lifeStyle in (displayedCollection)" class="abp-clickable" ng-click="vm.openLifeStyleDetailModal()">
+
+                        <td>{{lifeStyle.lifeStyleTypeName}}</td>
+
+                        <td>{{lifeStyle.currentlyActive | yesNo}}</td>
+
+
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

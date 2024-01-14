@@ -1,0 +1,77 @@
+﻿<div id="registerStep2Contact">
+    <h4 class="StepTitle">Contact</h4>
+    <form form-validation name="contactCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Street")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.street" type="text" class="form-control" name="PatientDataStreet"  data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("PostalCode")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.postalCode" type="text" class="form-control" name="PatientDataPostalCode"  data-validate-length="20">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("City")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.city" type="text" class="form-control" name="PatientDataCity"  data-validate-length="40">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("State")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.state" type="text" class="form-control" name="PatientDataState"  data-validate-length="20">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("County")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.county" type="text" class="form-control" name="PatientDataCounty" data-validate-length="5">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("CountryCode")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.countryCode" maxlength="2" type="text" class="form-control" name="PatientDataCountryCode" required="required" data-validate-length="4">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("PhoneHome")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.phoneHome" type="text" class="form-control" name="PatientDataPhoneHome"  data-validate-length="20">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("EmergencyPhoneContact")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.emergencyContactPhone" required type="text" class="form-control" name="EmergencyPhoneContact"  data-validate-length="20">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("EmergencyContactName")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.emergencyContactName" required type="text" class="form-control" name="EmergencyContactName" data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("ContactRelationship")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.contactRelationship" required type="text" class="form-control" name="ContactRelationship" data-validate-length="20">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("PhoneCell")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.phoneCell" type="text" class="form-control" name="PatientDataPhoneCell"  data-validate-length="20">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Email")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.email" type="email" class="form-control optional" name="PatientDataEmail"  data-validate-length="50">
+            </div>
+        </div>
+    </form>
+</div>

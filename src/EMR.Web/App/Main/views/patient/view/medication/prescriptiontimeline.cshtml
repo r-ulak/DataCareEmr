@@ -1,0 +1,33 @@
+﻿<div id="prescriptiontimelinedetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("MedicationTimeline")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <div class="row">
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <strong>select date range ==></strong>
+                </div>
+                <div class="col-xs-10 col-md-10 col-sm-10">
+                    <div class="controls">
+                        <div class="time-buttons">
+                            <ul class="time-list list-inline abp-clickable">
+                                <li id="sixMonths" class="">6 months</li>
+                                <li id="twoYears" class="">2 years</li>
+                                <li id="fiveYears" class="">5 years</li>
+                                <li id="todayButton" class="">today</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div watch-me="prescriptionTimelineData.length" medication-Timeline chart-data="prescriptionTimelineData"></div>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="button" class="btn btn-default" ng-click="vm.close()">@L("Close")</button>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<form>
+    <div class="row">
+        <button type="submit" class="btn btn-success pull-right" ng-hide="vm.readonlyview" ng-click="vm.save()">Save</button>
+    </div>
+    <div class="col-md-6 col-sm-12 col-xs-12" ng-if="vm.compreshensive">
+        <div ng-repeat="systems in vm.reviewOfSystemCodeEvenData track by $index">
+            @Html.Partial("/App/Main/views/visit/reviewofsystem/comprehensivesystem.cshtml")
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12 col-xs-12" ng-if="vm.compreshensive">
+        <div ng-repeat="systems in vm.reviewOfSystemCodeOddData track by $index">
+            @Html.Partial("/App/Main/views/visit/reviewofsystem/comprehensivesystem.cshtml")
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12 col-xs-12" ng-if="vm.short">
+        <div ng-repeat="systems in vm.reviewOfSystemCodeEvenData track by $index">
+            @Html.Partial("/App/Main/views/visit/reviewofsystem/shortsystem.cshtml")
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12 col-xs-12" ng-if="vm.short">
+        <div ng-repeat="systems in vm.reviewOfSystemCodeOddData track by $index">
+            @Html.Partial("/App/Main/views/visit/reviewofsystem/shortsystem.cshtml")
+        </div>
+    </div>
+    <div class="row">
+        <button type="submit" class="btn btn-success pull-right" ng-hide="vm.readonlyview" ng-click="vm.save()">Save</button>
+    </div>
+</form>

@@ -1,0 +1,86 @@
+﻿<div class="col-md-5 col-sm-12 col-xs-12">
+    <ul class="list-unstyled">
+        <li><br /><span>TOOLS</span><br /></li>
+        <li>
+            <button class="btn btn-sm btn-default" ng-click="SelectedMouseTool='circle'" ng-class="SelectedMouseTool=='circle' ? 'toolmbtnclicked':''">
+                <img src="Content/dicom-Icons/cir.png" /> <small>circle</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedMouseTool='line'" ng-class="SelectedMouseTool=='line' ? 'toolmbtnclicked':''">
+                <img src="Content/dicom-Icons/line.png" /> <small>line</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedMouseTool='rectangular'" ng-class="SelectedMouseTool=='rectangular' ? 'toolmbtnclicked':''">
+                <img src="Content/dicom-Icons/rect.png" /> <small>rectangular</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedMouseTool='ellipse'" ng-class="SelectedMouseTool=='ellipse' ? 'toolmbtnclicked':''">
+                <img src="Content/dicom-Icons/ele.png" /> <small>ellipse</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedMouseTool='WindowLevel'" ng-class="SelectedMouseTool=='WindowLevel' ? 'toolmbtnclicked':''">
+                <img src="Content/dicom-Icons/wl.png" /> <small>window level</small>
+            </button>
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='plain'">
+                <img src="Content/dicom-Icons/plane.png" /> <small>plain</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='invplain'">
+                <img src="Content/dicom-Icons/Ivt.png" /> <small>invplain</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='rainbow'">
+                <img src="~/Content/dicom-Icons/rbow.png" /> <small>rainbow</small>
+            </button>
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='hot'">
+                <img src="~/Content/dicom-Icons/hot.png" /> <small>hot</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='test'">
+                <img src="~/Content/dicom-Icons/hot.png" /> <small>test</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='sharpen'">
+                <img src="~/Content/dicom-Icons/snr.png" /> <small>sharpen</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='sobel'">
+                <img src="~/Content/dicom-Icons/ed.png" /> <small>sobel</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='threshold'" ng-class="SelectedButtonTool=='threshold' ? 'toolbtnclicked':''">
+                <img src="~/Content/dicom-Icons/thold.png" /> <small>threshold</small>
+            </button>
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='reset image'">
+                <img src="~/Content/dicom-Icons/rset.png" /> <small>reset image</small>
+            </button>
+
+            <button class="btn btn-sm btn-default" ng-click="SelectedButtonTool='clearAnnotation'">
+                <img src="~/Content/dicom-Icons/clrann.png" /> <small>clear annotation</small>
+            </button>
+        </li>
+        <li ng-show="SelectedMouseTool == 'circle'||SelectedMouseTool == 'line'||SelectedMouseTool == 'rectangular'||SelectedMouseTool == 'ellipse'||SelectedButtonTool == 'threshold'"> <br /><span>TOOL OPTIONS:</span><hr></li>
+        <li ng-show="SelectedMouseTool == 'circle'||SelectedMouseTool == 'line'||SelectedMouseTool == 'rectangular'||SelectedMouseTool == 'ellipse'">
+            <span>Color    :</span>
+            <select class="optionbtn" ng-model="SelectedColor" ng-options="o as o for o in Colours"></select>
+        </li>
+        <li ng-show="SelectedButtonTool == 'threshold'">
+            <span>Threshold Range:</span><br>
+            <input type="range" min={{Rmin}} max={{Rmax}} ng-model="Tval.min" /><br>
+            <input type="range" min={{Rmin}} max={{Rmax}} ng-model="Tval.max" />
+        </li>
+    </ul>
+</div>
+<div class="col-md-7 col-sm-12 col-xs-12">
+    <dicomviewer class="dicom" urlopenbtnid="urlbtn" ng-attr-source="{{image.imageSrc}}"
+                 urllistid="urltxt"></dicomviewer>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <input ng-show="Tag" class="form-control" placeholder="Search Tag" type="text" style="text-align: left" ng-model="search">
+    <hr />
+    <div ng-repeat="tagObj in Tag | filter:search" style="width: 100%;height:15px;position:relative;display:table-row;">
+        <span style="display: table-cell;overflow: hidden;border-bottom: #898888 1px solid">{{tagObj.Name}}</span>
+        <span style="display: table-cell;overflow: hidden;border-bottom: #898888 1px solid">{{tagObj.TagStr}}</span>
+        <span style="display: table-cell;overflow: hidden;border-bottom: #898888 1px solid">{{tagObj.Value}}</span>
+    </div>
+</div>

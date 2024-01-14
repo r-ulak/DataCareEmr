@@ -1,0 +1,17 @@
+﻿<div id="registerStep3Profile">
+    <h4 class="StepTitle">Profile</h4>
+    <form form-validation name="profileCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Race")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.race" type="text" class="form-control" name="PatientDataRace" data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Ethnicity")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.ethnicity" type="text" class="form-control" name="PatientDataEthnicity" data-validate-length="50">
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,103 @@
+<div class="table-responsive">
+    <table st-table="displayedCollection" st-safe-src="vm.surgeryData" class="table" sttablefilter="vm.searchQuery">
+        <thead class="thead-inverse abp-clickable">
+            <tr>
+                <th></th>
+                <th st-sort="iCDCodePCSId">@L("ICDCodePCSId")</th>
+                <th st-sort="iCDCodePCSShortName">@L("ICDCodePCSShortName")</th>
+                <th st-sort="statusCodeName">@L("StatusCodeName")</th>
+                <th st-sort="surgeryDate">@L("SurgeryDate")</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat-start="surgery in (displayedCollection)">
+                <td class="abp-clickable"
+                    ng-click="surgery.expanded = !surgery.expanded ">
+                    <i ng-class="{'fa fa-lg fa-minus-circle text-warning': surgery.expanded, 'fa fa-lg fa-plus-circle text-success': !surgery.expanded}"></i>
+                </td>
+                <td><a class="blue" ng-click="vm.searchQuery = surgery.icdCodePCSId">{{surgery.icdCodePCSId}}</a></td>
+                <td>{{surgery.icdCodePCSShortName}}</td>
+                <td><a class="blue" ng-click="vm.searchQuery = surgery.statusCodeName">{{surgery.statusCodeName}}</a></td>
+                <td>{{surgery.surgeryDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+            </tr>
+            <tr ng-if="surgery.expanded" class="table-borderless" ng-repeat-end="">
+                <td colspan="7" class="noborder">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td colspan="7" class="noborder">
+                                <form>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("ICDCodePCSName")</small></p>
+                                            <p>{{surgery.icdCodePCSName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("PermformedBy")</small></p>
+                                            <p>{{surgery.administeredByName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("AdministrationSite")</small></p>
+                                            <p>{{surgery.administrationSiteName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("OutcomeCodeName")</small></p>
+                                            <p>{{surgery.outcomeCodeName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("CreatedDate")</small></p>
+                                            <p>{{surgery.createDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("UpdatedDate")</small></p>
+                                            <p>{{surgery.updateDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small class="text-primary" for="status">Status</small>
+                                            <select class="form-control"
+                                                    ng-disabled="vm.readonlyview"
+                                                    ng-model="surgery.statusCodeId"
+                                                    ng-options="obj.statusCodeId as obj.statusCodeName for obj in vm.statusCodeData"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small class="text-primary" for="note">Note</small>
+                                            <textarea ng-disabled="vm.readonlyview"
+                                                      class="form-control" rows="5" ng-model="surgery.note"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3 ">
+                                            <button type="submit" ng-hide="vm.readonlyview" class="btn btn-sm btn-warning pull-right" ng-click="vm.update(surgery)">Save</button>
+                                            <button type="submit" ng-hide="vm.readonlyview" class="btn btn-sm btn-primary pull-right" ng-click="surgery.expanded = false">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7" class="text-center">
+                    <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

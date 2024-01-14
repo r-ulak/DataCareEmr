@@ -1,0 +1,5 @@
+1	Blood
+2	Saliva
+3	Urine
+4	Semen
+5	Other

@@ -1,0 +1,25 @@
+1	Constitutional	1
+2	Eyes	2
+3	Ears, Nose, Mouth, Throat	3
+4	Breast	4
+5	Respiratory	5
+6	Cardiovascular	6
+7	Gastrointestinal	7
+8	Genitourinary General	8
+9	Genitourinary Male	9
+10	Genitourinary Female	10
+11	Musculoskeletal	11
+12	Neurologic	12
+13	Skin	13
+14	Psychiatric	14
+15	Endocrine	15
+16	Hematologic/Allergic/Immunologic	16
+17	General	17
+18	HEENT	18
+19	Cardiovascular	19
+20	Pulmonary	20
+21	Gastrointestinal	21
+22	Musculoskeletal	22
+23	Skin	23
+24	Endocrine	24
+25	Genitourinary	25

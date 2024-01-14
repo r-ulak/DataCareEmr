@@ -1,0 +1,19 @@
+﻿<div class="row padding-bottom15">
+    <div class="form-group">
+        <div class="col-md-9 col-sm-9 col-xs-12">
+            <select class="select2_single form-control"
+                    ng-options="permission.name for permission in vm.allPermissions"
+                    ng-change="vm.permissionsSelect()"
+                    ng-model="vm.selectedPermission"
+                    tabindex="-1">
+                <option value="">- Filter By Permissions -</option>
+            </select>
+        </div>
+        <div class="col-sm-3 col-md-3 col-xs-12">
+            <button type="button" ng-click="vm.clearFilterPermission()" class="btn btn-sm btn-primary">
+                <i class="fa fa-refresh margin-right5"></i>Refresh
+            </button>
+        </div>
+    </div>
+</div>
+<hr />

@@ -1,0 +1,46 @@
+﻿<h2>Physical Encounter</h2>
+<div smartwizard ng-controller="app.views.visit.workflow.physicalencounter as vm" id="wiazrd_workflowStep2ClinicalEncounter" class="form_wizard wizard_horizontal">
+    <ul class="list-unstyled wizard_steps">
+        <li>
+            <a href="#physicalencounterStep1VisitHistory" title="VisitHistory">
+                <span class="step_no">1</span>
+                <span class="step_descr">
+                    Step 1<br>
+                    <small>Visit History</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#physicalencounterStep2ReviewOfSystemComprehensive" title="Review of System ">
+                <span class="step_no">2</span>
+                <span class="step_descr">
+                    Step 2<br>
+                    <small>Review of System </small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#physicalencounterStep2ReviewOfSystemShort" title="Review of System Short">
+                <span class="step_no">3</span>
+                <span class="step_descr">
+                    Step 3<br>
+                    <small>Review of System Short</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#physicalencounterStep4ProcedureOrder" title="Procedure Order Entry">
+                <span class="step_no">4</span>
+                <span class="step_descr">
+                    Step 4<br>
+                    <small>Procedure Order</small>
+                </span>
+            </a>
+        </li>
+    </ul>
+    @Html.Partial("~/App/Main/views/visit/workflow/physicalencounter/visithistory.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/physicalencounter/reviewofsystemcomprehensive.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/physicalencounter/reviewofsystemshort.cshtml")
+    @Html.Partial("~/App/Main/views/visit/workflow/physicalencounter/procedureorder.cshtml")
+</div>
+<!-- End SmartWizard Content -->

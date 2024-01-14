@@ -1,0 +1,76 @@
+<div class="table-responsive">
+    <table st-table="displayedCollection" st-safe-src="vm.lifeStyleData" class="table" sttablefilter="vm.searchQuery">
+        <thead class="thead-inverse">
+            <tr class="abp-clickable">
+                <th></th>
+                <th st-sort="lifeStyleTypeId">@L("LifeStyleTypeName")</th>
+                <th st-sort="currentlyActive">@L("CurrentlyActive")</th>
+                <th st-sort="createdBy">@L("QuitDate")</th>
+                <th st-sort="createdBy">@L("CreatedDate")</th>
+                <th st-sort="createdBy">@L("UpdateDate")</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat-start="lifeStyle in (displayedCollection)">
+                <td class="abp-clickable"
+                    ng-click="lifeStyle.expanded = !lifeStyle.expanded ">
+                    <i ng-class="{'fa fa-lg fa-minus-circle text-warning': lifeStyle.expanded, 'fa fa-lg fa-plus-circle text-success': !lifeStyle.expanded}"></i>
+                </td>
+                <td><a class="blue" ng-click="vm.searchQuery = lifeStyle.lifeStyleTypeName">{{lifeStyle.lifeStyleTypeName}}</a></td>
+                <td><a class="blue" ng-click="vm.searchQuery = lifeStyle.currentlyActive">{{lifeStyle.currentlyActive | yesNo}}</a></td>
+                <td>{{lifeStyle.quitDate | utctolocal : 'L'  }}</td>
+                <td>{{lifeStyle.createdDate | utctolocal : 'L'}}</td>
+                <td>{{lifeStyle.updateDate | utctolocal : 'L' }}</td>
+            </tr>
+            <tr ng-if="lifeStyle.expanded" class="table-borderless" ng-repeat-end="">
+                <td colspan="10" class="noborder">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td colspan="7" class="noborder">
+                                <form>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small for="quitDate">QuitDate</small>
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                                <input date-range-picker ng-model="lifeStyle.quitDate" ng-disabled="lifeStyle.currentlyActive || vm.readonlyview" options="vm.datepickerOption" class="form-control has-feedback-left" name="quitDate">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small for="status">Active Use</small>
+                                            <select class="form-control"
+                                                    ng-disabled ="vm.readonlyview"
+                                                    ng-options="o.v as o.n for o in [{ n: 'No', v: false }, { n: 'Yes', v: true }]"
+                                                    ng-model="lifeStyle.currentlyActive"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small for="note">Notes</small>
+                                            <textarea class="form-control"  ng-disabled ="vm.readonlyview" rows="5" ng-model="lifeStyle.note"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" ng-hide="vm.readonlyview ">
+                                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3 ">
+                                            <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="vm.update(lifeStyle)">Save</button>
+                                            <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="lifeStyle.expanded = false">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7" class="text-center">
+                    <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

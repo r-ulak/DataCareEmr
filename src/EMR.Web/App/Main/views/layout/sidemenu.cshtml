@@ -1,0 +1,29 @@
+﻿<div id="sidebar-menu" class="main_menu_side hidden-print main_menu" ng-controller="app.views.layout.header as vm">
+    <div class="menu_section">
+        <h3>General</h3>
+        <ul class="nav side-menu">
+            <li ng-repeat="menuItem in vm.menu.items">
+                <a ng-if="menuItem.items.length">
+                    <i class="{{menuItem.icon}}"></i>
+                    <span ng-bind="menuItem.displayName"></span> 
+                    <span class="fa fa-chevron-down"></span>
+                </a>
+
+                <a ng-if="!menuItem.items.length" 
+                   ng-href="{{menuItem.url}}">
+                    <i class="{{menuItem.icon}}"></i>
+                    <span ng-bind="menuItem.displayName"></span>
+                </a>
+                <ul ng-if="menuItem.items.length" class="nav child_menu">
+                    <li ng-repeat="menuSubItem in menuItem.items">
+                        <a ng-href="{{menuSubItem.url}}">
+                            <i class="{{menuSubItem.icon}} sideicon"
+                               ng-if="menuSubItem.icon"></i>
+                            {{menuSubItem.displayName}}
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

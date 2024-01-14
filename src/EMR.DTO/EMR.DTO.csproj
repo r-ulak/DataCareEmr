@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1593742C-EF6A-464E-90EE-56FF27BA766A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMR.DTO</RootNamespace>
+    <AssemblyName>EMR.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Abp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Abp.1.0.0.0\lib\net452\Abp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Abp.AutoMapper.1.0.0.0\lib\net452\Abp.AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper, Version=5.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.5.1.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.LoggingFacility.3.3.0\lib\net45\Castle.Facilities.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Concurrent, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.Concurrent.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Enlightenment, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.Enlightenment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.5840.25917, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.6\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnitsNet, Version=3.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\UnitsNet.3.40.0\lib\net35\UnitsNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appointment\AppointmentCreateDto.cs" />
+    <Compile Include="Appointment\AppointmentInputDto.cs" />
+    <Compile Include="Appointment\AppointmentResultDto.cs" />
+    <Compile Include="AuditLog\AuditLogResultDto.cs" />
+    <Compile Include="AuditLog\AuditLogInputDto.cs" />
+    <Compile Include="Common\AutoCompleteQueryDto.cs" />
+    <Compile Include="Common\DateRangeDto.cs" />
+    <Compile Include="Common\AzureSearchInputDto.cs" />
+    <Compile Include="Common\SessionDto.cs" />
+    <Compile Include="Diagnosis\DiagnosisUpdateDto.cs" />
+    <Compile Include="Diagnosis\DiagnosisCreateDto.cs" />
+    <Compile Include="Diagnosis\DiagnosisResultDto.cs" />
+    <Compile Include="DocumentOrderResult\DocumentOrderResultCreateDto.cs" />
+    <Compile Include="DocumentOrderResult\DocumentRequestCreateDto.cs" />
+    <Compile Include="DocumentOrderResult\DocumentRequestDto.cs" />
+    <Compile Include="FamilyHistory\FamilyHistoryUpdateDto.cs" />
+    <Compile Include="FamilyHistory\FamilyHistoryCreateUpdateDto.cs" />
+    <Compile Include="FamilyHistory\FamilyHistoryResultDto.cs" />
+    <Compile Include="ICDCodeCN\ICDCodeCNCreateUpdateDto.cs" />
+    <Compile Include="ICDCodeCN\ICDCodeCNResultDto.cs" />
+    <Compile Include="ICDCodeCN\ICDCodeCNInputDto.cs" />
+    <Compile Include="ICDCodePCS\ICDCodePCSCreateUpdateDto.cs" />
+    <Compile Include="ICDCodePCS\ICDCodePCSInputDto.cs" />
+    <Compile Include="ICDCodePCS\ICDCodePCSResultDto.cs" />
+    <Compile Include="Image\DocumentResultDto.cs" />
+    <Compile Include="Image\ImageInputDto.cs" />
+    <Compile Include="Image\UploadInputDto.cs" />
+    <Compile Include="Immunization\CreateUpdateImmunizationsDto.cs" />
+    <Compile Include="Immunization\ImmunizationsResultDto.cs" />
+    <Compile Include="LifeStyle\LifeStyleResultDto.cs" />
+    <Compile Include="LifeStyle\LifeStyleCreateDto.cs" />
+    <Compile Include="LifeStyle\LifeStyleUpdateDto.cs" />
+    <Compile Include="Loinc\LoincCodeInputDto.cs" />
+    <Compile Include="Loinc\LoincCodeCreateDto.cs" />
+    <Compile Include="Loinc\LoincCodeResultDto.cs" />
+    <Compile Include="Loinc\LoincPanelCodeResultDto.cs" />
+    <Compile Include="OrderReport\OrderSpecimenCreateDto.cs" />
+    <Compile Include="OrderReport\OrderSpecimenResultDto.cs" />
+    <Compile Include="OrderReport\OrderSpecimenUpdateDto.cs" />
+    <Compile Include="OrderReport\OrderSpecimenInputDto.cs" />
+    <Compile Include="OrderResult\OrderResultCreateDto.cs" />
+    <Compile Include="OrderResult\OrderResultGroupDto.cs" />
+    <Compile Include="OrderResult\OrderResultDto.cs" />
+    <Compile Include="OrderResult\OrderResultUpdateDto.cs" />
+    <Compile Include="OutcomeCode\OutcomeCodeResultDto.cs" />
+    <Compile Include="PatientReviewOfSystem\CreatePatientReviewOfSystemDto.cs" />
+    <Compile Include="PatientReviewOfSystem\PatientReviewOfSystemCreateDto.cs" />
+    <Compile Include="PatientReviewOfSystem\PatientReviewOfSystemResultDto.cs" />
+    <Compile Include="PatientReviewOfSystem\PatientReviewOfSystemnputDto.cs" />
+    <Compile Include="PatientVital\PatientVisitDataInputDto.cs" />
+    <Compile Include="Prescription\PrescriptionUpdateDto.cs" />
+    <Compile Include="Prescription\PrescriptionCreateDto.cs" />
+    <Compile Include="ProcedureOrder\ProcedureOrderCreateDto.cs" />
+    <Compile Include="ProcedureOrder\ProcedureOrderUpdateDto.cs" />
+    <Compile Include="ProcedureOrder\ProcedureOrderResultDto.cs" />
+    <Compile Include="ReviewOfSystem\ReviewOfSystemGroupedCodeResultDto.cs" />
+    <Compile Include="ReviewOfSystem\ReviewOfSystemCodeResultDto.cs" />
+    <Compile Include="RoleUser\EditUserInput.cs" />
+    <Compile Include="RoleUser\CreateUserInput.cs" />
+    <Compile Include="RoleUser\PermissionsTreeViewDto.cs" />
+    <Compile Include="EMRDTOModule.cs" />
+    <Compile Include="PatientAllergy\CreatePatientAllergyInputDto.cs" />
+    <Compile Include="PatientAllergy\PatientAllergyUpdateInputDto.cs" />
+    <Compile Include="PatientAllergy\PatientAllergyInputDto.cs" />
+    <Compile Include="PatientAllergy\PatientAllergyResultDto.cs" />
+    <Compile Include="Prescription\PrescriptionTimeLineRange.cs" />
+    <Compile Include="Prescription\PrescriptionTimeLineResultDto.cs" />
+    <Compile Include="Prescription\PrescriptionResultDto.cs" />
+    <Compile Include="PatientData\PatientDataDto.cs" />
+    <Compile Include="PatientSearch\PatientSearchInputDto.cs" />
+    <Compile Include="PatientSearch\PatientSearchResultDto.cs" />
+    <Compile Include="PatientVital\CapturePatientVitalInputDto.cs" />
+    <Compile Include="PatientVital\PatientVitalResultDto.cs" />
+    <Compile Include="PatientVital\PatientDataInputDto.cs" />
+    <Compile Include="PatientVital\PatientPulseResultDto.cs" />
+    <Compile Include="PatientVital\PatientWeightResultDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleUser\CreateRoleInput.cs" />
+    <Compile Include="RoleUser\PermissionFilterInputDto.cs" />
+    <Compile Include="RoleUser\PermissionsResultDto.cs" />
+    <Compile Include="RoleUser\RoleFilterInputDto.cs" />
+    <Compile Include="RoleUser\AddRoleInputDto.cs" />
+    <Compile Include="RoleUser\UserRoleResultDto.cs" />
+    <Compile Include="RoleUser\UserResultDto.cs" />
+    <Compile Include="RoleUser\RoleResultDto.cs" />
+    <Compile Include="RoleUser\AddRemoveRoleDto.cs" />
+    <Compile Include="RoleUser\UpsertPermissonsDto.cs" />
+    <Compile Include="RoleUser\UserRoleInputDto.cs" />
+    <Compile Include="Surgery\SurgeryUpdateDto.cs" />
+    <Compile Include="Surgery\SurgeryCreateDto.cs" />
+    <Compile Include="Surgery\SurgeryResultDto.cs" />
+    <Compile Include="UserPreference\UserPreferenceCreateDto.cs" />
+    <Compile Include="UserPreference\UserPreferenceResultDto.cs" />
+    <Compile Include="Visit\VisitSearchInputDto.cs" />
+    <Compile Include="Visit\VisitCreateDto.cs" />
+    <Compile Include="Visit\VisitResultDto.cs" />
+    <Compile Include="Visit\VisitUpdateDto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMR.Core\EMR.Core.csproj">
+      <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
+      <Name>EMR.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

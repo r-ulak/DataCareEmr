@@ -1,0 +1,53 @@
+﻿<div ng-controller="app.views.domain.webJob as vm">
+    <h1>@L("Jobs")</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@L("Action")</th>
+                        <th>@L("JobName")</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="job in vm.webJobData">
+                        <td>
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-primary dropdown-toggle"
+                                        type="button" data-toggle="dropdown">
+                                    <span class="fa fa-cog"></span>
+                                    Actions
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                                    <li class="clickable" role="menuitem">
+                                        <a ng-click="vm.runWebJobAndViewStatus(job)">
+                                            <h6>
+                                                Run and Check Status
+                                            </h6>
+                                        </a>
+                                    </li>
+                                    <li class="clickable" role="menuitem">
+                                        <a ng-click="vm.runWebJob(job)">
+                                            <h6>
+                                                Run
+                                            </h6>
+                                        </a>
+                                    </li>
+                                    <li class="clickable" role="menuitem">
+                                        <a href="~/hangfire/jobs/processing" >
+                                            <h6>
+                                                Check Status
+                                            </h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>{{job.jobName}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

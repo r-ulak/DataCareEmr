@@ -1,0 +1,109 @@
+
+<div id="addorderSpecimen">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span ng-show="vm.orderSpecimen.isNew">@L("AddSpecimen")</span>
+            <span ng-hide="vm.orderSpecimen.isNew">@L("EditSpecimen")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addOrderSpecimenCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("CollectedByName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control" 
+                                    ng-disabled="!vm.orderSpecimen.isNew"
+                                    ng-model="vm.orderSpecimen.collectedById"
+                                    ng-options="item.id as item.userName + ' (' + item.roleName + ')' for item in vm.administeredByIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministrationSite")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control"
+                                    ng-disabled="!vm.orderSpecimen.isNew"
+                                    ng-init="vm.orderSpecimen.administrationSiteId = vm.administrationSiteData[0].administrationSiteId"
+                                    ng-model="vm.orderSpecimen.administrationSiteId"
+                                    ng-options="item.administrationSiteId as item.administrationSiteName for item in vm.administrationSiteData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.orderSpecimen.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("SpecimenType")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.orderSpecimen.specimenCodeId"
+                                    ng-disabled="!vm.orderSpecimen.isNew"
+                                     ng-options="item.specimenCodeId as item.specimenCodeName for item in vm.specimenCodeIdCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("SpecimenNumber")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input class="form-control required" ng-model="vm.orderSpecimen.specimenNumber"
+                                    ng-disabled="!vm.orderSpecimen.isNew"
+                                   name="orderSpecimenSpecimenNumber"
+                                   required="required"
+                                   data-validate-length="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("CollectedDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker 
+                                    ng-disabled="!vm.orderSpecimen.isNew"
+                                       ng-model="vm.orderSpecimen.collectedDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="collectedDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6" ng-hide="vm.orderSpecimen.isNew">
+                    <div class="form-group">
+                        <small class="text-primary" for="status">Status</small>
+                        <select class="form-control"
+                                ng-model="vm.orderSpecimen.statusCodeId"
+                                ng-options="obj.statusCodeId as obj.statusCodeName for obj in vm.statusCodeData"></select>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-show="vm.orderSpecimen.isNew" ng-disabled="addOrderSpecimenCreateForm.$invalid" ng-click="vm.saveOrderSpecimen('addmore')">Save and add another</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addOrderSpecimenCreateForm.$invalid" ng-click="vm.saveOrderSpecimen()">Save</button>
+    </div>
+</div>

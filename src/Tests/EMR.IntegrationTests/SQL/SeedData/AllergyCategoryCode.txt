@@ -1,0 +1,2 @@
+1	side effect
+2	allergy

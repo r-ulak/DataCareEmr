@@ -1,0 +1,104 @@
+<div class="table-responsive">
+    <table st-table="displayedCollection" st-safe-src="vm.procedureOrderData" class="table" sttablefilter="vm.searchQuery">
+        <thead class="thead-inverse">
+        <tr>
+            <th></th>
+            <th st-sort="shortName">@L("Name")</th>
+            <th st-sort="priorityCodeName">@L("PriorityCodeName")</th>
+            <th st-sort="orderdByName">@L("OrderdByName")</th>
+            <th st-sort="statusCodeName">@L("StatusCodeName")</th>
+            <th st-sort="statusCodeName">@L("OrderDate")</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat-start="procedureOrder in (displayedCollection)" >
+                <td class="abp-clickable"
+                    ng-click="procedureOrder.expanded = !procedureOrder.expanded ">
+                    <i ng-class="{'fa fa-lg fa-minus-circle text-warning': procedureOrder.expanded, 'fa fa-lg fa-plus-circle text-success': !procedureOrder.expanded}"></i>
+                </td>
+                  <td>
+                    {{procedureOrder.shortName}}&nbsp;({{procedureOrder.loincCodeId}})
+                </td>
+                <td><a class="blue" ng-click="vm.searchQuery = procedureOrder.priorityCodeName">{{procedureOrder.priorityCodeName}}</a></td>
+                <td><a class="blue" ng-click="vm.searchQuery = procedureOrder.orderdByName">{{procedureOrder.orderdByName}}</a></td>
+                <td><a class="blue" ng-click="vm.searchQuery = procedureOrder.statusCodeName">{{procedureOrder.statusCodeName}}</a></td>
+                <td>{{procedureOrder.orderDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+            </tr>
+            <tr ng-if="procedureOrder.expanded" class="table-borderless" ng-repeat-end="">
+                <td colspan="5" class="noborder">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td colspan="5" class="noborder">
+                                <form>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small for="note">Note</small>
+                                            <textarea ng-disabled="vm.readonlyview" class="form-control" rows="5" ng-model="procedureOrder.note"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                {{procedureOrder.longCommonName}}
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <small class="text-primary" for="status">Status</small>
+                                                <select class="form-control"
+                                                        ng-model="procedureOrder.statusCodeId"
+                                                        ng-disabled="vm.readonlyview"
+                                                        ng-options="obj.statusCodeId as obj.statusCodeName for obj in vm.statusCodeData"></select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group" ng-hide="vm.readonlyview">
+                                            <button type="submit" ng-show="vm.canCreateLabResult"
+                                                    class="btn btn-sm btn-primary pull-right"
+                                                    ng-click="vm.openModalAddTestResult(procedureOrder)">
+                                                Add Test Result
+                                            </button>
+                                            <button type="submit" ng-show="!procedureOrder.showAddRadTestReport && vm.canCreateLabResult" class="btn btn-sm btn-primary pull-right" ng-click="vm.openModalCollectSpecimen(procedureOrder)">Collect Specimen</button>
+                                            <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="vm.update(procedureOrder)">Save</button>
+                                            <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="procedureOrder.expanded = false">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="row" ng-controller="app.views.patient.orderSpecimen as specimenvm">
+                                    <div>
+                                        <h5 ng-click="specimenvm.open=!specimenvm.open;specimenvm.viewSpecimen($parent.procedureOrder, specimenvm.open)">
+                                            <i ng-class="{'fa fa-lg fa-minus-circle text-warning abp-clickable': specimenvm.open, 'fa fa-lg fa-plus-circle text-success abp-clickable': !specimenvm.open}"></i>
+                                            <span class="text-success">  @L("ViewSpecimenDetail")</span>
+                                        </h5>
+                                    </div>
+                                    <div ng-show="specimenvm.open">
+                                        @Html.Partial("~/App/Main/views/patient/view/orderentry/orderspecimen.cshtml")
+                                    </div>
+                                </div>
+                                <div class="row" ng-controller="app.views.patient.orderResult as resultvm">
+                                    <div>
+                                        <h5 ng-click="resultvm.open=!resultvm.open;resultvm.viewResult($parent.procedureOrder, resultvm.open)">
+                                            <i ng-class="{'fa fa-lg fa-minus-circle text-warning abp-clickable': resultvm.open, 'fa fa-lg fa-plus-circle text-success abp-clickable': !resultvm.open}"></i>
+                                            <span class="text-success">  @L("ViewTestResults")</span>
+                                        </h5>
+                                    </div>
+                                    <div ng-show="resultvm.open">
+                                        @Html.Partial("~/App/Main/views/patient/view/orderentry/orderresultgroup.cshtml")
+                                    </div>
+                                </div>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="10" class="text-center">
+                    <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

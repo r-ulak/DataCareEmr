@@ -1,0 +1,1000 @@
+1	MENTHOL	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.	u	1	2
+2	Dextromethorphan Hydrobromide, Doxylamine Succinate	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	u	82	164
+3	Nystatin	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	mg	71	142
+4	pioglitazone	Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.	u	52	104
+5	PHENYLEPHRINE HYDROCHLORIDE and DIPHENHYDRAMINE HYDROCHLORIDE	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	u	93	186
+6	NITROGEN	Aenean sit amet justo. Morbi ut odio.	mg	12	24
+7	PYRITHIONE ZINC	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.	u	52	104
+8	Aspergillus niger	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	u	57	114
+9	Minocycline Hydrochloride	Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	u	90	180
+10	Atomoxetine Hydrochloride	Nulla ut erat id mauris vulputate elementum. Nullam varius.	mg	54	108
+11	CycloSPORINE	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.	u	97	194
+12	Topiramate	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	mg	6	12
+13	Loperamide Hydrochloride	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	52	104
+14	Carduus Marianus, Chelidonium Majus, Taraxacum Officinale, Lycopodium Clavatum, Magnesia Phosphorica, Natrum Sulphuricum	Nullam porttitor lacus at turpis.	u	71	142
+15	SALICYLIC ACID	Phasellus in felis. Donec semper sapien a libero. Nam dui.	u	46	92
+16	milnacipran hydrochloride	Phasellus in felis.	u	54	108
+17	Octinoxate, Octisalate, Octocrylene, Oxybenzone, Titanium Dioxide, Zinc Oxide	Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	u	73	146
+18	Olanzapine	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.	u	95	190
+19	metformin hydrochloride	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	u	72	144
+20	GUAIFENESIN and PHENYLEPHRINE HYDROCHLORIDE	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.	mg	17	34
+21	Allantoin	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.	u	34	68
+22	Fraxinus americana	Aliquam non mauris.	mg	83	166
+23	Titanium Dioxide, Ethylhexyl Methoxycinnamate, Benzophenone-3	Phasellus sit amet erat.	mg	91	182
+24	OCTINOXATE and TITANIUM DIOXIDE	Etiam vel augue.	mg	21	42
+25	Menthol	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.	u	100	200
+26	Menthol and Benzocaine	In quis justo. Maecenas rhoncus aliquam lacus.	mg	52	104
+27	Aureobasidium pullulans	Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	u	60	120
+28	Natural Medicine	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	u	66	132
+29	Benzethonium Chloride	In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.	u	5	10
+30	Pigweed Spiny	Nunc nisl.	u	47	94
+31	Cefuroxime Axetil	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.	u	4	8
+32	Populus alba	Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	mg	53	106
+33	ALCOHOL	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	mg	57	114
+34	Benzocaine	Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	u	67	134
+35	ciprofloxacin	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	mg	80	160
+36	TITANIUM DIOXIDE	Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	u	91	182
+37	Levocarnitine	Donec vitae nisi.	mg	29	58
+38	Ibuprofen	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.	u	68	136
+39	Guaifenesin	Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.	mg	65	130
+40	BENZTROPINE MESYLATE	Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	mg	84	168
+41	capecitabine	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.	u	14	28
+42	Smelt	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.	u	19	38
+43	octocrylene, octisalate, oxybenzone, and avobenzone	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	96	192
+44	Ibuprofen	In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	mg	44	88
+45	Minoxidil	Praesent id massa id nisl venenatis lacinia.	u	9	18
+46	DNA, RNA, Sabal serrulata, Cortisol (hydrocortisone), Glandula suprarenalis, Hypothalamus, Pituitary, Testosterone, Chelidonium majus, Thuja occidentalis,	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	u	31	62
+47	HydrALAZINE Hydrochloride	Pellentesque ultrices mattis odio. Donec vitae nisi.	mg	17	34
+48	Levetiracetam	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	u	10	20
+49	atorvastatin calcium	Maecenas tincidunt lacus at velit.	u	27	54
+50	Prednisone	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	15	30
+51	Hydroxyzine Pamoate	In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.	mg	68	136
+52	Phenylephrine Hydrochloride Zinc oxide	Aenean fermentum. Donec ut mauris eget massa tempor convallis.	u	72	144
+53	Irbesartan and Hydrochlorothiazide	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	mg	63	126
+54	Octinoxate, Octisalate, Avobenzone	Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	67	134
+55	Carisoprodol	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	u	43	86
+56	Fentanyl	Curabitur convallis.	mg	85	170
+57	iloperidone	Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	mg	38	76
+58	Salicylic Acid	Morbi a ipsum.	mg	37	74
+59	simethicone	Nullam porttitor lacus at turpis.	mg	99	198
+60	Quinapril	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.	mg	6	12
+61	Apis Levisticum	Vivamus vel nulla eget eros elementum pellentesque.	mg	85	170
+62	Ethyl Alcohol	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.	mg	26	52
+63	amoxicillin and clavulanate potassium	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.	u	97	194
+64	HYDROGEN PEROXIDE	Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.	u	79	158
+65	HYDROQUINONE, OCTINOXATE AND ZINC OXIDE	Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.	u	46	92
+66	Renagel	Cras non velit nec nisi vulputate nonummy.	mg	26	52
+67	PAIN RELIEVING PLASTER	Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.	u	100	200
+68	ibuprofen	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	mg	22	44
+69	Ethylhexyl Methoxycinnamate (Octinoxate), Titanium Dioxide, Zinc Oxide	Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	mg	36	72
+70	Chlorinum	Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.	u	15	30
+71	OCTINOXATE, OXYBENZONE	Morbi a ipsum.	u	62	124
+72	Titanium Dioxide and Zinc Oxide	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	44	88
+73	Fexofenadine HCl	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.	u	21	42
+74	ALUMINUM ZIRCONIUM PENTACHLOROHYDRATE	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.	u	43	86
+75	Oxaprozin	Aenean auctor gravida sem.	u	59	118
+76	METHYL SALICYLATE	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	mg	21	42
+77	PRAMIPEXOLE DIHYDROCHLORIDE	Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.	mg	15	30
+78	levofloxacin	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.	u	36	72
+79	apremilast	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	mg	9	18
+80	Pseudoephedrine	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	u	43	86
+81	amlodipine besylate and benazepril hydrochloride	In eleifend quam a odio. In hac habitasse platea dictumst.	mg	83	166
+82	AVOBENZONE, OXYBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE	Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	mg	62	124
+83	Ibuprofen	Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	u	42	84
+84	Menthol, zinc oxide	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.	mg	23	46
+85	Angelica Archangelica, Hydrastis Canadensis, Kali Muriaticum, Yucca Filamentosa, Cartilago Suis, Phytolacca Decandra, Rhus Toxicodendron	Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.	u	36	72
+86	paliperidone palmitate	Etiam vel augue. Vestibulum rutrum rutrum neque.	u	22	44
+87	Simvastatin	Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	u	20	40
+88	Aluminum Sesquichlorohydrate	Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.	u	55	110
+89	TITANIUM DIOXIDE	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	u	56	112
+90	Octinoxate and Oxybenzone	Aliquam erat volutpat. In congue.	mg	85	170
+91	Ofloxacin	Maecenas pulvinar lobortis est.	u	96	192
+92	Emotional Rebalance	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	u	34	68
+93	VITAMIN A, ASCORBIC ACID, CHOLECALCIFEROL, .ALPHA.-TOCOPHEROL, THIAMINE, RIBOFLAVIN, NIACIN, PYRIDOXINE, FOLIC ACID, CYANOCOBALAMIN, BIOTIN, PANTOTHENIC ACID, CALCIUM, IRON, MAGNESIUM, ZINC, SELENIUM, COPPER, CHOLINE BITARTRATE	Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.	u	85	170
+94	metoprolol tartrate and hydrochlorothiazide	Curabitur in libero ut massa volutpat convallis.	mg	20	40
+95	Wheat Bran	Ut tellus. Nulla ut erat id mauris vulputate elementum.	u	32	64
+96	METHYLPREDNISOLONE	Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.	u	60	120
+97	Medroxyprogesterone Acetate	Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	u	62	124
+98	salicylic acid and benzoyl peroxide	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	u	63	126
+99	Titanium Dioxide and Zinc Oxide	Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	u	19	38
+100	OCTINOXATE, OCTISALATE, OCTOCRYLENE, TITANIUM DIOXIDE	Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.	mg	16	32
+101	Hydroxychloroquine Sulfate	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	u	42	84
+102	Pecan Pollen	Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	u	83	166
+103	Aluminum Zirconium Tetrachlorohydrex Gly	Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.	mg	68	136
+104	Diphenhydramine Hydrochloride	Morbi porttitor lorem id ligula.	mg	29	58
+105	Hackberry	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	52	104
+106	Oxycodone Hydrochloride	Nulla justo.	u	91	182
+107	Ibuprofen	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.	mg	80	160
+108	TRICLOSAN	Nulla justo.	u	38	76
+109	Benzocaine, Menthol, Cetylpyridinium Chloride	Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.	mg	77	154
+110	Pyrithione Zinc	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.	u	98	196
+111	imipramine hydrochloride	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	mg	29	58
+112	POVIDONE-IODINE	Nulla facilisi.	mg	18	36
+113	FENTANYL	In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.	u	38	76
+114	Hydrochlorothiazide	Morbi a ipsum. Integer a nibh. In quis justo.	mg	5	10
+115	DEXTROSE MONOHYDRATE, SODIUM CHLORIDE, and POTASSIUM CHLORIDE	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	48	96
+116	Etodolac	Duis at velit eu est congue elementum.	mg	59	118
+117	ANHYDROUS CITRIC ACID, DEXTROSE MONOHYDRATE, and TRISODIUM CITRATE DIHYDRATE	Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.	u	39	78
+118	Acetaminophen, Dextromethorphan Hydrobromide, Doxylamine Succinate	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	22	44
+119	estradiol valerate	In eleifend quam a odio.	mg	61	122
+120	morphine sulfate	Ut tellus.	u	76	152
+121	Desmopressin Acetate	In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.	u	96	192
+122	Ziprasidone Hydrochloride	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.	mg	67	134
+123	BACITRACIN ZINC, NEOMYCIN SULFATE, POLYMYXIN B SULFATE, BENZALKONIUM CHLORIDE, LIDOCAINE, ISOPROPYL ALCOHOL, BENZALKONIUM CHLORIDE	Integer ac leo.	u	20	40
+124	ALUMINUM CHLOROHYDRATE	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	24	48
+125	COAGULATION FACTOR IX RECOMBINANT HUMAN	Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	u	2	4
+126	felodipine	Suspendisse accumsan tortor quis turpis. Sed ante.	u	77	154
+127	Warfarin Sodium	In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.	u	48	96
+128	Celery	In hac habitasse platea dictumst.	u	60	120
+129	Torsemide	Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	mg	33	66
+130	Chelidonium majus, Spongia tosta, Lac defloratum, Fucus vesiculosus, Hepar suis, Pituitary (suis), Thyroidinum (suis), Calcarea carbonica, Ferrum iodatum Iodium, Kali iodatum, Molybdenum metallicum, P	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	64	128
+131	isosorbide dinitrate	Nullam porttitor lacus at turpis.	u	42	84
+132	Lorazepam	Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.	u	57	114
+133	Fucus vesiculosus, Graphites, Phytolacca decandra	Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.	u	91	182
+134	TITANIUM DIOXIDE, OCTINOXATE	Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.	u	49	98
+135	Ensulizole	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.	mg	4	8
+136	Hydroquinone, Octinoxate, Oxybenzone, Padimate O	Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.	u	95	190
+137	Bismuthum metallicum, Aloe, Angelica sinensis radix, Antimon. crud., Arg. nit., Arnica, Arsenicum alb., Baptisia, Bryonia, Cinchona, Graphites, Hydrastis, Ipecac., Lachesis, Lycopodium, Myrrha, Nat. carb., Nux vom., Phosphorus, Pulsatilla, Zingiber, Chamomilla, Echinacea, Iris versicolor, Ruta, Taraxacum	Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.	mg	18	36
+138	Citalopram Hydrobromide	Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.	mg	84	168
+139	Cetirizine Hydrochloride	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	47	94
+140	Benztropine Mesylate	Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.	u	23	46
+141	Standardized Meadow Fescue Grass Pollen	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.	u	30	60
+142	Levothyroxine Sodium	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	78	156
+143	White Petrolatum	Vivamus tortor.	u	14	28
+144	voriconazole	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	mg	30	60
+145	Ranitidine Hydrochloride	Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	69	138
+146	Paclitaxel	Quisque ut erat.	u	97	194
+147	Amoxicillin and Clavulanate Potassium	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.	mg	67	134
+148	Vitamin Mineral Supplement	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	mg	29	58
+149	PredniSONE	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.	u	56	112
+150	Echinacea,Baptisia tinctoria, Hydrastis canadensis, Myrrha, Nasturtium aquaticum, Phytolacca decandra, Trigonella foenum-graecum, Zone 8 Tree, Zone 8 Weed, Zone 8 Grass	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.	mg	17	34
+151	Ofloxacin	Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	mg	76	152
+152	Metformin hydrochloride	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	mg	57	114
+153	Minoxidil	Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	u	4	8
+154	glycopyrrolate	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.	mg	55	110
+155	House Dust	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	u	17	34
+156	OCTOCRYLENE, PHENYLBENZIMIDAZOLE SULFONIC ACID	In hac habitasse platea dictumst.	mg	18	36
+157	leuprolide acetate	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.	mg	56	112
+158	Birch River Red	Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.	mg	89	178
+159	Anti-bacterial Hand Wash	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	u	48	96
+160	Tranexamic Acid	Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.	u	49	98
+161	Fluorouracil	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.	u	31	62
+162	Bacitracin Zinc and Polymyxin B Sulfate	Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.	mg	31	62
+163	Polyvinyl Alcohol	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.	u	11	22
+164	Amanita Muscaria Var. Muscaria, Onion, Arnica Montana Root, Hypericum Perforatum, Lycopodium Clavatum Spore, Mercurius Solubilis, Phosphorus, Lead	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.	u	97	194
+165	sodium ferric gluconate complex	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.	u	92	184
+166	Oxycodone hydrochloride	Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	21	42
+167	lorazepam	Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	u	23	46
+168	Zinc Oxide, Titanium Dioxide	Sed ante. Vivamus tortor.	mg	49	98
+169	ropinirole	Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	u	46	92
+170	Octinoxate	Maecenas tincidunt lacus at velit.	u	59	118
+171	polyethylene glycol 400	Fusce posuere felis sed lacus.	u	44	88
+172	ropinirole	Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.	u	17	34
+173	pioglitazone and metformin hydrochloride	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.	mg	81	162
+174	Aluminum Chlorohydrate	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	u	12	24
+175	clonidine hydrochloride	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	61	122
+176	INTERLEUKIN-7	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.	mg	8	16
+177	Famotidine	Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	u	51	102
+178	Theophylline	Aliquam erat volutpat. In congue.	u	23	46
+179	Phentermine Hydrochloride	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	mg	9	18
+180	Ranitidine	Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	u	17	34
+181	SODIUM CITRATE and CITRIC ACID MONOHYDRATE	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.	u	10	20
+182	GENTAMICIN SULFATE	Duis mattis egestas metus.	mg	62	124
+183	Sodium Flouride	Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.	mg	89	178
+184	dextromethorphan polistirex	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	u	61	122
+185	Cyclosporine	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	mg	43	86
+186	VERAPAMIL HYDROCHLORIDE	Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.	mg	73	146
+187	Diphenhydramine Hydrochloride	Morbi porttitor lorem id ligula.	u	64	128
+188	NOT APPLICABLE	Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	10	20
+189	Carbolicum acidum, Fagopyrum esculentum, Hydrastis canadensis, Hydrocotyle asiatica, Juglans regia, Vinca minor,	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	mg	2	4
+190	Venlafaxine	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	u	44	88
+191	Ramipril	In congue. Etiam justo.	mg	68	136
+192	Glyburide	Morbi porttitor lorem id ligula.	mg	42	84
+193	TITANIUM DIOXIDE, ZINC OXIDE	In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	u	39	78
+194	Allantoin, Benzethonium Chloride	Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.	mg	26	52
+195	diclofenac sodium and misoprostol	Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.	mg	23	46
+196	Dimethicone	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.	u	99	198
+197	warfarin sodium	Aliquam erat volutpat. In congue. Etiam justo.	mg	60	120
+198	Ibuprofen	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.	u	78	156
+199	butenafine hydrochloride	Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.	u	83	166
+200	ARNICA MONTANA	In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.	u	67	134
+201	telmisartan and amlodipine	Nullam porttitor lacus at turpis.	mg	17	34
+202	calcium carbonate	Suspendisse potenti. Nullam porttitor lacus at turpis.	u	44	88
+203	OCTINOXATE, ZINC OXIDE	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.	mg	3	6
+204	Methyl Salicylate, Menthol USP, Camphor	Integer a nibh.	u	44	88
+205	Allantoin	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.	u	100	200
+206	AZITHROMYCIN	Duis bibendum.	u	26	52
+207	Aluminum Chlorohydrate	Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	mg	26	52
+208	PREGABALIN	Mauris ullamcorper purus sit amet nulla.	u	24	48
+209	calcitriol	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.	mg	66	132
+210	dimethicone	Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.	mg	82	164
+211	Simvastatin	Integer ac leo.	mg	80	160
+212	Bisacodyl	Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.	mg	95	190
+213	propafenone hydrochloride	Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.	u	16	32
+214	Azithromycin	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	u	36	72
+215	Aspen	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.	u	9	18
+216	CAPSICUM - GOLDENSEAL - CULVERS ROOT - STRYCHNOS NUX-VOMICA SEED - PODOPHYLLUM RESIN	In quis justo. Maecenas rhoncus aliquam lacus.	mg	75	150
+217	Folic Acid	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	u	39	78
+218	WHOLE ARNICA PLANT	Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	mg	8	16
+219	Hydralazine Hydrochloride	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	36	72
+220	Oxaliplatin	In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	mg	10	20
+221	Primaquine Phosphate	Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.	u	11	22
+222	Chloramphenicol Sodium Succinate	In congue. Etiam justo. Etiam pretium iaculis justo.	mg	22	44
+223	Cetirizine Hydrochloride	Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.	mg	100	200
+224	HYDROQUINONE	Ut tellus. Nulla ut erat id mauris vulputate elementum.	u	90	180
+225	Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone	Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.	u	58	116
+226	Octinoxate, Oxybenzone, and Titanium Dioxide	Quisque ut erat. Curabitur gravida nisi at nibh.	u	18	36
+227	ESZOPICLONE	Sed vel enim sit amet nunc viverra dapibus.	mg	48	96
+228	ISOPROPYL ALCOHOL	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.	mg	98	196
+229	ETHYL ALCOHOL	Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.	u	100	200
+230	CYCLOBENZAPRINE HYDROCHLORIDE, MAGNESIUM OXIDE	Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.	mg	99	198
+231	Bupropion hydrochloride	Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.	mg	3	6
+232	Fentanyl Citrate	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.	u	32	64
+233	Enalapril maleate and hydrochlorothiazide	Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.	mg	92	184
+234	HYDROQUINONE	Suspendisse ornare consequat lectus.	mg	49	98
+235	Diclofenac Sodium	Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.	mg	32	64
+236	Zinc Oxide	Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.	mg	49	98
+237	Sulfamethoxazole and Trimethoprim	Donec ut dolor.	mg	74	148
+238	Atomoxetine hydrochloride	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.	mg	68	136
+239	SODIUM FLUORIDE	Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.	u	50	100
+240	zinc acetate	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.	mg	57	114
+241	simvastatin	Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.	u	83	166
+242	Hydroxychloroquine sulfate	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.	mg	56	112
+243	Treatment Set TS342034	Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.	u	68	136
+244	Heparin Sodium	In congue. Etiam justo.	u	36	72
+245	TOPIRAMATE	Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.	u	83	166
+246	Risperidone	Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	mg	77	154
+247	Pyrithione Zinc	Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	u	3	6
+248	Hydroxychloroquine Sulfate	Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.	mg	4	8
+249	Divalproex Sodium	Donec dapibus.	u	50	100
+250	Nystatin	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.	u	7	14
+251	Quetiapine fumarate	Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.	u	91	182
+252	Box Elder Ash Leaf Maple	Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	mg	89	178
+253	clotrimazole	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	u	93	186
+254	tolmetin Sodium	Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.	u	71	142
+255	Testosterone Enanthate	Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.	u	43	86
+256	benzethonium chloride and benzocaine	Phasellus in felis. Donec semper sapien a libero.	u	52	104
+257	Water Hemp	Etiam vel augue.	u	100	200
+258	Methyldopate Hydrochloride	Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	mg	51	102
+259	Benzocaine, Menthol	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	mg	38	76
+260	Chlorpheniramine/Phenylephrine	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	23	46
+261	Naproxen Sodium	Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.	mg	84	168
+262	Acetaminophen and Codeine	Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	mg	56	112
+263	Antibaceterial Hand Soap Lavender	Praesent blandit.	mg	79	158
+264	Paroxetine	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	u	91	182
+265	Dextromethorphan HBr	In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	mg	59	118
+266	Dicyclomine Hydrochloride	In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.	mg	27	54
+267	Triclosan	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.	u	58	116
+268	Octinoxate and Avobenzone	Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	58	116
+269	Acetaminophen, Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride	Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.	u	4	8
+270	Titanium Dioxide	In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.	mg	31	62
+271	CLOVE	Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	mg	79	158
+272	Buspirone Hydrochloride	Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	39	78
+273	OCTOCRYLENE, PHENYLBENZIMIDAZOLE SULFONIC ACID	Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.	u	65	130
+274	Acetaminophen, Chlorpheniramine Maleate, Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride	Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.	mg	97	194
+275	CHLOROXYLENOL	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.	mg	38	76
+276	potassium chloride	Morbi non lectus.	mg	89	178
+277	METHYL SALICYLATE	Pellentesque at nulla.	u	35	70
+278	Risperidone	Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	u	2	4
+279	Clam	Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	77	154
+280	Celery	Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.	u	21	42
+281	Octinoxate and Titanium dioxide	Quisque porta volutpat erat.	u	9	18
+282	Azithromycin	Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.	u	4	8
+283	NAPROXEN SODIUM	In eleifend quam a odio.	mg	85	170
+284	Aconitum nap., Apis mel., Arum dracontium, Belladonna, Bryonia, Cajuputum, Ferrum phosphoricum, Glycyrrhiza glabra, Kali bic., Lachesis, Mentha piperita, Merc. viv., Naja, Nat. carb., Nat. sulphuricum, Nitricum ac., Nux vom., Phosphorus, Phytolacca, Pulsatilla, Spongia, Stannum met., Sticta, Thuja occ., Ulmus fulva, Verbascum, Echinacea	Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.	u	11	22
+285	clindamycin phosphate	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.	u	59	118
+286	follitropin alfa	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	36	72
+287	Cefoxitin	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	u	54	108
+288	Ibuprofen	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.	u	13	26
+289	TITANIUM DIOXIDE, ZINC OXIDE	Aliquam erat volutpat. In congue.	u	90	180
+290	Cefuroxime Axetil	Vivamus in felis eu sapien cursus vestibulum.	mg	5	10
+291	ZOLPIDEM TARTRATE	Donec vitae nisi.	u	23	46
+292	Risperidone	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.	mg	35	70
+293	Fel tauri, Chionanthus virginica, Arsenicum album, Nux vomica, Platinum metallicum,	Donec semper sapien a libero. Nam dui.	u	40	80
+294	Tc 99m Sestamibi	Morbi vel lectus in quam fringilla rhoncus.	mg	96	192
+295	abacavir sulfate, lamivudine, and zidovudine	Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.	mg	66	132
+296	KETOROLAC TROMETHAMINE	Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.	u	43	86
+297	Live Oak	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	mg	93	186
+298	imatinib mesylate	Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.	u	56	112
+299	diclofenac sodium and misoprostol	Aenean auctor gravida sem.	mg	93	186
+300	Metoclopramide	Nam nulla.	mg	74	148
+301	Levothyroxine Sodium	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.	u	55	110
+302	alpha-1-proteinase inhibitor human	Duis bibendum.	mg	1	2
+303	Octinoxate and Titanium Dioxide	In quis justo. Maecenas rhoncus aliquam lacus.	mg	44	88
+304	FLUOXETINE HYDROCHLORIDE, CHOLINE	Etiam justo. Etiam pretium iaculis justo.	mg	7	14
+305	Ramipril	Nulla nisl. Nunc nisl.	u	19	38
+306	Norgestimate and Ethinyl Estradiol	Nulla mollis molestie lorem.	mg	49	98
+307	Irinotecan Hydrochloride	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.	mg	94	188
+308	Naproxen	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.	mg	85	170
+309	Tretinoin	Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.	u	83	166
+310	Temazepam	Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	mg	77	154
+311	Minoxidil	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	u	71	142
+312	Bismuth subsalicylate	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.	u	27	54
+313	dimethicone	Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.	mg	71	142
+314	Tamsulosin Hydrochloride	Aenean fermentum.	mg	5	10
+315	Indomethacin	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	mg	19	38
+316	ANTIMONY TRISULFIDE - MAHONIA AQUIFOLIUM ROOT BARK - LYCOPODIUM CLAVATUM SPORE	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	mg	17	34
+317	ONION, AMBROSIA ARTEMISIIFOLIA, HISTAMINE DIHYDROCHLORIDE, SCHOENOCAULON OFFICINALE SEED, EUPHRASIA STRICTA, SOLIDAGO VIRGAUREA FLOWERING TOP	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.	mg	48	96
+318	Octinoxate, Octisalate, Oxybenzone	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	u	4	8
+319	not applicable	Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.	u	33	66
+320	Hydrocodone Bitartate and Acetaminophen	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.	u	26	52
+321	OCTREOTIDE ACETATE	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.	u	67	134
+322	hydrocortisone	Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	mg	42	84
+323	PETROLATUM	Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.	mg	25	50
+324	Benazepril Hydrochloride	Proin risus. Praesent lectus.	u	28	56
+325	DINOPROSTONE	Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.	u	10	20
+326	Octinoxate	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	56	112
+327	Titanium Dioxide, Zinc Oxide	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	mg	26	52
+328	coagulation factor ix (recombinant)	Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	mg	44	88
+329	White Potato	Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	82	164
+330	Tramadol Hydrochloride	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.	u	10	20
+331	Pyrithione Zinc	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.	u	55	110
+332	Ondansetron	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	u	77	154
+333	liothyronine sodium	Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.	mg	74	148
+334	Capsaicin	Duis ac nibh.	mg	43	86
+335	Phentermine Hydrochloride	Maecenas ut massa quis augue luctus tincidunt.	mg	20	40
+336	Ofloxacin	Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	65	130
+337	Oxygen	Etiam pretium iaculis justo.	mg	41	82
+338	DOCUSATE SODIUM	Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.	u	12	24
+339	Octinoxate	Pellentesque at nulla.	mg	31	62
+340	Titanium Dioxide, OCTINOXATE, Zinc Oxide, OCTISALATE	In eleifend quam a odio. In hac habitasse platea dictumst.	mg	70	140
+341	Homosalate, Zinc Oxide, Octisalate	Aenean sit amet justo. Morbi ut odio.	mg	15	30
+342	paroxetine hydrochloride	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	mg	4	8
+343	triclosan	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	mg	1	2
+344	Carisoprodol	Proin at turpis a pede posuere nonummy.	mg	70	140
+345	risperidone	Etiam pretium iaculis justo. In hac habitasse platea dictumst.	u	53	106
+346	Loratadine	Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	55	110
+347	not applicable	Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.	u	75	150
+348	Triclosan	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	76	152
+349	Cefuroxime	Fusce consequat. Nulla nisl.	mg	69	138
+350	Cherry	Nullam molestie nibh in lectus.	mg	86	172
+351	Treatment Set TS332780	Praesent blandit lacinia erat.	u	100	200
+352	Metoprolol Succinate	Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.	u	96	192
+353	benzoyl peroxide	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.	mg	73	146
+354	Coffee	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.	mg	34	68
+355	SALICLYLIC ACID	Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	95	190
+356	Oxygen	Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.	mg	73	146
+357	ALCOHOL	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.	mg	54	108
+358	HydrALAZINE Hydrochloride	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.	mg	52	104
+359	Octinoxate, Octisalate, Titanium Dioxide, Zinc Oxide	Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	u	48	96
+360	Vanilla	Suspendisse potenti.	mg	96	192
+361	Quetiapine Fumarate	Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	mg	38	76
+362	Alcohol	In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.	mg	71	142
+363	Mirtazapine	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.	mg	93	186
+364	Tamsulosin Hydrochloride	Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.	u	43	86
+365	oxycodone hydrochloride and acetaminophen	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.	u	70	140
+366	IBUPROFEN	In congue. Etiam justo.	mg	44	88
+367	pancrelipase	In congue. Etiam justo. Etiam pretium iaculis justo.	mg	13	26
+368	cyanocobalamin	Praesent id massa id nisl venenatis lacinia.	mg	65	130
+369	Latanoprost	In sagittis dui vel nisl.	mg	47	94
+370	hydrocortisone	Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	u	99	198
+371	Codeine Phosphate and Guaifenesin	Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	mg	91	182
+372	Aluminum Zirconium Trichlorohydrex Gly	Integer ac leo. Pellentesque ultrices mattis odio.	u	60	120
+373	Sennosides	Vestibulum rutrum rutrum neque.	mg	26	52
+374	Duloxetine	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.	mg	64	128
+375	Cyclobenzaprine Hydrochloride	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	u	72	144
+376	Isosorbide Dinitrate	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	u	46	92
+377	Octinoxate and Titanium dioxide	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.	mg	48	96
+378	minoxidil	Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.	mg	39	78
+379	Titanium Dioxide and Zinc Oxide	Integer a nibh. In quis justo.	mg	84	168
+380	Phenobarbital	In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.	u	62	124
+381	Sodium Fluoride	Sed ante. Vivamus tortor. Duis mattis egestas metus.	u	37	74
+382	Triclosan	Donec dapibus. Duis at velit eu est congue elementum.	u	100	200
+383	Tolnaftate	Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	u	98	196
+384	FOLLITROPIN	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.	u	43	86
+385	Orange Citrus sinensis	Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.	u	97	194
+386	Fluconazole	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.	u	82	164
+387	betamethasone valerate	Vivamus tortor. Duis mattis egestas metus.	u	88	176
+388	Alcohol	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	u	16	32
+389	TRANEXAMIC ACID	Pellentesque at nulla.	mg	52	104
+390	Lorazepam	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.	mg	57	114
+391	aluminum hydroxide, magnesium hydroxide, dimethicone	Pellentesque eget nunc.	u	46	92
+392	Omeprazole	Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	mg	92	184
+393	Thymus Mercurius	Morbi vel lectus in quam fringilla rhoncus.	mg	30	60
+394	OCTINOXATE	Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	mg	48	96
+395	Amiodarone Hydrochloride	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	mg	72	144
+396	Apis Bryonia Special Order	Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.	u	92	184
+397	Aluminum Chlorohydrate	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	mg	78	156
+398	donepezil hydrochloride	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.	u	73	146
+399	Midazolam	Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.	mg	63	126
+400	olanzapine and fuoxetine	Aliquam erat volutpat. In congue.	u	90	180
+401	Furosemide	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.	u	89	178
+402	Oxaliplatin	Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.	u	31	62
+403	Acetaminophen	Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.	u	42	84
+404	Triclosan	Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	mg	62	124
+405	Montelukast Sodium	Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.	u	78	156
+406	AMINOSALICYLIC ACID	Curabitur gravida nisi at nibh.	mg	5	10
+407	Diphenhydramine Hydrochloride	Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.	u	65	130
+408	Ziprasidone Hydrochloride	Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.	mg	78	156
+409	Acetaminophen	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	u	27	54
+410	Shagbark Hickory	Etiam faucibus cursus urna.	u	69	138
+411	Aluminum zirconium tetrachlorohydrex gly	Aenean fermentum.	u	5	10
+412	Famotidine	Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.	u	78	156
+413	Moexipril Hydrochloride and Hydrochlorothiazide	Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.	mg	24	48
+414	Glipizide	Aliquam quis turpis eget elit sodales scelerisque.	mg	83	166
+415	Clotrimazole	Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.	u	81	162
+416	Celecoxib	Morbi quis tortor id nulla ultrices aliquet.	mg	77	154
+417	pioglitazone hydrochloride	Phasellus sit amet erat.	mg	17	34
+418	HYDROCODONE BITARTRATE AND ACETAMINOPHEN	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	mg	13	26
+419	Pyrithione Zinc	Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.	u	92	184
+420	PENICILLIUM GLABRUM	Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	mg	10	20
+421	Kali bichromicum	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.	u	49	98
+422	Aralia quinquefolia, Glycyrrhiza, Sarsaparilla, Avena sativa, Glandula suprarenalis bovinum, Adrenalinum,	Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.	mg	75	150
+423	Ovarium 6 Special Order	Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	mg	5	10
+424	Esterified Estrogens and Methyltestosterone	Ut tellus. Nulla ut erat id mauris vulputate elementum.	u	40	80
+425	Loratadine	Vestibulum sed magna at nunc commodo placerat. Praesent blandit.	mg	76	152
+426	Sennosides	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.	u	89	178
+427	Titanium Dioxide	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	mg	5	10
+428	Niacinamide 2%, Adenosine 0.04%	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	u	75	150
+429	Triclosan	Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	u	45	90
+430	NITROUS OXIDE	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.	mg	45	90
+431	Nitrous Oxide	Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.	mg	73	146
+432	RALTEGRAVIR	In sagittis dui vel nisl.	u	44	88
+433	SELENIUM SULFIDE	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	73	146
+434	Berberis Vulgaris, Chelidonium Majus, Trifolium Pratense, Glycyrrhiza Glabra, Lappa Major, Phytolacca Decandra, Rhamnus Frangula	Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	u	12	24
+435	rOPINIRole	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	20	40
+436	Alcohol	Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.	mg	5	10
+437	Avobenzone, Homosalate, Octisalate, Octocrylene and Oxybenzone	Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.	mg	34	68
+438	Octinoxate and Titanium dioxide	Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.	u	62	124
+439	Gabapentin	Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	39	78
+440	Citalopram Hydrobromide	In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.	mg	66	132
+441	Butorphanol Tartrate	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.	u	92	184
+442	tizanidine	Praesent id massa id nisl venenatis lacinia.	mg	87	174
+443	Echinacea (Angustifolia), Hydrastis canadensis, Phytolacca decandra, Alternaria tenuis, Aspergillus niger, Geotrichum candidum, Mucor racemosus, Pullularia pullulans, Rhizopus nigricans,	Mauris ullamcorper purus sit amet nulla.	u	64	128
+444	Bisacodyl	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	mg	27	54
+445	Titanium Dioxide	Suspendisse accumsan tortor quis turpis.	mg	3	6
+446	Carvedilol	Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	46	92
+447	Diphenhydramine HCL	Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	mg	24	48
+448	Helonias chamaelirium, Mezereum	In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.	mg	51	102
+449	Oxycodone Hydrochloride	Nunc rhoncus dui vel sem.	mg	19	38
+450	cocoa butter, phenylephrine hcl	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	13	26
+451	Avobenzone, Ensulizole, Octinoxate, and Octocrylene	Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	57	114
+452	Petrolatum	Ut tellus.	u	31	62
+453	Ibuprofen	Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	u	98	196
+454	Elaps corallinus, Apis mel., Arsenicum alb., Cantharis, Cinchona, Colchicum, Convallaria, Crotalus horridus, Digitalis, Juniperus com., Lachesis, Merc. viv., Naja, Nat. carb., Nat.sulphuricum, Rhus toxicodendron, Sambucus nig., Strophanthus hispidus, Thuja occ., Vipera berus, Echinacea, Lappa, Solidago, Taraxacum, Urtica ur.	Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	2	4
+455	ZINC CHLORIDE	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.	u	12	24
+456	IBUPROFEN	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.	mg	90	180
+457	Ethyl Alcohol	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.	u	12	24
+458	Arsenic Trioxide, Gold, Oyster Shell Calcium Carbonate, Crude, Iodine, Lycopodium Clavatum Spore, Sodium Chloride, Strychnos Nux-Vomica Seed, Phosphoric Acid, Phosphorus, Phytolacca Americana Root, Pulsatilla Vulgaris, Sepia Officinalis Juice, Sulfur	Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.	u	47	94
+459	Titanium Dioxide and Octinoxate	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.	mg	19	38
+460	Aqua Foundation	Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.	u	75	150
+461	Solidago virgaurea, Baptisia tinctoria, Berberis vulgaris, Equisetum hyemale, Argentum nitricum, Cantharis, Capsicum annuum, Cuprum sulphuricum, Orthosiphon stamineus, Pareira brava, Sarsaparilla, Terebinthina, Apis venenum purum, Barosma, Mercurius corrosivus,	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	mg	28	56
+462	ISOPROPYL ALCOHOL	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	5	10
+463	Aconitum napellus, Hypericum perforatum, Lycopodium clavatum, Phosphorus, Rhus toxicodendron, Secale cornutum	Vestibulum ac est lacinia nisi venenatis tristique.	mg	79	158
+464	Acetaminophen	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	u	46	92
+465	INDOMETHACIN	Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	u	38	76
+466	PREGABALIN	Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	mg	41	82
+467	Lisinopril	Suspendisse potenti.	mg	95	190
+468	Lamivudine and Zidovudine	Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.	mg	60	120
+469	Oat Grain	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.	u	53	106
+470	levofloxacin	Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	mg	18	36
+471	sodium monofluorophosphate	Sed ante.	u	23	46
+472	levonorgestrel / ethinyl estradiol and ethinyl estradiol	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.	mg	21	42
+473	Hydrocortisone	Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.	mg	38	76
+474	TIAGABINE HYDROCHLORIDE	Etiam vel augue.	mg	88	176
+475	Sumatriptan Succinate	Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	mg	1	2
+476	Lisinopril	Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.	u	67	134
+477	cyclobenzaprine hydrochloride	Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.	u	2	4
+478	Hydrastis canadensis, Taraxacum officinale, Dopamine, L-dopa, Melatonin, Serotonin,	Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.	u	94	188
+479	Octyl Methoxycinnamate,Avobenzone and Zinc Oxide	Praesent blandit lacinia erat.	u	79	158
+480	Tuna Fish	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	mg	29	58
+481	Tizanidine	Proin risus.	mg	54	108
+482	Benzalkonium Chloride	In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.	mg	86	172
+483	EUCALYPTOL, MENTHOL, METHYL SALICYLATE, THYMOL	Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.	mg	53	106
+484	Allantoin	Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.	mg	94	188
+485	Duloxetine Hydrochloride	Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	u	72	144
+486	verapamil hydrochloride	Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.	u	14	28
+487	White Poplar	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	u	80	160
+488	Sweet Corn	Integer ac neque. Duis bibendum.	u	48	96
+489	Dimenhydrinate	Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.	mg	44	88
+490	Losartan Potassium and Hydrochlorothiazide	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	u	63	126
+491	Acetaminophen, Doxylamine Succinate, Phenylephrine HCl	Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	mg	96	192
+492	Doxazosin	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	68	136
+493	METFORMIN HYDROCHLORIDE	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.	mg	19	38
+494	Amlodipine besylate	Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	u	53	106
+495	Ranitidine Hydrochloride	Suspendisse potenti.	mg	9	18
+496	acetaminophen and diphenhydramine HCl	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	99	198
+497	Acetaminophen, Dextromethorphan HBr, Guaifenesin, Phenylephrine HCl	Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	47	94
+498	Benzoyl Peroxide	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.	u	31	62
+499	imatinib mesylate	Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.	mg	73	146
+500	Escitalopram Oxalate	Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	mg	51	102
+501	HYDROCODONE BITARTRATE AND ACETAMINOPHEN	Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	63	126
+502	lamotrigine	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.	mg	98	196
+503	Redtop Grass, Standardized	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	u	37	74
+504	Niacinamide	Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.	mg	20	40
+505	Avobenzone, Octocrylene, Oxybenzone, Octisalate	Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.	mg	26	52
+506	amlodipine besylate	Nullam molestie nibh in lectus.	mg	43	86
+507	ZINC OXIDE	Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.	u	73	146
+508	Caffeine	Phasellus in felis. Donec semper sapien a libero. Nam dui.	mg	62	124
+509	minoxidil	Morbi quis tortor id nulla ultrices aliquet.	mg	67	134
+510	Tuna Fish	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.	u	86	172
+511	Loxapine	Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	mg	41	82
+512	Amiodarone Hydrochloride	Duis ac nibh.	u	52	104
+513	Clarithromycin	Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.	mg	73	146
+514	Camphor, Menthol, Methyl Salicylate	Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.	mg	75	150
+515	Calc Sulph 30c, Dulcamara 30c, Euphrasia 30c, Gelsemium 30c, Graphites 30c, Hepar Sulph 30c, Hydrastis 30c, Kali Bich 30c, Kali Iodatum 30c, Lycopodium 30c, Medorrhinum 30c, Mercurius Sol 30c, Nux Vomica 30c, Pulsatilla 30c, Silicea 30c, Thuja 30c	Integer ac leo.	mg	84	168
+516	Metoprolol Tartrate	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	u	73	146
+517	BISMUTH SUBSALICYLATE	Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.	mg	39	78
+518	Guaifenesin	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	mg	53	106
+519	Octinoxate and Oxybenzone	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.	u	8	16
+520	Promethazine Hydrochloride	Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.	u	25	50
+521	Lithium Carbonate	Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.	u	99	198
+522	Acetaminophen, Dextromethorphan, Doxylamine	Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.	mg	12	24
+523	Diltiazem Hydrochloride	Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.	mg	26	52
+524	OCTINOXATE, OCTISALATE, ZINC OXIDE	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	31	62
+525	Hormodendrum cladosporioides	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	30	60
+526	nadolol	Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.	u	80	160
+527	Polymyxin B Sulfate and Trimethoprim Sulfate	Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	u	44	88
+528	nicotine polacrilex	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	u	1	2
+529	Acetaminophen Chlorpheniramine Maleate Dextromethorphan Hydrobromide Phenylepherine Hydrochloride	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.	mg	21	42
+530	amlodipine besylate and atorvastatin calcium	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.	mg	85	170
+531	LIDOCAINE HYDROCHLORIDE	Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	mg	87	174
+532	MICONAZOLE NITRATE	Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	mg	69	138
+533	Trazodone Hydrochloride	Donec ut mauris eget massa tempor convallis.	mg	67	134
+534	Alcohol	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.	u	45	90
+535	Neomycin, Bacitracin, Polymyxin B	Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.	mg	54	108
+536	NIACIN	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	mg	38	76
+537	ALCOHOL	Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.	mg	55	110
+538	Senna Leaves	Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.	u	93	186
+539	Warfarin Sodium	Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	mg	60	120
+540	apium graveolens, nux vomica	Aenean fermentum.	u	38	76
+541	Imipramine Hydrochloride	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	81	162
+542	Methyl Salicylate and Menthol	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	u	52	104
+543	Cetirizine Hydrochloride	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	u	15	30
+544	Glyburide	Nunc rhoncus dui vel sem.	mg	26	52
+545	Carbidopa and Levodopa	In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.	u	33	66
+546	Acetaminophen	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	u	55	110
+547	acetaminophen, dextromethorphan hydrobromide, doxylamine succinate	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	36	72
+548	Tea Tree Antiseptic Cream	Vestibulum sed magna at nunc commodo placerat.	u	60	120
+549	Octinoxate	Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	u	99	198
+550	Benzethonium Chloride	Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.	mg	65	130
+551	Naproxen Sodium	Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.	mg	34	68
+552	PRAMIPEXOLE DIHYDROCHLORIDE	Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.	mg	93	186
+553	ARNICA MONTANA FLOWER and CHAMOMILE	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	u	83	166
+554	Treatment Set TS347337	Nulla nisl.	u	30	60
+555	Miconazole nitrate	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.	mg	97	194
+556	propranolol hydrochloride	Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.	mg	27	54
+557	DEXTRAN 70	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	6	12
+558	Graphites, Natrum Muriaticum, Ranunculus Bulbosus, Thuja Occidentalis	Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	27	54
+559	Disopyramide Phosphate	Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	u	51	102
+560	Pyrithione zinc	Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	mg	70	140
+561	Triclosan	Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.	mg	51	102
+562	Acetaminophen, Guaifenesin and Phenylephrine HCl	Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.	u	67	134
+563	adenosine	Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	u	98	196
+564	Pantoprazole Sodium	Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.	u	77	154
+565	Cimetidine	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	mg	1	2
+566	Acetaminophen, Dextromethorphan Hydrobromide, Guaifenesin, and Phenylephrine Hydrochloride	In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.	mg	74	148
+567	Potassium Citrate	Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	u	10	20
+568	estradiol valerate and estradiol valerate/dienogest	Etiam vel augue.	mg	46	92
+569	Thiothixene	Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	mg	91	182
+570	estradiol	Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.	mg	31	62
+571	estradiol	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	u	79	158
+572	Aconitum napellus, Onion, Arnica montana, Antropa Belladonna, Solanum Dulcamara Top, Eupatorium Cannabinum Whole Flowering, Gelsemium Sempervirens Root	Duis at velit eu est congue elementum.	u	75	150
+573	Fluoride	Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	mg	69	138
+574	SODIUM FLUORIDE	Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	mg	91	182
+575	Ciprofloxacin	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.	mg	54	108
+576	Dicloxacillin Sodium	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	u	12	24
+577	Potassium Citrate Monohydrate, Sodium Citrate Dihydrate, Citric Acid Monohydrate	Proin risus.	mg	82	164
+578	nitroglycerin	Sed accumsan felis. Ut at dolor quis odio consequat varius.	mg	44	88
+579	meclizine hydrochloride	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.	u	74	148
+580	povidone iodine	Curabitur in libero ut massa volutpat convallis.	u	83	166
+581	Mitomycin	Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.	u	3	6
+582	Octinoxate and Titanium Dioxide	Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.	mg	89	178
+583	acyclovir	Integer ac leo. Pellentesque ultrices mattis odio.	mg	45	90
+584	Phenazopyridine	Nulla ut erat id mauris vulputate elementum. Nullam varius.	mg	8	16
+585	OCTINOXATE, ZINC OXIDE, OCTISALATE, TITANIUM DIOXIDE	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.	u	14	28
+586	Triclosan	Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.	u	74	148
+587	Cephalexin	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	26	52
+588	Alcohol	Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.	u	61	122
+589	Famciclovir	Aenean fermentum.	u	8	16
+590	Petrolatum, Octinoxate, and Oxybenzone	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.	u	99	198
+591	Treatment Set TS332780	Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	mg	82	164
+592	Promethazine Hydrochloride	Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.	mg	44	88
+593	Captopril	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.	mg	29	58
+594	Iohexol	Proin risus.	mg	82	164
+595	Octinoxate and Titanium Dioxide	Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	mg	47	94
+596	Magesium Citrate	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	u	29	58
+597	Naproxen Sodium	Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	mg	97	194
+598	AMITRIPTYLINE HYDROCHLORIDE	Fusce consequat. Nulla nisl. Nunc nisl.	u	39	78
+599	DEXTROMETHORPHAN HYDROBROMIDE, CHLORPHENIRAMINE MALEATE	Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	u	59	118
+600	Balsam Poplar	Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.	mg	51	102
+601	Dextromethorphan Hydrobromide, Doxylamine Succinate	Integer a nibh.	u	93	186
+602	Naproxen Sodium	Morbi a ipsum.	u	28	56
+603	Bahia Grass	Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.	u	10	20
+604	Docusate sodium, Sennosides	Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.	mg	65	130
+605	Acyclovir	Cras pellentesque volutpat dui.	mg	67	134
+606	DIPHENHYDRAMINE HYDROCHLORIDE	Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.	mg	92	184
+607	Iodixanol	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.	mg	64	128
+608	Sodium Bicarbonate	Vivamus in felis eu sapien cursus vestibulum.	u	47	94
+609	Hydrocortisone	Aenean sit amet justo. Morbi ut odio.	mg	11	22
+610	Agnus, Aralia quinquefolia, Baryta carb., Berber. vulg., Bryonia, Caladium seguinum, Cantharis, Causticum, Chelidonium majus, Cinchona, Conium, Gaultheria procumbens, Graphites, Kali carb., Lycopodium, Nux vom., Onosmodium virginianum, Phosphorus, Sabal, Selenium, Sepia, Silicea, Staphysag., Hydrastis, Thuja occ.	Sed ante. Vivamus tortor. Duis mattis egestas metus.	u	80	160
+611	Caffeine	Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.	u	100	200
+612	Box Elder Ash Leaf Maple	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	40	80
+613	dextromethorphan hydrobromide, guaifenesin, and phenylephrine hydrochloride	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.	mg	22	44
+614	Lidocaine	Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.	mg	37	74
+615	amlodipine besylate and atorvastatin calcium	Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	u	66	132
+616	Anacardium orientale, Antimon. crud., Arg. nit., Berber. vulg., Bryonia, Chelidonium majus, Digitalis, Graphites, Humulus, Iris Versicolor,	Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	u	29	58
+617	Cyclobenzaprine Hydrochloride	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	u	78	156
+618	CAMPHOR, MENTHOL, METHYL SALICYLATE	Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.	mg	8	16
+619	iopromide	Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	mg	30	60
+620	BENZALKONIUM CHLORIDE	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.	u	71	142
+621	Russian Thistle	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.	u	58	116
+622	EUCALYPTOL, MENTHOL, METHYL SALICYLATE, THYMOL	In eleifend quam a odio.	mg	78	156
+623	Tretinoin	Vestibulum ac est lacinia nisi venenatis tristique.	mg	89	178
+624	nifedipine	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	mg	26	52
+625	Cefazolin Sodium	Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	u	8	16
+626	Titanium Dioxide	Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.	u	22	44
+627	Furosemide	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	u	17	34
+628	ALCOHOL	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.	u	74	148
+629	TITANIUM DIOXIDE, ZINC OXIDE	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	89	178
+630	Carboxymethylcellulose sodium	Nullam porttitor lacus at turpis.	mg	37	74
+631	HUMAN HEPATITIS B VIRUS IMMUNE GLOBULIN	Praesent blandit lacinia erat.	u	90	180
+632	Escitalopram	Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.	mg	82	164
+633	Propranolol Hydrochloride	Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.	u	37	74
+634	Hydrocortisone	Nullam porttitor lacus at turpis.	mg	67	134
+635	OCTINOXATE and TITANIUM DIOXIDE	Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.	mg	70	140
+636	Ibuprofen	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	u	65	130
+637	benzphetamine hydrochloride	Ut at dolor quis odio consequat varius. Integer ac leo.	mg	77	154
+638	Labetalol hydrochloride	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	33	66
+639	gadoversetamide	Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.	mg	4	8
+640	isotretinoin	Etiam faucibus cursus urna. Ut tellus.	mg	25	50
+641	Berberis vulgaris, Bladder, Thuja occidentalis, Bryonia, Hepar sulphuris calcareum,	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.	mg	67	134
+642	Diltiazem Hydrochloride	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.	mg	70	140
+643	Helminthosporium	Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.	mg	65	130
+644	simethicone	Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.	mg	69	138
+645	isosorbide mononitrate	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	u	72	144
+646	Sotalol Hydrochloride	Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.	u	29	58
+647	Phentermine Hydrochloride	Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.	u	63	126
+648	Loratadine	Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.	mg	27	54
+649	Ranitidine	Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.	u	35	70
+650	acetaminophen, dextromethorphan HBr, guaifenesin, phenylephrine HCl	Curabitur gravida nisi at nibh.	u	39	78
+651	Ethyl Alcohol	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.	u	78	156
+652	Titanium Dioxide, Ethylhexyl Methoxycinnamate, Ethylhexyl Salicylate, Zinc Oxide	Etiam pretium iaculis justo.	mg	2	4
+653	Benzalkonium chloride	Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.	u	56	112
+654	Alprazolam	In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.	mg	58	116
+655	PIPERONYL BUTOXIDE	Praesent id massa id nisl venenatis lacinia.	u	50	100
+656	Ondansetron Hydrochloride	Nullam porttitor lacus at turpis.	u	53	106
+657	ALUMINUM ZIRCONIUM TETRACHLOROHYDREX GLY	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	u	29	58
+658	AVOBENZONE, OCTINOXATE, and OCTISALATE	Ut tellus.	u	51	102
+659	Hydralazine Hydrochloride	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.	mg	44	88
+660	SULFAMETHOXAZOLE AND TRIMETHOPRIM	Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	mg	30	60
+661	lanreotide acetate	Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	u	93	186
+662	GUAIFENESIN DEXTROMETHORPHAN	Aliquam erat volutpat.	mg	42	84
+663	Loratadine	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	90	180
+664	Ospemifene	Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.	mg	99	198
+665	Aspirin	Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.	mg	52	104
+666	hCG,	Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.	u	92	184
+667	Octinoxate, Octisalate, and Oxybenzone	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.	mg	26	52
+668	California Black Walnut	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	u	23	46
+669	Desert Sage	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	43	86
+670	Paroxetine hydrochloride	Nunc purus. Phasellus in felis.	u	29	58
+671	methocarbamol	Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.	u	65	130
+672	Octinoxate, Octisalate, Oxybenzone, Titanium Dioxide	Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	mg	19	38
+673	Benzonatate	Nulla nisl. Nunc nisl.	mg	57	114
+674	Captopril	Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	15	30
+675	SELENIUM SULFIDE	Donec dapibus. Duis at velit eu est congue elementum.	u	16	32
+676	Slash Pine	Duis consequat dui nec nisi volutpat eleifend.	mg	22	44
+677	artemether and lumefantrine	Donec ut dolor.	u	99	198
+678	Alprazolam	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	u	35	70
+679	Codeine Phosphate and Guaifenesin	Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	52	104
+680	Glycerin	Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	u	61	122
+681	OCTINOXATE	Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	36	72
+682	OCTINOXATE AND AVOBENZONE	Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.	mg	5	10
+683	fluoxetine	Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	u	82	164
+684	PredniSONE	Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.	mg	65	130
+685	venlafaxine hydrochloride	Aliquam erat volutpat. In congue. Etiam justo.	mg	11	22
+686	Benzocaine	In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	u	72	144
+687	PAROXETINE HYDROCHLORIDE	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	mg	74	148
+688	OCTINOXATE	Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	u	12	24
+689	hydroxyzine pamoate	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	u	33	66
+690	hydromorphone hydrochloride	In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.	u	50	100
+691	ibuprofen	In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.	u	92	184
+692	PIPERACILLIN SODIUM,TAZOBACTAM SODIUM	Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	mg	61	122
+693	dasatinib	Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.	mg	100	200
+694	Cinnabar comp.	Aenean sit amet justo.	mg	63	126
+695	Alcohol	Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.	u	54	108
+696	acetylcysteine	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.	mg	93	186
+697	Fenofibrate	Nullam varius.	mg	5	10
+698	Aluminum Chlorohydrate	Praesent blandit. Nam nulla.	mg	95	190
+699	sodium phenylbutyrate	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.	u	42	84
+700	aspirin and caffeine	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.	mg	21	42
+701	AVOBENZONE, OCTOCRYLENE, OXYBENZONE	Sed sagittis.	u	24	48
+702	Aspirin	Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	mg	48	96
+703	Ibuprofen	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	mg	34	68
+704	Glimepiride	Integer a nibh. In quis justo.	u	94	188
+705	Lidocaine	Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.	u	72	144
+706	Nizatidine	Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.	mg	80	160
+707	TETRAHYDROZOLINE HYDROCHLORIDE	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.	mg	69	138
+708	Lidocaine	Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.	u	18	36
+709	Neomycin Sulfate, Polymyxin B Sulfate, and Pramoxine Hydrochloride	Quisque ut erat. Curabitur gravida nisi at nibh.	mg	30	60
+710	DEXTROMETHORPHAN HYDROBROMIDE, GUAIFENESIN	Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.	mg	88	176
+711	Meperidine Hydrochloride	Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.	mg	93	186
+712	Oxycodone and Acetaminophen	Curabitur at ipsum ac tellus semper interdum.	u	57	114
+713	Alcohol	In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.	mg	40	80
+714	benzoyl peroxide	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	mg	5	10
+715	Alcohol	Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.	u	95	190
+716	enoxaparin sodium	Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	mg	84	168
+717	TITANIUM DIOXIDE OCTINOXATE	Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	mg	12	24
+718	Bupropion hydrochloride	Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	u	15	30
+719	Ascorbic Acid	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	91	182
+720	hydrocortisone	Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.	mg	69	138
+721	tamsulosin hydrochloride	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	mg	43	86
+722	Acetaminophen, Chlorpheniramine Maleate, Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride	Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	72	144
+723	Isoniazid	Etiam justo.	u	25	50
+724	Acetaminophen	In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	63	126
+725	PENICILLIUM GLABRUM	Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.	u	26	52
+726	Nifedipine	Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.	u	83	166
+727	etravirine	Pellentesque at nulla.	u	23	46
+728	EUCALYPTUS GLOBULUS	Proin at turpis a pede posuere nonummy.	u	51	102
+729	Calcium citrate, Iron pentacarbonyl, Cholecalciferol, .Alpha.-Tocopherol, Dl-, Pyridoxine hydrochloride, Folic Acid, Docusate Sodium, and Doconexent	Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.	u	35	70
+730	Adenosine	Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.	u	17	34
+731	Diphenhydramine HCl	Suspendisse accumsan tortor quis turpis. Sed ante.	u	71	142
+732	Calendula Officinalis, Echinacea Angustifolia, Cantharis Vesicatoria	Aliquam erat volutpat. In congue. Etiam justo.	mg	68	136
+733	carbidopa, levodopa and entacapone	Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	mg	52	104
+734	Benzocaine	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.	u	64	128
+735	CIMETIDINE	Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	mg	90	180
+736	Causticum, Chininum Sulphuricum, Cinchona Officinalis, Pulsatilla, Thiosinaminum	Donec vitae nisi.	mg	1	2
+737	Fremont Cottonwood	Proin eu mi.	mg	73	146
+738	verapamil hydrochloride	Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.	u	67	134
+739	Methyl Salicylate, Menthol, and Capsaicin	Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.	mg	94	188
+740	Lansoprazole Amoxicillin Clarithromycin	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	mg	4	8
+741	SODIUM BICARBONATE	Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.	u	69	138
+742	OCTINOXATE, TITANIUM DIOXIDE, DIMETHICONE, ALUMINUM HYDROXIDE, STEARIC ACID, HYDROXYPROLINE,	Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	70	140
+743	Multi-Vitamin With Fluoride	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	u	95	190
+744	Alcohol	Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	u	61	122
+745	Rough Marsh Elder	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	mg	92	184
+746	ONION, APIS MELLIFERA, ATROPA BELLADONNA, EUPATORIUM PERFOLIATUM FLOWERING TOP, GELSEMIUM SEMPERVIRENS ROOT, POTASSIUM DICHROMATE, STRYCHNOS NUX-VOMICA SEED, PHYTOLACCA AMERICANA ROOT, PULSATILLA VULG	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	u	24	48
+747	Simethicone	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.	mg	19	38
+748	Aspirin	Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.	mg	12	24
+749	Triclosan	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	mg	36	72
+750	Potassium Chloride	Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.	mg	54	108
+751	calcium carbonate	Nullam varius.	u	6	12
+752	Valsartan and Hydrochlorothiazide	Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.	u	11	22
+753	tramadol hydrochloride	Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	mg	48	96
+754	TRICLOSAN	Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	u	14	28
+755	divalproex sodium	Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	mg	37	74
+756	KETOROLAC TROMETHAMINE	In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	mg	2	4
+757	quercus stellata pollen	Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.	mg	100	200
+758	clobetasol propionate	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	35	70
+759	Valproic Acid	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.	u	28	56
+760	Carvedilol	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	u	14	28
+761	Zinc Oxide	Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.	mg	12	24
+762	TRAMADOL HYDROCHLORIDE	Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	mg	35	70
+763	benzoyl peroxide	Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.	u	96	192
+764	Famotidine	Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	u	70	140
+765	ALCOHOL	In blandit ultrices enim.	mg	53	106
+766	acetaminophen,dextromethorphan HBr, doxylamine succinate	Phasellus id sapien in sapien iaculis congue.	u	83	166
+767	Loratadine	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.	mg	74	148
+768	Avobenzone, Octinoxate, Octisalate	Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.	u	26	52
+769	Titanium dioxide	Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.	u	97	194
+770	SALICYLIC ACID	Donec dapibus. Duis at velit eu est congue elementum.	mg	5	10
+771	Periplaneta americana	Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	mg	16	32
+772	Sulindac	Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	mg	71	142
+773	Oxygen	Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.	u	18	36
+774	Acetazolamide	Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.	mg	40	80
+775	Metronidazole	Nulla mollis molestie lorem. Quisque ut erat.	mg	55	110
+776	OCTINOXATE and TITANIUM DIOXIDE	Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.	mg	45	90
+777	Arnica Scorodite	In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.	u	96	192
+778	LIDOCAINE HYDROCHLORIDE,EPINEPHRINE BITARTRATE	In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.	mg	5	10
+779	Econazole Nitrate	Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.	u	1	2
+780	ATORVASTATIN CALCIUM	Aenean lectus. Pellentesque eget nunc.	mg	18	36
+781	SODIUM MONOFLUOROPHOSPHATE	Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	u	51	102
+782	Lisinopril	Cras non velit nec nisi vulputate nonummy.	u	49	98
+783	Erythropoietin	Nunc purus.	u	87	174
+784	OCTINOXATE, OXYBENZONE	Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.	mg	98	196
+785	Oxygen	Etiam vel augue.	u	26	52
+786	Lorazepam	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.	mg	24	48
+787	Camphor	Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	mg	41	82
+788	BEE VENOM	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.	u	24	48
+789	OCTINOXATE, OCTISALATE, TITANIUM DIOXIDE	Pellentesque ultrices mattis odio.	mg	2	4
+790	Anticoagulant Citrate Phosphate Dextrose (CPD) Solution and ADSOL Preservation Solution	Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	u	42	84
+791	METHYLPHENIDATE HYDROCHLORIDE	In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.	mg	49	98
+792	DOCUSATE CALCIUM	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.	u	50	100
+793	octreotide acetate	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.	mg	9	18
+794	PredniSONE	Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.	mg	3	6
+795	methyl salicylate, dl-camphor, l-menthol	Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.	u	91	182
+796	Avena Sativa Flowering Top, Capsicum, Strychnos Nux-Vomica Seed, Veratrum Album Root, and Zinc	Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.	u	31	62
+797	Tizanidine Hydrochloride	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	u	80	160
+798	ATROPA BELLADONNA, APIS MELLIFERA	Maecenas tincidunt lacus at velit.	u	17	34
+799	fondaparinux sodium	Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	mg	62	124
+800	VENLAFAXINE HYDROCHLORIDE	In hac habitasse platea dictumst.	u	52	104
+801	Bacitracin Zinc, Neomycin Sulfate, and Polymyxin B Sulfate	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	34	68
+802	Acetaminophen, Chlorpheniramine maleate, Phenylephrine HCl	In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.	u	91	182
+803	Ethyl Alcohol	Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	u	47	94
+804	octocrylene, octisalate, avobenzone	Nulla facilisi.	u	23	46
+805	atorvastatin calcium	Proin at turpis a pede posuere nonummy. Integer non velit.	mg	31	62
+806	Sulfaccetamide Sodium	Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	u	39	78
+807	ALCOHOL	Nunc purus.	mg	37	74
+808	nifedipine	In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.	u	23	46
+809	Menthol and Zinc Oxide	Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.	u	58	116
+810	Glycopyrrolate	Integer tincidunt ante vel ipsum.	mg	55	110
+811	Common Sagebrush	Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.	u	68	136
+812	Isopropyl Alcohol	Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.	mg	16	32
+813	SODIUM CHLORIDE	Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.	u	37	74
+814	Bupropion Hydrochloride	In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.	mg	56	112
+815	Dioscorea batata Special Order	Cras pellentesque volutpat dui.	u	17	34
+816	amlodipine besylate	Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	mg	48	96
+817	FENTANYL CITRATE	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.	u	9	18
+818	ampicillin and sulbactam	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	mg	51	102
+819	Aspirin	Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.	u	48	96
+820	lamotrigine	Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.	mg	33	66
+821	Simvastatin	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	mg	65	130
+822	risperidone	In est risus, auctor sed, tristique in, tempus sit amet, sem.	mg	22	44
+823	pegloticase	In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.	mg	53	106
+824	Isosorbide Dinitrate	Mauris ullamcorper purus sit amet nulla.	u	6	12
+825	OCTINOXATE, TITANIUM DIOXIDE, and ZINC OXIDE	Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.	u	86	172
+826	hydrocortisone acetate and pramoxine hydrochloride	Maecenas pulvinar lobortis est.	mg	95	190
+827	Baclofen	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.	mg	7	14
+828	Glycerin	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.	mg	6	12
+829	Benzocaine	Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.	u	60	120
+830	TITANIUM DIOXIDE, OCTINOXATE, ZINC OXIDE	Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.	mg	97	194
+831	Tretinoin	Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	mg	92	184
+832	tanacetum cinerariifolium flower	Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.	u	97	194
+833	Bismuth subsalicylate	Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.	mg	11	22
+834	TRAMADOL HYDROCHLORIDE	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.	u	100	200
+835	Dextromethorphan Hydrobromide, Doxylamine Succinate	Aliquam quis turpis eget elit sodales scelerisque.	u	15	30
+836	Menthol	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	u	90	180
+837	Treatment Set TS331258	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	u	100	200
+838	isosorbide mononitrate	In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.	mg	71	142
+839	Acetaminophen, Diphenhydramine HCl and Phenylephrine HCl	Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	mg	9	18
+840	Olanzapine	Suspendisse ornare consequat lectus.	u	89	178
+841	OCTINOXATE, TITANIUM DIOXIDE	Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	mg	13	26
+842	Sodium Monofluorophosphate	In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.	mg	43	86
+843	voriconazole	Suspendisse potenti. In eleifend quam a odio.	mg	100	200
+844	NICKEL	Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	u	9	18
+845	Fluconazole	Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.	mg	52	104
+846	Naproxen Sodium	Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.	mg	44	88
+847	PREGABALIN	Vestibulum sed magna at nunc commodo placerat.	mg	29	58
+848	White Mulberry	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	mg	76	152
+849	Ethyl Alcohol	Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.	mg	22	44
+850	rizatriptan benzoate	Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.	mg	39	78
+851	OCTINOXATE, OXYBENZONE	Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.	mg	99	198
+852	Meropenem	Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.	mg	94	188
+853	OCTINOXlATE, OCTISALATE, OXYBENZONE, TITANIUM DIOXIDE	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	u	45	90
+854	ECHINACEA ANGUSTIFOLIA, ECHINACEA PURPUREA, ACONITUM NAPELLUS, ARNICA MONTANA, CALENDULA OFFICIANALIS, HAMAMELIS VIRGINIANA, BELLADONNA, BELLIS PERENNIS, CHAMOMILLIA, MILLEFOLIUM, HYPERICUM PERFORATUM, SYMPHYTUM OFFICINALE, COLCHICINUM, ZINGIBER OFFICINALE	Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.	u	11	22
+855	Aletris 30c, Calc Carb 30c, Cimicifuga 30c, Caulophyllum 30c, Helonius 30c, Kali Carb. 30c, Sabina 30c, Secale 30c, Viburnum 30c	Nulla ut erat id mauris vulputate elementum.	mg	1	2
+856	ALCOHOL	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	u	94	188
+857	Carbidopa and levodopa	Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.	u	63	126
+858	Sertraline Hydrochloride	Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.	u	22	44
+859	CAIRINA MOSCHATA HEART/LIVER AUTOLYSATE	Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.	u	59	118
+860	Cor Aurum 6/10 Special Order	Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.	u	30	60
+861	Hydroxocobalamin	Sed sagittis.	u	4	8
+862	Diltiazem Hydrochloride	Proin at turpis a pede posuere nonummy.	mg	74	148
+863	PASSIFLORA INCARNATA, VALERIANA OFFICINALIS, AVENA SATIVA, CUPRUM ACETICUM, HYOSCYAMUS NIGER	Nullam porttitor lacus at turpis.	mg	27	54
+864	Promethazine Hydrochloride	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.	u	41	82
+865	Grapefruit	Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	mg	11	22
+866	methazolamide	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	mg	43	86
+867	acetaminophen, dextromethorphan hydrobromide and doxylamine succinate	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	mg	23	46
+868	Naproxen	Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	u	9	18
+869	LISINOPRIL	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.	mg	86	172
+870	HYDROQUINONE	Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.	mg	89	178
+871	Ciprofloxacin	Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.	mg	85	170
+872	dextromethorphan polistirex	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	mg	34	68
+873	xanthium strumarium pollen	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	mg	11	22
+874	AVOBENZONE, OXYBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE	Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	mg	96	192
+875	Octinoxate and Oxybenzone	Nulla facilisi. Cras non velit nec nisi vulputate nonummy.	u	93	186
+876	Promethazine Hydrochloride and Phenylephrine Hydrochloride	Aliquam sit amet diam in magna bibendum imperdiet.	u	6	12
+877	Fluconazole	Fusce consequat. Nulla nisl. Nunc nisl.	u	87	174
+878	Tramadol Hydrochloride	Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.	mg	64	128
+879	cefditoren pivoxil	Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	mg	84	168
+880	Darkleaves Mugwort	Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.	mg	37	74
+881	PANTHENOL	Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.	u	5	10
+882	Ciprofloxacin	Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.	u	14	28
+883	Diazepam	Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	u	51	102
+884	not applicable	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	u	41	82
+885	Ketoprofen	Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.	u	28	56
+886	divalproex sodium	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.	mg	48	96
+887	Adalimumab	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.	u	78	156
+888	Trazodone Hydrochloride	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	mg	43	86
+889	Memantine Hydrochloride	Pellentesque at nulla.	mg	71	142
+890	OCTINOXATE	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.	mg	88	176
+891	Isopropyl Alcohol	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	u	5	10
+892	synthetic conjugated estrogens, A	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.	u	35	70
+893	Formica Oxalis	Vestibulum sed magna at nunc commodo placerat.	u	33	66
+894	Metoprolol succinate	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.	mg	6	12
+895	LEVOMENTHOL	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.	u	31	62
+896	Digoxin	Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.	mg	7	14
+897	Ursodiol	Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	u	36	72
+898	Acetaminophen	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	43	86
+899	doxycycline	Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	mg	64	128
+900	acyclovir	Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.	mg	43	86
+901	Grapefruit	Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.	mg	84	168
+902	Mosquito	Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.	mg	69	138
+903	Multi Vitamin with Fluoride	In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	u	36	72
+904	Levofloxacin	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.	u	80	160
+905	Human Immunoglobulin G	Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.	u	60	120
+906	One Seed Juniper	Nulla ut erat id mauris vulputate elementum. Nullam varius.	u	54	108
+907	Octinoxate and Titanium Dioxide	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.	u	73	146
+908	Mango	Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.	u	6	12
+909	Benazepril Hydrochloride	Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.	mg	6	12
+910	Arnica, Caulophyllum, Cimicifuga, Gelsemium, Pulsatilla	Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	mg	38	76
+911	Mafenide acetate	Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.	mg	48	96
+912	BUSPIRONE HYDROCHLORIDE	Etiam vel augue.	mg	30	60
+913	Loratadine	Proin at turpis a pede posuere nonummy.	mg	42	84
+914	Lorazepam	Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	mg	20	40
+915	Octinoxate and Oxybenzone	Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	mg	82	164
+916	oxycodone hydrochloride	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.	mg	61	122
+917	Diflunisal	Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.	mg	73	146
+918	Amoxicillin	Nulla justo.	u	7	14
+919	Homeopathic Alopecia Areata Treatment	Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.	mg	33	66
+920	Hydrochlorothiazide	Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.	mg	24	48
+921	Menthol	Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.	mg	78	156
+922	Acetaminophen, Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride	Donec dapibus.	mg	61	122
+923	clotrimazole	Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.	u	15	30
+924	Aspirin	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.	mg	43	86
+925	Avobenzone, Octisalate, Octocrylene, Oxybenzone	Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.	mg	91	182
+926	Oxygen	Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.	u	26	52
+927	Clopidogrel	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.	u	73	146
+928	loperamide HCl	Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.	u	77	154
+929	PYRITHIONE ZINC	Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.	u	80	160
+930	Rescue	Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.	u	81	162
+931	Clindamycin hydrochloride	Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.	u	37	74
+932	Labetalol hydrochloride	Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.	u	77	154
+933	Nateglinide	Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.	u	4	8
+934	Dextromethorphan HBr	Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	mg	35	70
+935	Sodium Fluoride and Potassium Nitrate	Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.	mg	89	178
+936	sulfasalazine	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.	mg	54	108
+937	Calamine and Zinc Oxide and Phenol	In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	mg	68	136
+938	Aspirin	Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.	u	14	28
+939	PENICILLIUM ROQUEFORTI	Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.	mg	61	122
+940	isotretinoin	Suspendisse ornare consequat lectus.	u	13	26
+941	Diazepam	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.	u	36	72
+942	Hydrochlorothiazide	Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.	mg	76	152
+943	Eucalyptol, Menthol, Methyl salicylate, Thymol	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.	u	8	16
+944	Diltiazem Hydrochloride	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.	mg	36	72
+945	Bupropion hydrochloride	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.	mg	95	190
+946	TITANIUM DIOXIDE	Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.	u	96	192
+947	Aluminum Oxide 30C, Silver Nitrate 30C, Berberis Vulgaris Fruit 30C, Conium Maculatum Flowering Top 30C, Iron 30C, Gelsemium Sempervirens Root 30C, Guaiacum Officinale Resin 30C, Hydrogen 30C, Lachesis Muta Venom 30C, Phosphoric Acid 30C, Toxicodendron Pubescens Leaf 30C	Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.	u	30	60
+948	Sodium fluoride and Xylitol	Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.	mg	42	84
+949	Acetaminophen	Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.	u	79	158
+950	Anti-Dark Moisturizing Cream	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.	mg	97	194
+951	MEROPENEM	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	u	66	132
+952	Acetaminophen, DIPHENHYDRAMINE HYDROCHLORIDE, Phenylephrine Hydrochloride	Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.	mg	77	154
+953	Treatment Set TS349185	Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.	mg	6	12
+954	GERMAN COCKROACH	Ut tellus. Nulla ut erat id mauris vulputate elementum.	mg	80	160
+955	Camphor, Menthol, Eucalyptus	Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.	mg	73	146
+956	benazepril hydrochloride and hydrochlorothiazide	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.	u	80	160
+957	Avobenzone, Homosalate, Octisalate, and Octocrylene	Aliquam non mauris. Morbi non lectus.	u	72	144
+958	Homosalate, Octinoxate, Octisalate, and Oxybenzone	Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.	u	65	130
+959	BENZOYL PEROXIDE	Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.	u	33	66
+960	Polyethylene glycol, Propylene glycol	In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.	mg	7	14
+961	fentanyl	Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.	mg	51	102
+962	CleanWell Natural Antibacterial Foaming Spearmint Lime	Nam tristique tortor eu pede.	u	83	166
+963	Brome, Smooth Bromus inermis	Nulla tellus.	mg	11	22
+964	Terbinafine Hydrochloride	Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.	u	17	34
+965	Parvovirus	Duis ac nibh.	mg	98	196
+966	Oxcarbazepine	Morbi non quam nec dui luctus rutrum. Nulla tellus.	mg	66	132
+967	Sertraline Hydrochloride	Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	6	12
+968	DEXTROMETHORPHAN HYDROBROMIDE, GUAIFENESIN	Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.	mg	7	14
+969	Oxymetazoline HCl	Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.	u	9	18
+970	Zinc Oxide	Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.	u	75	150
+971	Oxycodone hydrochloride and Acetaminophen	Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.	mg	8	16
+972	Guaifenesin and Pseudoephedrine Hydrochloride	Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.	u	94	188
+973	dextromethorphan polistirex	Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.	mg	63	126
+974	(WHOLE PLANT)	In hac habitasse platea dictumst.	mg	72	144
+975	oxymetazoline hydrochloride	In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.	u	20	40
+976	Levocetirizine dihydrochloride	Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.	mg	19	38
+977	Milrinone Lactate	Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.	mg	53	106
+978	metoprolol tartrate	Cras pellentesque volutpat dui.	mg	62	124
+979	METOPROLOL SUCCINATE	Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.	mg	47	94
+980	Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone	Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.	mg	87	174
+981	hydrocodone bitartrate and ibuprofen	Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.	u	97	194
+982	Diclofenac Potassium	Donec ut mauris eget massa tempor convallis.	u	78	156
+983	amlodipine besylate	Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.	u	75	150
+984	Cetirizine Hydrochloride	Duis bibendum.	mg	21	42
+985	Desmopressin Acetate	Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	mg	84	168
+986	Avobenzone, Octisalate, Zinc Oxide, Octinoxate, and Oxybenzone	Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.	mg	7	14
+987	TITANIUM DIOXIDE, OCTINOXATE, ZINC OXIDE	Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.	mg	20	40
+988	Clotrimazole	Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.	mg	22	44
+989	Omeprazole	Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.	mg	100	200
+990	Duloxetin hydrochloride	Duis mattis egestas metus. Aenean fermentum.	mg	20	40
+991	sulfacetamide sodium and prednisolone acetate	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.	mg	19	38
+992	Secale Nicotiana	Aenean lectus. Pellentesque eget nunc.	u	73	146
+993	piroxicam	Nulla ut erat id mauris vulputate elementum. Nullam varius.	u	68	136
+994	digoxin	Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.	u	18	36
+995	ATROPINE SULFATE	Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.	u	61	122
+996	Calcium Carbonate	Suspendisse potenti. In eleifend quam a odio.	u	88	176
+997	GEMCITABINE HYDROCHLORIDE	Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.	u	27	54
+998	Antacid	Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.	mg	95	190
+999	Alprazolam	Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.	u	29	58
+1000	Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone	Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.	mg	8	16

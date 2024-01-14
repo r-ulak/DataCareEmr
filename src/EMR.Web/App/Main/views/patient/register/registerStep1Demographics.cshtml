@@ -1,0 +1,63 @@
+﻿<div id="registerStep1Demographics">
+    <h4 class="StepTitle">Demographcis</h4>
+    <form form-validation name="demographicsCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Fname")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.fname" type="text" class="form-control" name="PatientDataFname" required="required" data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Lname")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.lname" type="text" class="form-control" name="PatientDataLname" required="required" data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Mname")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.mname" type="text" class="form-control" name="PatientDataMname" data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("DOB")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input date-range-picker
+                       options="vm.dateRangeOption"
+                       name="PatientDataDob" aria-describedby="inputSuccess2Status3" type="text"
+                       class="form-control has-feedback-left date-picker"
+                       ng-model="vm.patientdata.dob" />
+                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                <span id="inputSuccess2Status3" class="sr-only">(success)</span>
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("DriversLicense")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.driversLicense" type="text" class="form-control" name="PatientDataDriversLicense" data-validate-length="50">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Ss")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <input ng-model="vm.patientdata.identificationNumber" type="text" class="form-control" name="PatientDataSs" data-validate-length="25">
+            </div>
+        </div>
+        <div class="item form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12">@L("Gender")</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="btn-group">
+                    <label class="btn btn-default">
+                        <input type="radio" name="gender" ng-model="vm.patientdata.gender" value="M" autocomplete="off" checked> &nbsp; Male &nbsp;
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="radio" name="gender" ng-model="vm.patientdata.gender" autocomplete="off" value="F"> &nbsp;Female
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="radio" name="gender" ng-model="vm.patientdata.gender" autocomplete="off" value="U"> &nbsp;Unknown
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

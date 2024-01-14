@@ -1,0 +1,30 @@
+<div class="row" ng-if="systems.isShort">
+    <h4>
+        {{systems.reviewOfSystemGroupCodeName}}
+    </h4>
+</div>
+<div class="row" ng-repeat="system in systems.reviewOfSystemCode  | filter:{ isShortCode: vm.short } ">
+    <div class="col-md-3 col-sm-2 col-xs-2">
+        <span>
+            {{system.reviewOfSystemCodeName}}
+        </span>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-4">
+        <label>
+            <input type="checkbox" title="system.reviewOfSystemCodeName" ng-true-value="false" tabindex="0"
+                   ng-model="system.normalLimits"
+                   ng-disabled="vm.readonlyview"
+                   name="{{system.reviewOfSystemCodeId}}">
+            <span class="hidden-xs">
+                {{system.reviewOfSystemCodeName}}
+            </span>
+        </label>
+    </div>
+    <div class="col-md-5 col-sm-6 col-xs-6">
+        <input type="text" class="form-control margin-bottom10" ng-hide="vm.readonlyview" ng-model="system.note" placeholder="Comments">
+        <h6 ng-show="vm.readonlyview">
+            {{system.note}}
+        </h6>
+
+    </div>
+</div>

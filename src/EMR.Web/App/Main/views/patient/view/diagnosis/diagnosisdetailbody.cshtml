@@ -1,0 +1,95 @@
+<div class="table-responsive">
+    <table st-table="displayedCollection" st-safe-src="vm.diagnosisData" class="table" sttablefilter="vm.searchQuery">
+        <thead class="thead-inverse abp-clickable">
+            <tr>
+                <th></th>
+                <th st-sort="iCDCodeCNId">@L("ICDCodeCNId")</th>
+                <th st-sort="iCDCodeCNShortName">@L("ICDCodeCNShortName")</th>
+                <th st-sort="statusCodeName">@L("StatusCodeName")</th>
+                <th st-sort="diagnosisDate">@L("DiagnosisDate")</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat-start="diagnosis in (displayedCollection)">
+                <td class="abp-clickable"
+                    ng-click="diagnosis.expanded = !diagnosis.expanded ">
+                    <i ng-class="{'fa fa-lg fa-minus-circle text-warning': diagnosis.expanded, 'fa fa-lg fa-plus-circle text-success': !diagnosis.expanded}"></i>
+                </td>
+                <td><a class="blue" ng-click="vm.searchQuery = diagnosis.icdCodeCNId">{{diagnosis.icdCodeCNId}}</a></td>
+                <td>{{diagnosis.icdCodeCNShortName}}</td>
+                <td><a class="blue" ng-click="vm.searchQuery = diagnosis.statusCodeName">{{diagnosis.statusCodeName}}</a></td>
+                <td>{{diagnosis.diagnosisDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+            </tr>
+            <tr ng-if="diagnosis.expanded" class="table-borderless" ng-repeat-end="">
+                <td colspan="7" class="noborder">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td colspan="7" class="noborder">
+                                <form>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("ICDCodeCNName")</small></p>
+                                            <p>{{diagnosis.icdCodeCNName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("DiagnosedBy")</small></p>
+                                            <p>{{diagnosis.administeredByName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("AdministrationSite")</small></p>
+                                            <p>{{diagnosis.administrationSiteName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("CreatedDate")</small></p>
+                                            <p>{{diagnosis.createDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <p><small class="text-primary">@L("UpdatedDate")</small></p>
+                                            <p>{{diagnosis.updateDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small class="text-primary" for="status">Status</small>
+                                            <select class="form-control"
+                                                    ng-model="diagnosis.statusCodeId"
+                                                    ng-options="obj.statusCodeId as obj.statusCodeName for obj in vm.statusCodeData"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small class="text-primary" for="note">Note</small>
+                                            <textarea class="form-control" rows="5" ng-model="diagnosis.note"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3 ">
+                                            <button type="submit" class="btn btn-sm btn-warning pull-right" ng-click="vm.update(diagnosis)">Save</button>
+                                            <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="diagnosis.expanded = false">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7" class="text-center">
+                    <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

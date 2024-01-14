@@ -1,0 +1,1001 @@
+1	Zhayang	3
+2	Bol’shoye Skuratovo	9
+3	Caringin	3
+4	Ochër	5
+5	Gjinoc	7
+6	Saint-Denis	9
+7	Gornyy	9
+8	Ol Kalou	2
+9	Sv. Anton	4
+10	Puerto Asís	3
+11	Shufeng	7
+12	Kamba	5
+13	Lubuagan	6
+14	Labuhansumbawa	1
+15	Sumilao	5
+16	Nyima	7
+17	Porkhov	8
+18	Laocheng	4
+19	Salacgrīva	3
+20	Svetogorsk	8
+21	Boljevci	5
+22	Mikhaylovka	8
+23	Şirvan	5
+24	Hamilton	9
+25	Castelões	8
+26	Seget	7
+27	Serebryanyye Prudy	6
+28	Las Flores	6
+29	København	6
+30	Guayaquil	8
+31	Hexiangqiao	1
+32	Lue Amnat	8
+33	Avignon	2
+34	Moro	2
+35	Kasui	9
+36	Bagroy	8
+37	Cajamar	7
+38	Daying	3
+39	Boluo	5
+40	Wang Noi	9
+41	Yongping	8
+42	Phak Hai	5
+43	Caraballeda	9
+44	Chengdong	6
+45	Triwil	7
+46	Svetogorsk	4
+47	Rybno	7
+48	Juranalas	3
+49	Guzhu	5
+50	Johor Bahru	2
+51	Kratovo	7
+52	Krajan Satu	7
+53	Nyköping	6
+54	Aeka	9
+55	Porto Seguro	3
+56	Mucurapo	5
+57	El Rincón	2
+58	La Uvita	5
+59	Stadtbredimus	4
+60	Peñal	8
+61	Rājbirāj	5
+62	Fuente de Oro	2
+63	Taguisa	9
+64	Weiguo	6
+65	Manoc-Manoc	9
+66	Ximapo	4
+67	Las Terrenas	1
+68	Kota Bharu	3
+69	Cerklje na Gorenjskem	1
+70	Piracanjuba	6
+71	Kiarajangkung	1
+72	Göteborg	7
+73	Daidaon	6
+74	Ambarakaraka	4
+75	Shchelkovo	4
+76	Lüjiabao	3
+77	Jetis	4
+78	Sardoal	3
+79	Karangan	2
+80	Tongguan	7
+81	Okakarara	5
+82	San Luis	6
+83	Bozkow	9
+84	Péruwelz	1
+85	Okulovka	9
+86	Cabreúva	9
+87	San Clemente	6
+88	Shangbahe	3
+89	Neuilly-sur-Seine	1
+90	Musina	7
+91	Jiangbei	9
+92	São Torcato	9
+93	Ambarita	5
+94	Menlou	3
+95	General Roca	5
+96	Takarazuka	5
+97	Rancageneng Satu	6
+98	Hengjing	8
+99	Kumla	5
+100	Danxi	5
+101	Divinópolis	8
+102	Gebre Guracha	8
+103	Lyantonde	2
+104	Sukorejo	1
+105	Al Jawādīyah	6
+106	Cap-Santé	9
+107	Västerås	3
+108	Mangulewa	9
+109	Daogao	7
+110	Campo Formoso	2
+111	Liljendal	5
+112	Lodja	3
+113	Bururi	5
+114	Miaotang	1
+115	Ouégoa	9
+116	Chengmen	9
+117	Zašová	6
+118	Jaunpils	8
+119	Limbalod	8
+120	Kōriyama	5
+121	Majalengka	8
+122	Santo Amador	5
+123	Naivasha	1
+124	Bošnjaci	6
+125	Gokwe	5
+126	Vnorovy	8
+127	Al Jarādīyah	5
+128	Sagopshi	6
+129	Honglai	1
+130	Pilar do Sul	7
+131	Hongqi	5
+132	Santa Teresa	3
+133	Yangkou	3
+134	Sabnova	9
+135	Zabrat	8
+136	Iracemápolis	3
+137	Jobabo	3
+138	Jiufeng	3
+139	Pākpattan	9
+140	Kahama	9
+141	Kraaifontein	3
+142	Tinabogan	4
+143	Asamboka	7
+144	Wenxi	5
+145	Longxi	3
+146	Zlatograd	9
+147	Sulmierzyce	6
+148	Puro	6
+149	Riangbaring	4
+150	Shuiyuan	9
+151	Munggang	1
+152	Hassi Berkane	9
+153	Caxias do Sul	4
+154	Limbo	1
+155	Ábrego	4
+156	Vila Nova de Milfontes	4
+157	Onoda	1
+158	The Valley	3
+159	Wewit	9
+160	Chonchi	4
+161	Tsapêraī	3
+162	Bangan-Oda	7
+163	Leiling	8
+164	Bairro	4
+165	Makanya	2
+166	Stara Pazova	4
+167	Xin’an	3
+168	Lelkowo	9
+169	Yumbo	8
+170	Santa Maria	2
+171	Guozhai	9
+172	Sacramento	5
+173	Yongchuan	4
+174	Tinaco	7
+175	Polje	8
+176	Lýkeio	8
+177	Botou	1
+178	Oebatu	5
+179	Hongtu	8
+180	Gubuk Daya	4
+181	Néa Éfesos	3
+182	Portela	4
+183	Marićka	3
+184	Phatthalung	8
+185	Lyon	4
+186	Gryaznovskoye	5
+187	Vizal San Pablo	6
+188	Sukasenang	7
+189	Opaka	5
+190	Cái Dầu	8
+191	Saraza	5
+192	Vredefort	5
+193	Anabar	8
+194	Daming	6
+195	La Plaine-Saint-Denis	3
+196	Horní Bečva	3
+197	Tiegai	9
+198	Neepawa	6
+199	Beima	3
+200	Bouabout	3
+201	Magburaka	7
+202	Caruaru	9
+203	Pyongyang	2
+204	Harbour Breton	6
+205	Ombul Barat	9
+206	Ta’ Xbiex	1
+207	Pīshvā	6
+208	Yasnogorsk	2
+209	Yudong	9
+210	São João das Lampas	4
+211	Wucun	4
+212	Buzet	8
+213	Järfälla	6
+214	Åkersberga	3
+215	Chuhuyiv	2
+216	Sidamukti	6
+217	Noginsk	7
+218	Skalánion	9
+219	Suzdal’	4
+220	Karangturi	2
+221	Chame	3
+222	Linxi	6
+223	Bom Jesus do Itabapoana	1
+224	Labuan	6
+225	Saint-Pierre	2
+226	Krasnolesnyy	7
+227	Nahrīn	6
+228	Fonte Boa	7
+229	Likino-Dulevo	4
+230	Brongkalan	2
+231	Beloyarskiy	9
+232	Rodas	5
+233	Baghlān	8
+234	Tene	9
+235	Huangqiao	5
+236	Suqin Huimin	3
+237	Ad Dīwānīyah	6
+238	Qunsheng	9
+239	Leshukonskoye	4
+240	Satipo	6
+241	La Paz	1
+242	Lipnica Wielka	8
+243	Gujō	8
+244	Ekpoma	6
+245	Parapat	4
+246	Hellevoetsluis	6
+247	San Francisco	6
+248	Thawi Watthana	2
+249	Annotto Bay	4
+250	Yihe	8
+251	Atlanta	7
+252	Daze	1
+253	Nisí	7
+254	Caraballeda	2
+255	Carvalhinho	3
+256	New York City	3
+257	Tarqūmyā	5
+258	Huping	1
+259	Novoselitsa	4
+260	La Maná	1
+261	Jindřichův Hradec	4
+262	Arevshat	8
+263	Kochenëvo	2
+264	Psyzh	2
+265	Daixi	8
+266	Baiyan	8
+267	Tsimkavichy	5
+268	Pórto Chéli	6
+269	Nanjie	7
+270	Nowa Góra	9
+271	Tržič	8
+272	Divinópolis	4
+273	Gozdowo	2
+274	Ludbreg	7
+275	Serawai	1
+276	Louisville	4
+277	Gancheng	4
+278	Konče	6
+279	Karanglincak	5
+280	Guadalupe	2
+281	San Lorenzo	3
+282	Starigrad	1
+283	Longtou	7
+284	Shunling	4
+285	Xincheng	6
+286	Mochumí	1
+287	Karabudakhkent	1
+288	Battambang	3
+289	Menghe	3
+290	Longshan	7
+291	Junín	4
+292	Uddiawan	6
+293	Sumberagung	5
+294	Oljoq	5
+295	Lavia	6
+296	Carlsbad	5
+297	Nagrog	7
+298	Mehona	8
+299	Novocherkassk	9
+300	San José de Barlovento	8
+301	Huangjinbu	9
+302	Ŭiju	2
+303	Rauma	3
+304	Remscheid	5
+305	Verin Dvin	6
+306	Rietavas	1
+307	Tuanjie	7
+308	Acli	3
+309	Suwaru	6
+310	Bāfq	7
+311	Guadalupe Victoria	9
+312	Longmen	4
+313	Banjar Dauhmargi	6
+314	Saint-Félicien	4
+315	Anhai	6
+316	Tungao	6
+317	Fresno	7
+318	Barueri	5
+319	Ust’-Labinsk	6
+320	Riga	2
+321	Nuevo Emperador	4
+322	Fasito‘outa	6
+323	Queimados	7
+324	Xingong	5
+325	Villa Altagracia	9
+326	Sauce	8
+327	Gurlan	5
+328	Salinas	2
+329	Karlstad	4
+330	Mīrābād	4
+331	Santol	3
+332	Remolino	5
+333	Sovetskiy	3
+334	Banjar Dauhpura	1
+335	Yallahs	7
+336	Galaz	3
+337	Chinoz	3
+338	Cruzeiro do Oeste	6
+339	Naawan	8
+340	Geneng	7
+341	Los Pinos	3
+342	Saatlı	4
+343	Atlanta	3
+344	Saint-Flour	1
+345	Ermida	6
+346	Santa Lucía Cotzumalguapa	9
+347	Jiulong	2
+348	Kedungharjo	9
+349	Skövde	2
+350	Yilan	8
+351	Nizhniy Ufaley	6
+352	Alis	9
+353	Xiazhai	1
+354	Norrköping	1
+355	Gaofeng	8
+356	Pinillos	9
+357	Saint-Augustin	2
+358	‘Ayn an Nasr	1
+359	Krasnoshchekovo	7
+360	Drajak	7
+361	Rio Novo do Sul	5
+362	Sonina	5
+363	Xumu	7
+364	Amboanjo	1
+365	Parung	3
+366	Twante	5
+367	Pitogo	4
+368	Pujilí	2
+369	Lavradio	6
+370	Rancasadang	4
+371	Nowe Miasto nad Pilicą	8
+372	Wanfang	8
+373	Mazamet	3
+374	Zhaojia	7
+375	Salas	1
+376	Węgrzce Wielkie	3
+377	Shahrīār	7
+378	Gaolong	6
+379	Shencang	5
+380	Bydgoszcz	9
+381	Pustá Polom	3
+382	As Samawah	8
+383	Göteborg	5
+384	Pedregulho	6
+385	Juncalito Abajo	6
+386	Loučovice	1
+387	Langkou	9
+388	Hongyuan	4
+389	Liulimiao	2
+390	Rakvere	9
+391	Ermelo	7
+392	Queluz	7
+393	Liulang	7
+394	Oleiros	5
+395	Bakuriani	7
+396	Khao Kho	5
+397	Três Corações	5
+398	Beilun	8
+399	Ulety	9
+400	Cikalong	4
+401	Maputi	9
+402	Zhongshi	1
+403	Aţ Ţurrah	5
+404	Tanarara	8
+405	Jieyang	3
+406	城郊	9
+407	Bacem	6
+408	Trnava	7
+409	Sanxi	7
+410	Brak	4
+411	Taliouine	2
+412	Banjar Jabejero	1
+413	Fengpo	1
+414	Marco de Canaveses	1
+415	Xiaotang	1
+416	Haifa	8
+417	Mitsuke	1
+418	Hengtanggang	8
+419	Lewolang	8
+420	Francisco Villa	8
+421	Seydi	9
+422	Sallanches	9
+423	Sezures	7
+424	Butwāl	6
+425	Mniszków	2
+426	Bromma	9
+427	Concordia	1
+428	Rimouski	7
+429	Coloncito	1
+430	Miłakowo	1
+431	Jilma	7
+432	Estoril	1
+433	Sabá	3
+434	Vetluzhskiy	6
+435	La Ligua	3
+436	Mosjøen	6
+437	Rengo	8
+438	Yataity del Norte	1
+439	Selorejo	5
+440	Wenquan	7
+441	Pilang	9
+442	Néa Manolás	7
+443	Spokoynaya	7
+444	Tongle	5
+445	Čelopek	3
+446	Mbinga	2
+447	Latung	2
+448	Shancheng	5
+449	Sitovo	4
+450	South Bend	9
+451	Ban Thaen	9
+452	Varėna	7
+453	Frýdlant	3
+454	San Isidro	1
+455	Cigenca	5
+456	Ino	1
+457	Nagrog	5
+458	Živinice	3
+459	Bao’an	6
+460	Tuchengzi	5
+461	Basista	5
+462	Zhuzuo	3
+463	Alor Setar	8
+464	Julita	7
+465	Kalashnikovo	2
+466	Tríkala	6
+467	Agra	4
+468	Tayang	7
+469	Santo Tomas	6
+470	Il’skiy	8
+471	Neikeng	5
+472	Kitakyūshū	6
+473	Chisht-e Sharīf	7
+474	Rio Claro	5
+475	Balaogan	5
+476	Huibu	2
+477	Pexiligais	6
+478	Leijiadian	7
+479	Tarusa	6
+480	Chakaray	3
+481	Somdet	7
+482	Radès	6
+483	Vĩnh Thuận	5
+484	Steinsel	3
+485	Lérida	6
+486	Washington	3
+487	Kolonowskie	8
+488	Kutloanong	7
+489	Ulety	7
+490	Mardīān	3
+491	San Rafael	2
+492	Kanganpur	8
+493	Anguera	2
+494	La Ensenada	6
+495	Täby	8
+496	Stare Miasto	6
+497	Nueva Guinea	7
+498	Ala-Buka	5
+499	Carpenter	1
+500	Xuxiake	4
+501	Hradec Králové	1
+502	Firavitoba	8
+503	Brka	2
+504	Duraznopampa	3
+505	Maesan	9
+506	Baiguan	1
+507	Hovd	5
+508	Tlogosadang	6
+509	Hołoby	1
+510	Rochefort	3
+511	Skotoússa	1
+512	Alicia	9
+513	Lizi	8
+514	Doropayung	3
+515	Mūḩ Ḩasan	6
+516	Yuyapichis	7
+517	Ulichnoye	1
+518	Los Algarrobos	4
+519	Baltimore	1
+520	Privolzhsk	2
+521	Kafr Zībād	1
+522	Medveđa	7
+523	Bella Unión	1
+524	Khao Yoi	6
+525	Dimitrovgrad	4
+526	Seattle	4
+527	Cigintung	1
+528	Shangmachang	6
+529	Batiano	6
+530	Torino	8
+531	Nerk’in Getashen	7
+532	Erping	9
+533	Malinao	7
+534	Shal’skiy	9
+535	Příbram	4
+536	Fenghuang	2
+537	Xilong	3
+538	Sattahip	8
+539	Zuru	5
+540	Anbyŏn-ŭp	6
+541	Tashi	2
+542	Colombes	1
+543	Pemberton	8
+544	Bakuriani	1
+545	Eksjö	4
+546	Baleber	8
+547	Bergen	5
+548	Pechersk	7
+549	Koncang	9
+550	Lingcheng	5
+551	Yŏnan-ŭp	6
+552	Mgachi	9
+553	Postupice	6
+554	Huaitu	2
+555	Ngepoh Kidul	2
+556	Golden	8
+557	Kolaka	5
+558	Maracay	4
+559	Gelgaudiškis	4
+560	Chang Klang	7
+561	Ventersburg	6
+562	Sangju	4
+563	Uralets	5
+564	Vinica	4
+565	Al Minyā	4
+566	Volodarsk	1
+567	Whakatane	7
+568	Tabuc Pontevedra	3
+569	Lantang	4
+570	Vienne	4
+571	Diadema	4
+572	Danyang	3
+573	Tamiso	9
+574	Zhuge	1
+575	Los Palacios	6
+576	Sanlidian	4
+577	Jaraguá do Sul	6
+578	Tefé	6
+579	Karachi	1
+580	Hikkaduwa	5
+581	Kiloloran	8
+582	Umeå	9
+583	Fiais da Beira	9
+584	Cimuncang	5
+585	Malanday	2
+586	Hodkovičky	7
+587	Utama Wetan	9
+588	Tepal	8
+589	General Elizardo Aquino	4
+590	Mosfilotí	4
+591	San Juan de Manapiare	6
+592	La Dicha	4
+593	San Rafael	6
+594	Émponas	4
+595	Xintian	5
+596	Daxi	2
+597	Parreira	9
+598	Constanza	8
+599	Las Palmas	4
+600	Misheronskiy	1
+601	Xichang	2
+602	Dengok	5
+603	Shazhouba	7
+604	Damulog	3
+605	Jidd Ḩafş	8
+606	Uchiza	8
+607	Mircze	6
+608	Duancun	1
+609	Guiset East	1
+610	Krásná Lípa	3
+611	Taipingxu	2
+612	Saltsjö-Boo	5
+613	Wisznice	5
+614	Đồng Mỏ	5
+615	Soubré	8
+616	Lucé	7
+617	Amparita	8
+618	Frederico Westphalen	5
+619	Ikoma	4
+620	Smidary	2
+621	São Bento do Sul	9
+622	Tha Uthen	1
+623	Santa Bárbara	5
+624	Mrkonjić Grad	4
+625	Ōmuta	3
+626	Lanxi	3
+627	Magrath	3
+628	Rizal	4
+629	Shazhouba	7
+630	Lakateng	6
+631	Paraty	8
+632	Mocímboa	7
+633	Pallasovka	8
+634	Piraju	3
+635	Les Abymes	5
+636	Aleksandrovac	5
+637	Yuanba	9
+638	Jianfeng	6
+639	Turośń Kościelna	5
+640	Delmiro Gouveia	8
+641	Thị Trấn Trùng Khánh	5
+642	Solna	6
+643	Meylan	4
+644	Tanakawu Dua	5
+645	Wuling	9
+646	San Juan del Cesar	1
+647	Ngembul	2
+648	Sparwood	3
+649	Bonao	5
+650	Santana	7
+651	Panitan	6
+652	Benito Juarez	9
+653	Huaribamba	8
+654	Forshaga	4
+655	Mboto	2
+656	Espargos	2
+657	Xikou	9
+658	Kohtla-Järve	3
+659	Tanjungbahagia	5
+660	Flor da Rosa	7
+661	Jurva	9
+662	Shangxian	7
+663	Qingfenglin	3
+664	Zákynthos	8
+665	Cangkuang	9
+666	Lobamba	6
+667	Bile	9
+668	Tungipāra	3
+669	La Palma	8
+670	Kilifi	2
+671	Taoyuan	1
+672	Yangiobod	7
+673	Canggang	5
+674	Yutan	2
+675	Velké Karlovice	3
+676	Montréal	3
+677	Kushovë	3
+678	Saint-Augustin	1
+679	Ciharalang	2
+680	Minle	9
+681	Mekarsari	8
+682	Ralung	3
+683	Vurğun	6
+684	Cabarroguis	4
+685	Ust’-Kalmanka	8
+686	Dongfu	4
+687	Cihurip Satu	4
+688	Wanglinkou	2
+689	Beigang	1
+690	Bakunase	3
+691	Lugo	5
+692	Saint-Jérôme	5
+693	Passa Quatro	3
+694	Al Ḩazm	7
+695	Bela Vista	1
+696	Bogdanovich	8
+697	Andahuaylillas	6
+698	La Celia	1
+699	Watthana Nakhon	7
+700	Guri i Zi	6
+701	Belogorsk	6
+702	Borås	7
+703	Allen	6
+704	Kawungsari	5
+705	Nara	2
+706	San Francisco	9
+707	Rana	9
+708	Xianrendu	6
+709	Géfyra	3
+710	Breda	7
+711	Kybartai	5
+712	Maindang	1
+713	Luuka Town	9
+714	Ust’-Uda	6
+715	Qing’an	2
+716	Rotterdam postbusnummers	1
+717	Mílos	8
+718	Monte Novo	8
+719	Zhonghuopu	4
+720	Niños Heroes	9
+721	El Cerrito	5
+722	Atibaia	7
+723	Mersa Matruh	2
+724	Larnaca	2
+725	Shanghuang	1
+726	Koshigaya	8
+727	Furukawa	9
+728	Delft	7
+729	Byerazino	8
+730	Talipan	5
+731	Monte Novo	4
+732	Nalus	8
+733	Caringin Lor	3
+734	Gondang	7
+735	Skála Oropoú	1
+736	Malakand	9
+737	Buurhakaba	1
+738	Namp’o	8
+739	Jomsom	8
+740	Matangpayang	6
+741	Svislach	2
+742	Ciudad Tecún Umán	7
+743	Picungbera	8
+744	Osnabrück	6
+745	Bobigny	2
+746	Lalauigan	5
+747	Lianhua	9
+748	Bode Sadu	8
+749	Rotterdam	4
+750	Järvakandi	2
+751	San Isidro	6
+752	Zagnitkiv	7
+753	Changjiangbu	9
+754	El Mirador	4
+755	Peredovaya	6
+756	Villefranche-sur-Mer	5
+757	Sanjiang	8
+758	Sydney	4
+759	Mukhen	4
+760	Dębe Wielkie	4
+761	Panyarang	1
+762	Insrom	2
+763	Bagong Sikat	7
+764	Priboj	2
+765	Cap Malheureux	5
+766	Jingkou	9
+767	Sobue	5
+768	Camias	8
+769	Wenhe	3
+770	Maglaj	1
+771	Lungmar	8
+772	El Perico	4
+773	Rokitno Szlacheckie	8
+774	Shanglian	7
+775	Sanhu	7
+776	La Curva	1
+777	Shibi	2
+778	Jobabo	6
+779	Paraćin	4
+780	Guishan	8
+781	Waipukang	2
+782	Ejmiatsin	5
+783	Längelmäki	5
+784	Sydney South	4
+785	Loppi	8
+786	Achoma	2
+787	Maojiadian	2
+788	Laval	5
+789	Nogueira	5
+790	Dengjia	3
+791	Alquízar	1
+792	Zhaogezhuang	3
+793	Ban Na	5
+794	Avignon	5
+795	Reina Mercedes	4
+796	Antiguo Cuscatlán	5
+797	Lashkar Gāh	1
+798	Poço Verde	9
+799	Pavlodol’skaya	4
+800	Jinhe	4
+801	Troyes	6
+802	Maluanluan	8
+803	Périgueux	6
+804	Azun Atme	6
+805	Chadong	3
+806	Lambangan Kulon	3
+807	Thị Trấn Yên Châu	3
+808	Dobratice	9
+809	Rychvald	3
+810	Jinhaihu	9
+811	Lubao	8
+812	Goodlands	4
+813	Wairinding	1
+814	Tieshan	6
+815	Tsagaanders	2
+816	Gaopu	3
+817	Janowice	5
+818	Dacun	7
+819	Temuji	6
+820	Storozhnytsya	7
+821	Ankola	9
+822	Itaitinga	8
+823	Wissous	3
+824	Lumbac	6
+825	Levashi	3
+826	Santa Cruz del Norte	9
+827	Xarag	3
+828	Sidi Lamine	3
+829	Donghui	1
+830	Lavadorinhos	8
+831	Thị Trấn Nước Hai	2
+832	Añatuya	8
+833	Pirapora do Bom Jesus	7
+834	Fkih Ben Salah	7
+835	Ponggeok	7
+836	Cinangka	2
+837	Mufushan	5
+838	Smętowo Graniczne	3
+839	Nanterre	8
+840	Cagmanaba	3
+841	Luftinjë	6
+842	Sigiriya	2
+843	Saint-Pierre	9
+844	San Francisco	6
+845	Gzy	9
+846	Ezhou	5
+847	Baie-Comeau	3
+848	Shijia	9
+849	Novaya Igirma	2
+850	Zengtian	6
+851	Béziers	9
+852	Jedlová	4
+853	Kauditan	5
+854	Kallithéa	8
+855	Paris 07	2
+856	Emiliano Zapata	9
+857	Qiancang	9
+858	Socota	4
+859	Rubirizi	2
+860	Vallecillo	8
+861	Andorinha	5
+862	Caen	2
+863	Krásná Hora nad Vltavou	5
+864	Santa Cruz de Yojoa	4
+865	Agriá	3
+866	Huangzhuang	3
+867	Mae Charim	7
+868	Shādegān	9
+869	Bakungan	3
+870	Luisiana	5
+871	Xuhui	2
+872	Nanping	7
+873	Cedynia	7
+874	Donghai	9
+875	Qiucun	1
+876	Daoxu	1
+877	Caramuca	2
+878	Santai	4
+879	Apaga	7
+880	Paris La Défense	6
+881	Longueuil	3
+882	Vnanje Gorice	9
+883	Korogan Timur	1
+884	Huangbizhuang	8
+885	Biên Hòa	1
+886	Chishan	3
+887	Pozhang	5
+888	Gemblengmulyo	7
+889	Serra Talhada	9
+890	Rio Claro	1
+891	Stockholm	6
+892	Al Majāridah	9
+893	Huancarqui	1
+894	Tongyu	6
+895	Cikai	7
+896	Khuma	2
+897	Pieksämäki	5
+898	Santa Rita	9
+899	Guanchi	4
+900	Ntungamo	3
+901	Ouzini	6
+902	Chicago	1
+903	Houk	2
+904	Jasienica Rosielna	1
+905	Crnilište	3
+906	K Bang	2
+907	Xianbao	6
+908	Villa Aglipay	7
+909	Al Jamīmah	1
+910	Kengyuan	8
+911	Shebalino	8
+912	San Simon	9
+913	Ciorescu	5
+914	Kojagete	3
+915	Damasak	6
+916	Shirgjan	5
+917	Zhayang	4
+918	Muheza	4
+919	Yanhe	7
+920	Portelinha	4
+921	Casal da Anja	1
+922	Munjungan	1
+923	Ebetsu	2
+924	Växjö	2
+925	Spas	5
+926	Chama	7
+927	Slatyne	8
+928	Pili	9
+929	Baishi	6
+930	Aba	9
+931	Alkmaar	9
+932	New Orleans	6
+933	Sơn Tây	2
+934	Abangay	3
+935	Solsona	5
+936	Beau Vallon	1
+937	Richmond	1
+938	San Miguel	2
+939	Olopa	7
+940	San Cristóbal Verapaz	4
+941	Ajoyani	1
+942	Nýřany	2
+943	Kristianstad	8
+944	Huntington Beach	2
+945	Kyurdarmir	5
+946	Tevriz	1
+947	Karanglincak	6
+948	Gaoqiao	8
+949	Sorodot	8
+950	Bagulin	3
+951	Syrostan	3
+952	Sonder	7
+953	Areado	3
+954	Rogóźno	3
+955	Utan	2
+956	Cheongpyeong	3
+957	Knyazhichi	4
+958	Xinglin	6
+959	Wenhe	4
+960	Concepcion	4
+961	Wucheng	8
+962	Changhao	5
+963	Staraya Toropa	6
+964	Proletarsk	9
+965	Cibeureum	8
+966	Erfangping	2
+967	Manjing	6
+968	Panao	9
+969	Pomacocha	4
+970	Stockholm	8
+971	Zhaoguli	2
+972	Ondo	8
+973	Austin	4
+974	Karengan	8
+975	Damai	4
+976	Cabugao	4
+977	Juru	6
+978	Jiangnan	3
+979	Gwaram	4
+980	Maputi	4
+981	Palaihari	2
+982	Yaogou	2
+983	Gusong	9
+984	Xiaojing	8
+985	Austin	5
+986	Fengcheng	2
+987	Allealle	9
+988	Orléans	4
+989	Belleville	5
+990	Qal‘eh Ganj	6
+991	Turkestan	9
+992	Krajan Gading	3
+993	Shuanggang	5
+994	Fort Smith	3
+995	Bojong	5
+996	Umuarama	5
+997	Nishiwaki	6
+998	Tancheng	2
+999	Drammen	6
+1000	Judita	8
+1001	Judita	10

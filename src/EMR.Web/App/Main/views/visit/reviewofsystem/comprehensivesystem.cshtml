@@ -1,0 +1,49 @@
+<div class="row" ng-if="systems.isComprehensive">
+    <h4>
+        {{systems.reviewOfSystemGroupCodeName}}
+    </h4>
+</div>
+<div class="row" ng-repeat="system in systems.reviewOfSystemCode | filter:{ isShortCode: vm.short } ">
+    <div class="col-md-2 col-sm-2 col-xs-2">
+        <span>
+            {{system.reviewOfSystemCodeName}}
+        </span>
+    </div>
+    <div class="col-md-2 col-sm-2 col-xs-2">
+        <label>
+            <input type="radio" title="Within normal limits" ng-value="true"
+                   ng-model="system.normalLimits"
+                   ng-disabled="vm.readonlyview"
+                   name="{{system.reviewOfSystemCodeId}}">
+            <small class="hidden-xs">
+                Normal
+            </small>
+
+            <small class="hidden-sm hidden-md hidden-lg" title="Within normal limits">
+                NL
+            </small>
+        </label>
+    </div>
+    <div class="col-md-2 col-sm-2 col-xs-2">
+        <label>
+            <input type="radio" title="Abnormal limits" ng-value="false"
+                   ng-model="system.normalLimits"
+                   ng-disabled="vm.readonlyview"
+                   name="{{system.reviewOfSystemCodeId}}">
+            <small class="hidden-xs">
+                Abnormal
+            </small>
+
+            <small class="hidden-sm hidden-md hidden-lg" title="Abnormal limits">
+                ABNL
+            </small>
+        </label>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6">
+        <input type="text" class="form-control margin-bottom10" ng-hide="vm.readonlyview" ng-model="system.note" placeholder="Comments">
+        <h6 ng-show="vm.readonlyview">
+            {{system.note}}
+        </h6>
+
+    </div>
+</div>

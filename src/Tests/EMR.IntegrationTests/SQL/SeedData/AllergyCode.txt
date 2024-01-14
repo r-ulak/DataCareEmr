@@ -1,0 +1,23 @@
+1	Peanuts
+2	Milk products
+3	Eggs
+4	Seafood
+5	Other foods
+6	Food additives allergy status
+7	Bee allergy status
+8	Other insect allergy status
+9	Latex allergy status
+10	Radiographic dye allergy status
+11	Other nonmedicinal substance allergy status
+12	Other allergy status, other than to drugs and biological substances
+13	Allergy to existing dental restorative material
+14	Penicillin
+15	Other antibiotic agents
+16	Sulfonamides 
+17	Other anti-infective agents
+18	Anesthetic agent
+19	Narcotic agent
+20	Analgesic agent
+21	Serum and vaccine
+22	Other drugs, medicaments and biological substances
+23	Unspecified drugs, medicaments and biological substances

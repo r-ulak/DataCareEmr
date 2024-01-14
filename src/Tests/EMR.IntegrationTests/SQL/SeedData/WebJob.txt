@@ -1,0 +1,3 @@
+1	AzureSearch ICD10PCS Index	Pages.HostOnly.Jobs.ICD10PCSIndex
+2	AzureSearch ICD10CN Index	Pages.HostOnly.Jobs.ICD10CNIndex
+3	AzureSearch Loinc Index	Pages.HostOnly.Jobs.LoincIndex

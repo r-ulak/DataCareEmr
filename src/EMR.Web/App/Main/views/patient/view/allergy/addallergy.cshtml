@@ -1,0 +1,106 @@
+﻿<div id="allergydetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddAllergy")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addAllergyCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="item form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-12">@L("Substance")*</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input ng-model="vm.allergy.allergyName"
+                               uib-typeahead="allergy.allergyName as allergy.allergyName for allergy in vm.allergyCodeData | filter:{allergyName:$viewValue} | limitTo:8"
+                               typeahead-show-hint="true"
+                               placeholder="@L("SubstancePlaceholder")"
+                               class="form-control"
+                               name="allergysubstance"
+                               required="required"
+                               autocomplete="off"
+                               data-validate-length="1000">
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-12">@L("Reaction")*</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input ng-model="vm.allergy.reactionName"
+                               uib-typeahead="reaction.reactionName as reaction.reactionName for reaction in vm.allergyReactionCodeData | filter:{reactionName:$viewValue} | limitTo:8"
+                               typeahead-show-hint="true"
+                               placeholder="@L("ReactionPlaceholder")"
+                               class="form-control"
+                               autocomplete="off"
+                               name="allergyReaction"
+                               required="required"
+                               data-validate-length="1000">
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-12">@L("Category")*</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input ng-model="vm.allergy.allergyCategory"
+                               uib-typeahead="allergy as allergy.categoryName for allergy in vm.allergyCategryCodeData | filter:{categoryName:$viewValue} | limitTo:8"
+                               typeahead-show-hint="true"
+                               placeholder="@L("CategoryPlaceholder")"
+                               class="form-control"
+                               name="allergyCategory"
+                               autocomplete="off"
+                               required="required"
+                               typeahead-editable="false"
+                               data-validate-length="1000">
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-12">@L("AllergyType")*</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <select class="required form-control" ng-model="vm.allergy.allergyType" ng-options="obj.allergyTypeName for obj in vm.allergyTypeCodeData track by obj.allergyTypeId"></select>
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Severity")*</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="btn-toolbar">
+                            <label class="btn btn-default btn-md" ng-model="vm.allergy.severityId" uibButtonConfig="vm.buttonConfig" uib-btn-radio="'1'" uncheckable><small>Mild</small></label>
+                            <label class="btn btn-warning btn-md" ng-model="vm.allergy.severityId" uib-btn-radio="'2'" uncheckable><small>Moderate</small></label>
+                            <label class="btn btn-danger btn-md" ng-model="vm.allergy.severityId" uib-btn-radio="'3'" uncheckable>  <small>Severe</small></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-12">@L("OnSetDate")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="input-prepend input-group">
+                            <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                            <input date-range-picker ng-model="vm.allergy.startDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="allergyStartDate">
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-3 col-sm-3 col-xs-12">@L("Note")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <textarea class="form-control" rows="5" placeholder="@L("NotesPlaceHolder")" ng-model="vm.allergy.note"></textarea>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default btn-md pull-right" ng-click="vm.close()">Cancel</button>
+        <button id="send" type="submit" class="btn btn-md btn-success pull-right" ng-disabled="addAllergyCreateForm.$invalid" ng-click="vm.saveAllergy('addmore')">Save and add another</button>
+        <button id="send" type="submit" class="btn btn-md btn-success pull-right" ng-disabled="addAllergyCreateForm.$invalid" ng-click="vm.saveAllergy()">Save</button>
+    </div>
+</div>

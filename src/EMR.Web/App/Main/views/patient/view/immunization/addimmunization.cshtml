@@ -1,0 +1,108 @@
+﻿<div id="addimmunization">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AddImmunization")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addImmunizationCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("ImmunizationName")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.immunization.immunizationName" ng-options="obj.immunizationName for obj in vm.immunizationCodeData track by obj.immunizationCodeId"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("InformationSource")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input ng-model="vm.immunization.InformationSource"
+                                   uib-typeahead="immunization as immunization.informationSourceName for immunization in vm.informationSourceCodeData | filter:{informationSourceName:$viewValue} | limitTo:8"
+                                   typeahead-show-hint="true"
+                                   class="form-control"
+                                   autocomplete="off"
+                                   name="immunizationInformationSource"
+                                   required="required"
+                                   data-validate-length="31">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("CompletionStatus")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.immunization.completionStatusCodeId" ng-options="obj.completionStatusName for obj in vm.completionStatusCodeData track by obj.completionStatusCodeId"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Status")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="form-control" ng-model="vm.immunization.status">
+                                <option>active</option>
+                                <option>inactive</option>
+                                <option>expired</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministeredById")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class="form-control" ng-model="vm.immunization.administeredById" ng-options="obj.administeredByIdName for obj in vm.administeredByIdCodeData track by obj.administeredByIdId"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministeredDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker ng-model="vm.immunization.administeredDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="immunizationAdministeredDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministrationSite")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select class=" form-control" ng-model="vm.immunization.administrationSiteId" ng-options="obj.administrationSiteName for obj in vm.administrationSiteData track by obj.administrationSiteId"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <textarea class="form-control" rows="5" placeholder="@L("NotesPlaceHolder")" ng-model="vm.immunization.note"></textarea>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button id="send" type="submit" class="btn btn-success pull-right" ng-disabled="addImmunizationCreateForm.$invalid" ng-click="vm.saveImmunization('addmore')">Save and add another</button>
+        <button id="send" type="submit" class="btn btn-success pull-right" ng-disabled="addImmunizationCreateForm.$invalid" ng-click="vm.saveImmunization()">Save</button>
+    </div>
+</div>

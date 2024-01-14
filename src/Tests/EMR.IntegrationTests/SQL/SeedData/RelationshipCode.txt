@@ -1,0 +1,20 @@
+1	Son
+2	Daughter
+3	Brother
+4	Sister
+5	Mother
+6	Father
+7	GrandFather
+8	GrandMother
+9	GrandSon
+10	GrandDaughter
+11	GrandChild
+12	Uncle
+13	Aunt
+14	Parent's Sibling
+15	Nephew
+16 	Niece
+17	Sibling's Child
+18	Cousin
+19	Great GrandFather
+20	Great GrandMother

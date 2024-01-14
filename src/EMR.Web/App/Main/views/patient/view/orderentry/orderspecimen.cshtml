@@ -1,0 +1,26 @@
+<table st-table="orderSpecimenCollection" st-safe-src="specimenvm.orderSpecimenData" class="table">
+    <thead class="thead-inverse">
+        <tr>
+            <th></th>
+            <th st-sort="specimenNumber">@L("SpecimenNumber")</th>
+            <th st-sort="specimenNumber">@L("SpecimenType")</th>
+            <th st-sort="administrationSiteName">@L("AdministrationSiteName")</th>
+            <th st-sort="collectedByName">@L("CollectedByName")</th>
+            <th st-sort="statusCodeName">@L("StatusCodeName")</th>
+            <th st-sort="note">@L("Note")</th>
+            <th st-sort="collectedDate">@L("CollectedDate")</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="orderSpecimen in (orderSpecimenCollection)| filter:{ orderId: specimenvm.orderId }">
+            <td class="abp-clickable font-bold"><a ng-click="specimenvm.openModalEditSpecimen(orderSpecimen)">Edit</a></td>
+            <td>{{orderSpecimen.specimenNumber}}</td>
+            <td>{{orderSpecimen.specimenCodeName}}</td>
+            <td>{{orderSpecimen.administrationSiteName}}</td>
+            <td>{{orderSpecimen.collectedByName}}</td>
+            <td>{{orderSpecimen.statusCodeName}}</td>
+            <td>{{orderSpecimen.note}}</td>
+            <td>{{orderSpecimen.collectedDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+        </tr>
+    </tbody>
+</table>

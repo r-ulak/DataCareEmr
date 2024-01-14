@@ -1,0 +1,35 @@
+1	DTaP 1                  
+2	DTaP 2                  
+3	DTaP 3                  
+4	DTaP 4                  
+5	DTaP 5                  
+6	DT 1                    
+7	DT 2                    
+8	DT 3                    
+9	DT 4                    
+10	DT 5                    
+11	IPV 1                   
+12	IPV 2                   
+13	IPV 3                   
+14	IPV 4                   
+15	Hib 1                   
+16	Hib 2                   
+17	Hib 3                   
+18	Hib 4                   
+19	Pneumococcal Conjugate 1
+20	Pneumococcal Conjugate 2
+21	Pneumococcal Conjugate 3
+22	Pneumococcal Conjugate 4
+23	MMR 1                   
+24	MMR 2                   
+25	Varicella 1             
+26	Varicella 2             
+27	Hepatitis B 1           
+28	Hepatitis B 2           
+29	Hepatitis B 3           
+30	Influenza 1             
+31	Influenza 2             
+32	Td                      
+33	Hepatitis A 1           
+34	Hepatitis A 2           
+35	Other                   

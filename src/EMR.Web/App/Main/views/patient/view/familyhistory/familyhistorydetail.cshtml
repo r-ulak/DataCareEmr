@@ -1,0 +1,111 @@
+<div id="familyHistorydetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("FamilyHistoryDetail")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <div class="row">
+                <div class="col-sm-8 col-xs-8 col-md-8">
+                    <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4">
+                    <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                        <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                    </button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table st-table="displayedCollection" st-safe-src="vm.familyHistoryData" class="table" sttablefilter="vm.searchQuery">
+                    <thead class="thead-inverse">
+                        <tr class="abp-clickable">
+                            <th st-sort="iCDCodeCNId">@L("ICDCodeCNId")</th>
+                            <th st-sort="iCDCodeCNShortName">@L("ICDCodeCNShortName")</th>
+                            <th st-sort="statusCodeName">@L("StatusCodeName")</th>
+                            <th st-sort="relationshipCodeName">@L("RelationshipCodeName")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat-start="familyHistory in (displayedCollection)" class="abp-clickable" ng-click="familyHistory.expanded = !familyHistory.expanded ">
+                            <td><a class="blue" ng-click="vm.searchQuery = familyHistory.icdCodeCNId">{{familyHistory.icdCodeCNId}}</a></td>
+                            <td>{{familyHistory.icdCodeCNShortName}}</td>
+                            <td><a class="blue" ng-click="vm.searchQuery = familyHistory.statusCodeName">{{familyHistory.statusCodeName}}</a></td>
+                            <td>{{familyHistory.relationshipCodeName}}</td>
+                        </tr>
+                        <tr ng-if="familyHistory.expanded" class="table-borderless" ng-repeat-end="">
+                            <td colspan="7" class="noborder">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td colspan="7" class="noborder">
+                                            <form>
+                                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("ICDCodeCNName")</small></p>
+                                                        <p>{{familyHistory.icdCodeCNName}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("RelationshipCodeName")</small></p>
+                                                        <p>{{familyHistory.relationshipCodeName}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("CreatedDate")</small></p>
+                                                        <p>{{familyHistory.createDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("UpdatedDate")</small></p>
+                                                        <p>{{familyHistory.updateDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <small class="text-primary" for="status">Status</small>
+                                                        <select class="form-control"
+                                                                ng-model="familyHistory.statusCodeId"
+                                                                ng-options="obj.statusCodeId as obj.statusCodeName for obj in vm.statusCodeData"></select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <small class="text-primary" for="note">Note</small>
+                                                        <textarea class="form-control" rows="5" ng-model="familyHistory.note"></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3 ">
+                                                        <button type="submit" class="btn btn-sm btn-warning pull-right" ng-click="vm.update(familyHistory)">Save</button>
+                                                        <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="familyHistory.expanded = false">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr ng-show="displayedCollection.length===0">
+                            <td colspan="7">Loading please wait...</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7" class="text-center">
+                                <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="button" class="btn btn-default" ng-click="vm.close()">@L("Close")</button>
+    </div>
+</div>

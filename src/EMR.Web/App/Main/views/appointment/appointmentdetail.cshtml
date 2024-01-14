@@ -1,0 +1,168 @@
+
+<div id="appointmentdetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("AppointmentDetail")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <div class="row">
+                <div class="col-sm-8 col-xs-8 col-md-8">
+                    <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4">
+                    <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                        <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                    </button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table st-table="displayedCollection" st-safe-src="vm.appointmentData" class="table" sttablefilter="vm.searchQuery">
+                    <thead class="thead-inverse">
+                        <tr class="abp-clickable">
+   
+     <th st-sort="id">@L("Id")</th>
+   
+     <th st-sort="pid">@L("Pid")</th>
+   
+     <th st-sort="tenantId">@L("TenantId")</th>
+   
+     <th st-sort="providerId">@L("ProviderId")</th>
+   
+     <th st-sort="categoryCodeId">@L("AppointmentCodeId")</th>
+
+     <th st-sort="title">@L("Title")</th>
+   
+     <th st-sort="administrationSiteId">@L("AdministrationSiteId")</th>
+
+     <th st-sort="fname">@L("Fname")</th>
+
+     <th st-sort="lname">@L("Lname")</th>
+
+     <th st-sort="mname">@L("Mname")</th>
+
+     <th st-sort="phoneCell">@L("PhoneCell")</th>
+
+     <th st-sort="phoneHome">@L("PhoneHome")</th>
+
+     <th st-sort="note">@L("Note")</th>
+   
+     <th st-sort="createdBy">@L("CreatedBy")</th>
+   
+     <th st-sort="updatedBy">@L("UpdatedBy")</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+ <tr ng-repeat-start="appointment in (displayedCollection)" class="abp-clickable" ng-click="appointment.expanded = !appointment.expanded ">
+   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.id">{{appointment.id}}</a></td>   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.pid">{{appointment.pid}}</a></td>   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.tenantId">{{appointment.tenantId}}</a></td>   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.providerId">{{appointment.providerId}}</a></td>   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.categoryCodeId">{{appointment.categoryCodeId}}</a></td>
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.title">{{appointment.title}}</a></td>
+   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.administrationSiteId">{{appointment.administrationSiteId}}</a></td>
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.fname">{{appointment.fname}}</a></td>
+
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.lname">{{appointment.lname}}</a></td>
+
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.mname">{{appointment.mname}}</a></td>
+
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.phoneCell">{{appointment.phoneCell}}</a></td>
+
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.phoneHome">{{appointment.phoneHome}}</a></td>
+
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.note">{{appointment.note}}</a></td>
+   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.createdBy">{{appointment.createdBy}}</a></td>   
+     <td><a class="blue" ng-click="vm.searchQuery = appointment.updatedBy">{{appointment.updatedBy}}</a></td>
+                     
+                        </tr>
+           <tr ng-if="appointment.expanded" class="abp-clickable table-borderless" ng-repeat-end="">
+                            <td colspan="10" class="noborder">
+                                <table class="table table-borderless">
+                        <tr ng-click="appointment.expanded = !appointment.expanded " class="abp-clickable">
+           
+ <td class="col-md-2"><small>@L("Id")</small></td>
+   
+ <td class="col-md-2"><small>@L("Pid")</small></td>
+   
+ <td class="col-md-2"><small>@L("TenantId")</small></td>
+   
+ <td class="col-md-2"><small>@L("ProviderId")</small></td>
+   
+ <td class="col-md-2"><small>@L("AppointmentCodeId")</small></td>
+
+ <td class="col-md-2"><small>@L("Title")</small></td>
+    
+ <td class="col-md-2"><small>@L("AdministrationSiteId")</small></td>
+
+ <td class="col-md-2"><small>@L("Fname")</small></td>
+ 
+ <td class="col-md-2"><small>@L("Lname")</small></td>
+ 
+ <td class="col-md-2"><small>@L("Mname")</small></td>
+ 
+ <td class="col-md-2"><small>@L("PhoneCell")</small></td>
+ 
+ <td class="col-md-2"><small>@L("PhoneHome")</small></td>
+ 
+ <td class="col-md-2"><small>@L("Note")</small></td>
+    
+ <td class="col-md-2"><small>@L("CreatedBy")</small></td>
+   
+ <td class="col-md-2"><small>@L("UpdatedBy")</small></td>
+                
+                        
+      </tr>       
+      
+   <tr ng-click="appointment.expanded = !appointment.expanded " class="abp-clickable success">
+      
+     <td><h6>{{appointment.id}}</h6></td>   
+     <td><h6>{{appointment.pid}}</h6></td>   
+     <td><h6>{{appointment.tenantId}}</h6></td>   
+     <td><h6>{{appointment.providerId}}</h6></td>   
+     <td><h6>{{appointment.categoryCodeId}}</h6></td>
+     <td><h6>{{appointment.title}}</h6></td>
+   
+     <td><h6>{{appointment.administrationSiteId}}</h6></td>
+     <td><h6>{{appointment.fname}}</h6></td>
+
+     <td><h6>{{appointment.lname}}</h6></td>
+
+     <td><h6>{{appointment.mname}}</h6></td>
+
+     <td><h6>{{appointment.phoneCell}}</h6></td>
+
+     <td><h6>{{appointment.phoneHome}}</h6></td>
+
+     <td><h6>{{appointment.note}}</h6></td>
+   
+     <td><h6>{{appointment.createdBy}}</h6></td>   
+     <td><h6>{{appointment.updatedBy}}</h6></td>
+   </tr>
+         </table>
+                            </td>
+                        </tr>
+                                        <tr ng-show="displayedCollection.length===0">
+                            <td colspan="10">Loading please wait...</td>
+                        </tr>
+                    </tbody>
+            <tfoot>
+                        <tr>
+                            <td colspan="10" class="text-center">
+                                <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="button" class="btn btn-default" ng-click="vm.close()">@L("Close")</button>
+    </div>
+</div>

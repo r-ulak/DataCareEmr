@@ -1,0 +1,76 @@
+﻿<div id="immunizationdetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("ImmunizationDetail")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <div class="row">
+                <div class="col-sm-8 col-xs-8 col-md-8">
+                    <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4">
+                    <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                        <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                    </button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table st-table="displayedCollection" st-safe-src="vm.immunizationData" class="table" sttablefilter="vm.searchQuery">
+                    <thead class="thead-inverse">
+                        <tr class="abp-clickable">
+                            <th class="col-md-2" st-sort="immunizationName">@L("ImmunizationName")</th>
+                            <th class="col-md-4" st-sort="completionStatusName">@L("CompletionStatusName")</th>
+                            <th class="col-md-2" st-sort="informationSource">@L("InformationSource")</th>
+                            <th class="col-md-2" st-sort="administrationSite">@L("AdministrationSite")</th>
+                            <th class="col-md-1" st-sort="administeredDate">@L("AdministeredDate")</th>
+                            <th class="col-md-1" st-sort="status">@L("Status")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat-start="immunization in (displayedCollection)" class="abp-clickable" ng-click="immunization.expanded = !immunization.expanded ">
+                            <td ng-class="{'font-bold red': immunization.completionStatusCodeId > 1 && immunization.status == 'active'}">{{immunization.immunizationName}}</td>
+                            <td><a class="blue" ng-click="vm.searchQuery = immunization.completionStatusName">{{immunization.completionStatusName}}</a></td>
+                            <td><a class="blue" ng-click="vm.searchQuery = immunization.informationSource">{{immunization.informationSource}}</a></td>
+                            <td><a class="blue" ng-click="vm.searchQuery = immunization.administrationSiteName">{{immunization.administrationSiteName}}</a></td>
+                            <td><a class="blue" ng-click="vm.searchQuery = immunization.administeredDate">{{immunization.administeredDate | utctolocal : 'L'}}</a></td>
+                            <td><a class="blue" ng-click="vm.searchQuery = immunization.status">{{immunization.status}}</a></td>
+                        </tr>
+                        <tr ng-if="immunization.expanded" class="abp-clickable table-borderless" ng-repeat-end="">
+                            <td colspan="10" class="noborder">
+                                <table class="table table-borderless">
+                                    <tr ng-click="immunization.expanded = !immunization.expanded " class="abp-clickable">
+                                        <td class="col-md-2"><small>@L("CreateDate")</small></td>
+                                        <td class="col-md-2"><small>@L("Status")</small></td>
+                                        <td class="col-md-2"><small>@L("AdministeredByName")</small></td>
+                                        <td class="col-md-6"><small>@L("Notes")</small></td>
+                                    </tr>
+                                    <tr ng-click="immunization.expanded = !immunization.expanded " class="abp-clickable success">
+                                        <td><h6>{{immunization.createDate | utctolocal : 'L'}}</h6></td>
+                                        <td><h6>{{immunization.status}}</h6></td>
+                                        <td><h6>{{immunization.administeredByName}}</h6></td>
+                                        <td><h6>{{immunization.note}}</h6></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr ng-show="displayedCollection.length===0">
+                            <td colspan="10">Loading please wait...</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="10" class="text-center">
+                                <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="button" class="btn btn-default" ng-click="vm.close()">@L("Close")</button>
+    </div>
+</div>

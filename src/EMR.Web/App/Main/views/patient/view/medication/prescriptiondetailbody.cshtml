@@ -1,0 +1,156 @@
+﻿<div class="table-responsive">
+    <table st-table="displayedCollection" st-safe-src="vm.prescriptionData" sttablefilter="vm.searchQuery" class="table">
+        <thead class="thead-inverse">
+        <tr class="abp-clickable">
+            <th class="col-md-1"></th>
+            <th class="col-md-2" st-sort="drugName">@L("Medication")</th>
+            <th class="col-md-1" st-sort="active">@L("StatusCodeName")</th>
+            <th class="col-md-1" st-sort="dose">@L("Dose")</th>
+            <th class="col-md-1" st-sort="dosage">@L("Dosage")</th>
+            <th class="col-md-1" st-sort="doseRoute">@L("DrugRoute")</th>
+            <th class="col-md-2" st-sort="primaryCondition">@L("Condition")</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat-start="medication in (displayedCollection)">
+            <td class="abp-clickable"
+                ng-click="medication.expanded = !medication.expanded ">
+                <i ng-class="{'fa fa-lg fa-minus-circle text-warning': medication.expanded, 'fa fa-lg fa-plus-circle text-success': !medication.expanded}"></i>
+            </td>
+            <td>
+                <a class="blue" ng-click="vm.searchQuery = medication.drugName">{{medication.drugName}}</a>
+            </td>
+            <td>{{medication.statusCodeName}}</td>
+            <td>{{medication.dose}}</td>
+            <td>{{medication.dosage}}&nbsp;{{medication.drugFormCodeName}}&nbsp;{{medication.frequencyCodeName}}</td>
+            <td>{{medication.drugRouteCodeName}}</td>
+            <td>
+                <a class="blue" ng-click="vm.searchQuery = medication.conditionName">{{medication.conditionName}}</a>
+            </td>
+        </tr>
+            <tr ng-if="medication.expanded" class="table-borderless" ng-repeat-end="">
+                <td colspan="7" class="noborder">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td colspan="7" class="noborder">
+                                <form>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("TherapyCodeName")</small>
+                                            </p>
+                                            <p>{{medication.therapyCodeName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("Quantity")</small>
+                                            </p>
+                                            <p>{{medication.quantity}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("Duration")</small>
+                                            </p>
+                                            <p>{{medication.duration}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("StartDate")</small>
+                                            </p>
+                                            <p>{{medication.startDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("RenewBy")</small>
+                                            </p>
+                                            <p>{{medication.refillDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("Refills")</small>
+                                            </p>
+                                            <p>{{medication.refills}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("Provider")</small>
+                                            </p>
+                                            <p>{{medication.provider}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("PrimaryCondition")</small>
+                                            </p>
+                                            <p>{{medication.conditionName}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <p>
+                                                <small class="text-primary">@L("SecondaryCondition")</small>
+                                            </p>
+                                            <p>{{medication.secondaryCondition}}</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <small class="text-primary">@L("EndDate")</small>
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                                <input ng-disabled="vm.readonlyview" date-range-picker ng-model="medication.endDate" options="vm.datepickerOption" class="form-control has-feedback-left" name="endDate">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-4">
+                                        <div class="form-group">
+                                            <small class="text-primary" for="status">Status</small>
+                                            <select class="form-control"
+                                                    ng-disabled="vm.readonlyview"
+                                                    ng-model="medication.statusCodeId"
+                                                    ng-options="obj.statusCodeId as obj.statusCodeName for obj in vm.statusCodeData"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <small class="text-primary" for="note">@L("Notes")</small>
+                                            <textarea ng-disabled="vm.readonlyview" class="form-control" rows="5" ng-model="medication.note"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group" ng-hide="vm.readonlyview">
+                                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3 ">
+                                            <button type="submit" class="btn btn-sm btn-warning pull-right" ng-click="vm.update(medication)">Save</button>
+                                            <button type="submit" class="btn btn-sm btn-primary pull-right" ng-click="medication.expanded = false">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="10" class="text-center">
+                    <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

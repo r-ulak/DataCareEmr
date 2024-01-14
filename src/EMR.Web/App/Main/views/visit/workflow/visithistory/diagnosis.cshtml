@@ -1,0 +1,15 @@
+<td colspan="8" class="noborder" ng-controller="app.views.patient.diagnosisvisitdetail as vm">
+    <div class="row">
+        <div class="abp-clickable col-md-1 col-xs-1 col-sm-1">
+            <i ng-click="visit.diagnosisexpanded = !visit.diagnosisexpanded; vm.getDiagnosisDetailByPidAndVisitId(visit.id)"
+               ng-class="{'fa fa-lg fa-minus-circle text-warning  margin-left10': visit.diagnosisexpanded, 'fa fa-lg fa-plus-circle text-success  margin-left10': !visit.diagnosisexpanded}"></i>
+        </div>
+        <div class="col-md-11 col-xs-11 col-sm-11 margin-left-40 margin-top-5">
+            <h5>@L("DiagnosisDetail")</h5>
+            <div class="row" ng-if="visit.diagnosisexpanded">
+                @Html.Partial("/App/Main/views/patient/view/diagnosis/diagnosisdetailbody.cshtml")
+            </div>
+        </div>
+    </div>
+
+</td>

@@ -1,0 +1,4 @@
+1	Completed
+2	Refused
+3	Not_Administered
+4	Partially_Administered

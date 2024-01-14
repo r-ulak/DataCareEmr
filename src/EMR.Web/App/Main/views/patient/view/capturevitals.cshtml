@@ -1,0 +1,112 @@
+﻿<div>
+    <form name="vitalCaptureForm" role="form" novalidate class="form-validation">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                <span>@L("CaptureVitals")</span>
+            </h4>
+        </div>
+        <div class="row">
+        <div class="modal-body ">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Blood Pressure Systolic"
+                           name="bps" ng-model="vm.vital.bps" valid-number required>
+                    <span class="input-group-addon">mmHg</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Blood Pressure Diastolic"
+                           name="bpd" ng-model="vm.vital.bpd" valid-number required>
+                    <span class="input-group-addon">mmHg</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Pulse Rate"
+                           name="pulse" ng-model="vm.vital.pulse" valid-number required>
+                    <span class="input-group-addon">bpm</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control"
+                           name="oxygenSaturation" ng-model="vm.vital.oxygenSaturation" placeholder="Oxygen Saturation" valid-number required>
+                    <span class="input-group-addon">%</span>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon ">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control"
+                           name="weightCaptured" ng-model="vm.vital.weightCaptured" placeholder="Weight" valid-number required>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn dark-background dropdown-toggle" data-toggle="dropdown" aria-expanded="false">{{vm.vital.weightUnit}}<span class="caret"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                            <li><a ng-click="vm.setUnitWeight('kg')">Kilogram</a></li>
+                            <li><a ng-click="vm.setUnitWeight('lb')">Pound</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-12 ">
+                <div class="input-group">
+                    <span class="input-group-addon ">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control"
+                           name="heightCaptured" ng-model="vm.vital.heightCaptured" placeholder="Height" valid-number required>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn dark-background dropdown-toggle" data-toggle="dropdown" aria-expanded="false">{{vm.vital.lenghtUnit}}<span class="caret"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                            <li><a ng-click="vm.setUnitLength('cm')">Centimeter</a></li>
+                            <li><a ng-click="vm.setUnitLength('in')">Inch</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <span class="input-group-addon ">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                    </span>
+                    <input type="text" class="form-control"
+                           name="tempratureCaptured" ng-model="vm.vital.tempratureCaptured" placeholder="Temprature" valid-number required>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn dark-background dropdown-toggle" data-toggle="dropdown" aria-expanded="false">{{vm.vital.tempUnit}}<span class="caret"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                            <li><a ng-click="vm.setUnitTemprature('C')">Celcius</a></li>
+                            <li><a ng-click="vm.setUnitTemprature('F')">Fahrenheit</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+                <button type="submit" class="btn btn-primary blue" ng-click="vm.save()" ng-disabled="vitalCaptureForm.$invalid"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
+            </div>
+        </div>
+    </form>
+</div>

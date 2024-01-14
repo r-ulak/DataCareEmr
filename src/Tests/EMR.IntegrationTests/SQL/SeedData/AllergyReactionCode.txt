@@ -1,0 +1,20 @@
+1	abdominal cramping or pain
+2	pain or tightness in the chest
+3	diarrhea
+4	difficulty swallowing
+5	dizziness (vertigo)
+6	fear or anxiety
+7	flushing of the face
+8	nausea or vomiting
+9	heart palpitations
+10	swelling of the face swelling of the eyes
+11	swelling of the tongue
+12	weakness
+13	wheezing
+14	difficulty breathing
+15	itching or rash
+16	rash
+17	swollen lips
+18	anaphlaxis
+19	unconsciousness
+20	abdominal cramping or pain

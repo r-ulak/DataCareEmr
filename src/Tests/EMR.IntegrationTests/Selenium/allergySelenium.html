@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:6634/" />
+<title>allergySelenium</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">allergySelenium</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/Account/Login?ReturnUrl=%2F#/patient/view/7417</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=TenancyName</td>
+	<td>Hospital8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=EmailAddressInput</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=PasswordInput</td>
+	<td>123qwe</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=LoginButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>30000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div/div/div[2]/div/table/tbody/tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='allergydetail']/div[2]/div/div[2]/table/tbody/tr/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='allergydetail']/div[2]/div/div[2]/table/tbody/tr[2]/td/form/div[2]/div/textarea</td>
+	<td>Test Me please</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='allergydetail']/div[2]/div/div[2]/table/tbody/tr[2]/td/form/div/div[2]/div/select</td>
+	<td>label=expired</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;expired&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=startDate</td>
+	<td>2016-01-1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

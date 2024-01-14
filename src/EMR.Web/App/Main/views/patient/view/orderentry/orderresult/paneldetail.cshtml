@@ -1,0 +1,124 @@
+<div id="paneldetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span ng-show="vm.panelDetails">@L("PanelDetail")</span>
+            <span ng-hide="vm.panelDetails">@L("OrderResultDetail")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h3 ng-if="vm.panelDetails">
+                        {{vm.longCommonName}}
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-xs-8 col-md-8">
+                    <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4">
+                    <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                        <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                    </button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table st-table="displayedCollection" st-safe-src="vm.panelData" class="table" sttablefilter="vm.searchQuery">
+                    <thead class="thead-inverse">
+                        <tr class="abp-clickable">
+                            <th st-sort="shortName">@L("ShortName")</th>
+                            <th st-sort="resultStatusCodeId">@L("StatusCodeName")</th>
+                            <th st-sort="resultData" ng-hide="vm.isRad">@L("ResultData")</th>
+                            <th st-sort="rangeValue" ng-hide="vm.isRad">@L("RangeValue")</th>
+                            <th st-sort="abnormalCodeName" ng-hide="vm.isRad">@L("AbnormalCodeName")</th>
+                            <th st-sort="resultDate">@L("ResultDate")</th>
+                            <th st-sort="documentId"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat-start="panel in (displayedCollection)" class="abp-clickable" ng-click="panel.expanded = !panel.expanded ">
+                            <td ng-class="{'font-bold red': panel.abnormalCodeId != 2}">
+                                <a class="blue" ng-click="vm.searchQuery = panel.loincCodeId">
+                                    {{panel.shortName}} &nbsp;({{panel.loincCodeId}})
+                                </a>
+                            </td>
+                            <td>
+                                <a class="blue" ng-click="vm.searchQuery = panel.resultStatusCodeName">
+                                    {{panel.resultStatusCodeName}}
+                                </a>
+                            </td>
+                            <td>{{panel.resultData}}&nbsp;{{panel.unitCodeName}}</td>
+                            <td>{{panel.rangeValue}}</td>
+                            <td>
+                                <a class="blue" ng-click="vm.searchQuery = panel.abnormalCodeName">
+                                    {{panel.abnormalCodeName}}
+                                </a>
+                            </td>
+                            <td>{{panel.resultDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+                            <td>
+                                <a class="abp-clickable"
+                                   ng-click="vm.viewImageModal(panel.id)">
+                                    <i class="fa fa-2x fa-picture-o margin-right5 "></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr ng-if="panel.expanded" class="table-borderless" ng-repeat-end="">
+                            <td colspan="7" class="noborder">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td colspan="7" class="noborder">
+                                            <form>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("PermformedBy")</small></p>
+                                                        <p>{{panel.resultByUserName}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("AdministrationSite")</small></p>
+                                                        <p>{{panel.administrationSiteName}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("CreatedDate")</small></p>
+                                                        <p>{{panel.createDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <p><small class="text-primary">@L("UpdatedDate")</small></p>
+                                                        <p>{{panel.updateDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="form-group">
+                                                        <small class="text-primary" for="note">Note</small>
+                                                        <textarea class="form-control" readonly rows="5" ng-model="panel.note"></textarea>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7" class="text-center">
+                                <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="button" class="btn btn-default" ng-click="vm.close()">@L("Close")</button>
+    </div>
+</div>

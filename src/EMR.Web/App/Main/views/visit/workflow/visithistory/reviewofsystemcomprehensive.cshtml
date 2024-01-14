@@ -1,0 +1,15 @@
+﻿<td colspan="8" class="noborder" ng-controller="app.views.patient.patientreviewofsystemcomprehensivevisitdetail as vm">
+    <div class="row">
+        <div class="abp-clickable col-md-1 col-xs-1 col-sm-1">
+            <i ng-click="visit.reviewofsystemexpanded = !visit.reviewofsystemexpanded; vm.getreviewofsystemDetailByPidAndVisitId(visit.id, false)"
+               ng-class="{'fa fa-lg fa-minus-circle text-warning  margin-left10': visit.reviewofsystemexpanded, 'fa fa-lg fa-plus-circle text-success  margin-left10': !visit.reviewofsystemexpanded}"></i>
+        </div>
+        <div class="col-md-11 col-xs-11 col-sm-11 margin-left-40 margin-top-5">
+            <h5>@L("ReviewOfSystemCode")</h5>
+            <div class="row" ng-if="visit.reviewofsystemexpanded">
+                @Html.Partial("/App/Main/views/visit/reviewofsystem/content.cshtml")
+            </div>
+        </div>
+    </div>
+
+</td>

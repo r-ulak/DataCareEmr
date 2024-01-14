@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="HomePage" value="Home page" />
+    <text name="About" value="About" />
+    <text name="WellcomeMessage" value="Welcome to EMR!" />
+
+    <text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+    <text name="TenantNameCanNotBeEmpty" value="Tenant name can not be empty" />
+
+    <text name="InvalidUserNameOrPassword" value="Invalid user name or password" />
+    <text name="ThereIsNoTenantDefinedWithName{0}" value="There is no tenant defined with name {0}" />
+    <text name="TenantIsNotActive" value="Tenant {0} is not active." />
+    <text name="UserIsNotActiveAndCanNotLogin" value="User {0} is not active and can not log in." />
+    <text name="PleaseEnterLoginInformation" value="Please enter login information" />
+    <text name="TenancyName" value="Tenancy name" />
+    <text name="UserNameOrEmail" value="User name or email" />
+    <text name="Password" value="Password" />
+    <text name="ConfirmPassword" value="Confirm Password" />
+    <text name="RememberMe" value="Remember me" />
+    <text name="LogIn" value="Log in" />
+    <text name="NoImagesFound" value="No Images Found" />
+
+    <text name="LoginFailed" value="Login failed!" />
+    <text name="HostOnly" value="Only Host Has Access" />
+    <text name="Jobs" value="Jobs" />
+    <text name="JobName" value="Job Name" />
+
+    <text name="NameSurname" value="Name surname" />
+    <text name="UserName" value="User name" />
+    <text name="Name" value="Name" />
+    <text name="Surname" value="Surname" />
+    <text name="EmailAddress" value="Email Address" />
+
+    <text name="Tenants" value="Tenants" />
+    <text name="SavedSuccessfully" value="Saved successfully" />
+    <text name="UploadedSuccessfully" value="Uploaded successfully" />
+
+    <text name="DocumentUpload" value="Document Upload" />
+    <text name="CreateNewTenant" value="Create new tenant" />
+    <text name="AdminEmailAddress" value="Admin email address" />
+    <text name="Save" value="Save" />
+    <text name="Cancel" value="Cancel" />
+    <text name="TenantName_Regex_Description" value="Tenant name must be at least 2 chars, starts with a letter and continue with letter, number, dash or underscore." />
+    <text name="DefaultPasswordIs" value="Default password is {0}" />
+    <text name="CanBeEmptyToLoginAsHost" value="Can be empty to login as host." />
+    <text name="Register" value="Register" />
+    <text name="OrLoginWith" value="Or login with" />
+    <text name="WaitingForActivationMessage" value="Your account is waiting to be activated by system admin." />
+    <text name="TenantSelection" value="Tenant Selection" />
+    <text name="TenantSelection_Detail" value="Please select one of the following tenants." />
+    <text name="Logout" value="Logout" />
+
+    <text name="RegisterFormUserNameInvalidMessage">Please dont enter an email address for username.</text>
+
+    <text name="DatabaseConnectionString" value="Database connection string" />
+    <text name="Users" value="Users" />
+    <text name="IsActive" value="Is Active" />
+    <text name="FullName" value="Full Name" />
+    <text name="CreateNewUser" value="Create new user" />
+    <text name="Yes" value="Yes" />
+    <text name="No" value="No" />
+    <text name="Optional" value="Optional" />
+    <text name="BecomeATenant" value="BECOME A TENANT" />
+    <text name="AdminPassword" value="Admin password" />
+    <text name="CreateTheTenant" value="Create the tenant" />
+    <text name="BecomeATenantHint" value="A tenant can have its own users and data storage. It's free!" />
+    <text name="SearchByPatient" value="Search By Patient ID Or Name ..." />
+    <text name="SearchResult" value="Search Result"/>
+    <text name="PatientIdentifier" value="Patient Identifier"/>
+    <text name="Gender" value="Gender"/>
+    <text name="Age" value="Age"/>
+    <text name="DOB" value="Date Of Birth"/>
+    <text name="RegisterPatient" value="Register"/>
+    <text name="SearchPatient" value="Search"/>
+    <text name="Patient" value="Patient"/>
+    <text name="Appointment" value="Appointment"/>
+    <text name="AddAppointment" value="Add Appointment"/>
+    <text name="EditAppointment" value="Edit Appointment"/>
+    <text name="AllowOverlap" value="Allow Overlap"/>
+    <text name="AppointmentCode" value="Category"/>
+    <text name="AppointmentStatusCode" value="Appointment Status"/>
+    <text name="AppointmentDetail" value="Appointment Detail"/>
+
+    
+    <text name="Fname" value="First Name"/>
+    <text name="Lname" value="Last Name"/>
+    <text name="Mname" value="Middle Name"/>
+    <text name="DriversLicense" value="Driver License#"/>
+    <text name="Ss" value="Identification Number (SSN)"/>
+
+    <text name="Street" value="Street"/>
+    <text name="PostalCode" value="Postal Code"/>
+    <text name="City" value="City"/>
+    <text name="State" value="State"/>
+    <text name="CountryCode" value="Country Code"/>
+    <text name="County" value="County"/>
+    <text name="PhoneHome" value="Phone Home"/>
+    <text name="PhoneBiz" value="Phone Business"/>
+    <text name="EmergencyPhoneContact" value="Phone Emergency"/>
+    <text name="EmergencyContactName" value="Emergency ContactName"/>
+    <text name="ContactRelationship" value="Contact Relationship"/>
+    <text name="PhoneCell" value="CellPhone"/>
+    <text name="Email" value="Email"/>
+    <text name="Mothersname" value="Mother's Name"/>
+
+    <text name="Race" value="Race"/>
+    <text name="Ethnicity" value="Ethnicity"/>
+    <text name="Religion" value="Religion"/>
+
+    <text name="DeceasedReason" value="Deceased Reason"/>
+    <text name="ViewPatient" value="Summary"/>
+    <text name="CaptureVitals" value="Capture Vitals"/>
+    <text name="DiagnosisCode" value="DiagnosisCode"/>
+    <text name="DiagnosisName" value="DiagnosisName"/>
+    <text name="DateIdentified" value="DateIdentified"/>
+
+    <text name="Medication" value="Medication"/>
+    <text name="Dose" value="Strength"/>
+    <text name="Frequency" value="Frequency"/>
+    <text name="Quantity" value="Quantity"/>
+    <text name="StartDate" value="StartDate"/>
+    <text name="EndDate" value="EndDate"/>
+    <text name="Active" value="Active"/>
+    <text name="Provider" value="Provider"/>
+    <text name="Condition" value="Indication"/>
+    <text name="Refills" value="Refills"/>
+    <text name="RenewBy" value="Renew By"/>
+    <text name="MedicationListDetail" value="Medication Detail"/>
+    <text name="Close" value="Close"/>
+    <text name="Instructions" value="Instructions"/>
+    <text name="PrimaryCondition" value="Primary Condition"/>
+    <text name="SecondaryCondition" value="Secondary Condition"/>
+    <text name="Notes" value="Notes"/>
+    <text name="SideEffect" value="Side Effects"/>
+    <text name="MedicationTimeline" value="Ineractive Medication Timeline"/>
+
+    <text name="AllergyName" value="Allergy"/>
+    <text name="AllergyType" value="AllergyType"/>
+    <text name="ReactionName" value="Reaction"/>
+    <text name="AllergySeverityCodeName" value="Severity"/>
+    <text name="AllergyDetail" value="Ineractive Allergy List"/>
+    <text name="CategoryName" value="Category"/>
+    <text name="AllergyTypeName" value="Type"/>
+    <text name="Type" value="Type"/>
+    <text name="Status" value="Status"/>
+
+    <text name="Substance" value="Substance"/>
+    <text name="SubstancePlaceholder" value="Substance allergy due to"/>
+
+    <text name="Reaction" value="Reaction"/>
+    <text name="ReactionPlaceholder" value="Patient's reaction to allergic substance"/>
+
+    <text name="Severity" value="Severity"/>
+    <text name="OnSetDate" value="OnSet"/>
+    <text name="Category" value="Category"/>
+    <text name="CategoryPlaceholder" value="allergy, side effect, other"/>
+
+    <text name="Note" value="Notes"/>
+    <text name="NotesPlaceHolder" value="Add any additional notes"/>
+    <text name="AddAllergy" value="Add new allergy"/>
+    <text name="Actions" value="Actions"/>
+    <text name="DisplayName" value="Display Name"/>
+    <text name="CreationTime" value="Creation Time"/>
+    <text name="IsDefault" value="IsDefault"/>
+    <text name="AddRole" value="Add New Role"/>
+    <text name="RoleName" value="Role Name"/>
+    <text name="EditRole" value="Edit Role"/>
+    <text name="Role" value="Role"/>
+    <text name="Administration" value="Administration"/>
+    <text name="IsEmailConfirmed" value="Email Confirmed"/>
+    <text name="LastLoginTime" value="Last Login Time"/>
+    <text name="AddUser" value="Add New  User"/>
+    <text name="EditUser" value="Edit Existing User"/>
+    <text name="SendActivationEmail" value="Send activation email"/>
+    <text name="ShouldChangePasswordOnNextLogin" value="Should change password on next login"/>
+    <text name="UnlockAccount" value="Unlock Account"/>
+
+    <text name="AuditLogs" value="Audit Logs"/>
+    <text name="DateRange" value="Date Range"/>
+    <text name="ServiceName" value="Service Name"/>
+    <text name="MethodName" value="Method Name"/>
+    <text name="BrowserInfo" value="Browser Info"/>
+    <text name="MinExecutionTime" value="Min Execution Time"/>
+    <text name="MaxExecutionTime" value="Max Execution Time"/>
+    <text name="Time" value="Time"/>
+    <text name="Service" value="Service"/>
+    <text name="Action" value="Action"/>
+    <text name="Duration" value="Duration"/>
+    <text name="DurationDays" value="Duration(days)"/>
+    <text name="IpAddress" value="Ip Address"/>
+    <text name="Browser" value="Browser"/>
+    <text name="ClientName" value="ClientName"/>
+    <text name="Parameters" value="Parameters"/>
+    <text name="CustomData" value="CustomData"/>
+    <text name="Exception" value="Exception"/>
+    <text name="Search" value="Search"/>
+
+    <text name="ImmunizationName" value="Immunization Name"/>
+    <text name="CompletionStatusName" value="Completion"/>
+    <text name="CompletionStatus" value="Completion Status"/>
+    <text name="AdministeredDate" value="Date"/>
+    <text name="InformationSource" value="Info Source"/>
+    <text name="AdministrationSite" value="Administration Site"/>
+    <text name="AdministeredByName" value="Administered By"/>
+    <text name="CreateDate" value="CreateDate"/>
+    <text name="CreatedDate" value="Create Date"/>
+    <text name="UpdatedDate" value="Update Date"/>
+    <text name="UpdateDate" value="Update Date"/>
+    <text name="CreatedBy" value="Created By"/>
+    <text name="UpdatedBy" value="Last Update By"/>
+    <text name="ImmunizationDetail" value="Immunization Detail"/>
+    <text name="AddImmunization" value="Add Immunization"/>
+    <text name="AdministeredById" value="Administered By Id"/>
+
+    <text name="LifeStyleTypeName" value="Type"/>
+    <text name="LifeStyleDetail" value="Life Style Detail"/>
+    <text name="AddLifeStyle" value="Add new LifeStyle"/>
+    
+    <text name="QuitDate" value="QuitDate"/>
+    <text name="CurrentlyActive" value="Active Use"/>
+    <text name="OutcomeCodeName" value="Outcome"/>
+    <text name="StatusCodeId" value="Status"/>
+    <text name="StatusCodeName" value="Status"/>
+    <text name="SurgeryDate" value="Surgery Date"/>
+    <text name="SurgeryDetail" value="Surgery Detail"/>
+    <text name="CustomPCSDescription" value="Procedure"/>
+    <text name="ICDCodePCSId" value="PCS"/>
+    <text name="ICDCodePCSName" value="PCS-Name"/>
+    <text name="AddSurgery" value="Add Surgery"/>
+    <text name="ICDCustomPCSCode" value="Custom PCS Code"/>
+    <text name="ICDCodePCSShortName" value="PCS Name"/>
+    <text name="ICDCodePCSNameLong" value="PCS Description"/>
+    <text name="PermformedBy" value="Performed By"/>
+    <text name="AddICDCodePCS" value="Add CodePCS"/>
+
+    <text name="ICDCodeCNId" value="Code"/>
+    <text name="ICDCodeCNName" value="Code-Name"/>
+    <text name="AddDiagnosis" value="Add Diagnosis"/>
+    <text name="ICDCustomCNCode" value="Custom  Code"/>
+    <text name="ICDCodeCNShortName" value="Name"/>
+    <text name="ICDCodeCNNameLong" value="Description"/>
+    <text name="Description" value="Description"/>
+    <text name="AddICDCodeCN" value="Add Code"/>
+    <text name="DiagnosisDate" value="Diagnosis Date"/>
+    <text name="DiagnosisDetail" value="Diagnosis Detail"/>
+    <text name="DiagnosedBy" value="Diagnosed By"/>
+
+    <text name="RelationshipCodeName" value="Relation"/>
+    <text name="AddFamilyHistory" value="Add FamilyHistory"/>
+    <text name="FamilyHistoryDetail" value="FamilyHistory Detail"/>
+    <text name="DoseSize" value="Strength"/>
+    <text name="Dosage" value="Dosage"/>
+    <text name="DoseUnit" value="Unit"/>
+    <text name="DrugRouteCodeId" value="Route"/>
+    <text name="DrugRoute" value="Route"/>
+    <text name="DrugFormCodeId" value="Form"/>
+    <text name="TherapyCodeId" value="Therapy"/>
+    <text name="TherapyCodeName" value="Therapy"/>
+    <text name="RefillDate" value="Refill Date"/>
+    <text name="AddPrescription" value="Add Prescription"/>
+    <text name="PrescriptionName" value="Name"/>
+    <text name="DrugName" value="Drug Name"/>
+    <text name="Visit" value="Visit"/>
+    <text name="VisitDate" value="Date Of Service"/>
+    <text name="DischargeDate" value="Discharge Date"/>
+    <text name="AddVisit" value="Start a New Visit"/>
+    <text name="ReasonForVisit" value="Reason For Visit"/>
+    <text name="VisitStatus" value="Visit Status"/>
+    <text name="VisitCodeId" value="Visit Type"/>
+    <text name="VisitingDoctor" value="Visiting Doctor"/>
+    <text name="AssignedDoctor" value="Assigned Doctor"/>
+    <text name="AssignedNurse" value="Assigned Nurse"/>
+
+    <text name="ProcedureOrderDetail" value="Order Detail"/>
+    <text name="AddProcedureOrder" value="Add New Order"/>
+    <text name="PriorityCodeId" value="Priority"/>
+    <text name="PriorityCodeName" value="Priority"/>
+    <text name="OrderdByName" value="OrderdBy"/>
+    <text name="LabRadCode" value="Order Code"/>
+    <text name="OrderDate" value="Date Ordered"/>
+    <text name="ViewSpecimenDetail" value="Specimen"/>
+    <text name="ViewTestResults" value="Test Results"/>
+    <text name="SpecimenNumber" value="Specimen Id"/>
+    <text name="SpecimenType" value="Type"/>
+    <text name="AdministrationSiteName" value="Site"/>
+    <text name="CollectedByName" value="Collected By"/>
+    <text name="CollectedDate" value="CollectedDate"/>
+    <text name="LoincCodeId" value="Code"/>
+    <text name="LongCommonName" value="LongName"/>
+
+    <text name="ShortName" value="Name"/>
+    <text name="ResultData" value="Result"/>
+    <text name="UnitCodeName" value="Unit"/>
+    <text name="RangeValue" value="Range"/>
+    <text name="AbnormalCodeName" value="Abnormal?"/>
+    <text name="ResultByName" value="By"/>
+    <text name="ResultStatusCodeName" value="Status"/>
+    <text name="DocumentId" value="Document"/>
+    <text name="DocumentCategory" value="Category"/>
+    <text name="ResultDate" value="Test Date"/>
+    <text name="ParentTestCode" value="Parent Test Code"/>
+    <text name="TestCode" value="Test Code"/>
+    <text name="ResultDataCodeId" value="Result Data Type"/>
+    <text name="UnitCodeId" value="Unit"/>
+    <text name="AbnormalCodeId" value="Abnormal?"/>
+    <text name="UnitPlaceholder" value="Units"/>
+    <text name="RangePlaceholder" value="Range"/>
+    <text name="PanelDetail" value="Panel Detail"/>
+    <text name="OrderResultDetail" value="Result Detail"/>
+
+    <text name="AddSpecimen" value="Add Specimen"/>
+    <text name="EditSpecimen" value="Edit Specimen"/>
+    <text name="AddOrderResult" value="Add Result"/>
+    <text name="EditOrderResult" value="Edit Result"/>
+    <text name="VisitDetail" value="Visit History"/>
+    <text name="VisitId" value="Id"/>
+    
+    <text name="Title" value="Title"/>
+    
+
+    <text name="ReviewOfSystemCode" value="Review Of System "/>
+    <text name="ReviewOfSystemShortCode" value="Review Of System Short"/>
+    
+  </texts>
+</localizationDictionary>

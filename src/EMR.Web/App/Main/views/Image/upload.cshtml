@@ -1,0 +1,77 @@
+﻿<div class="x_panel tile autoheight">
+    <div class="x_title">
+        <ul class="nav navbar-right panel_toolbox">
+            <li>
+                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+            </li>
+            <li>
+                <a class="close-link"><i class="fa fa-close"></i></a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <div class="x_content">
+        <div class="row">
+            <p class="error">{{upload.error}}</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("DocumentUpload")</label>
+                    <label class="btn btn-default btn-file">
+                        <i class="fa fa-cloud-upload margin-right10 text-success"></i>Browse File to Upload<input type="file" fileread="upload.uploadfile" class="hidden" name="myFile" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Category")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <select class="form-control"
+                                ng-model="upload.documentCategoryCodeId"
+                                ng-options="item.documentCategoryCodeId as item.documentCategoryCodeName for item in upload.documentCategoryCodeData"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Type")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <select class="form-control"
+                                ng-model="upload.documentTypeCodeId"
+                                ng-options="item.documentTypeCodeId as item.documentTypeCodeName for item in upload.documentTypeCodeData"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Description")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input ng-model="upload.documentDescription"
+                               class="form-control"
+                               name="documentDescription"
+                               data-validate-length="255">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <span>{{upload.uploadfile.name}}</span>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="item form-group">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <textarea class="form-control" rows="5" ng-model="upload.note"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <uib-progressbar max="max" type="success" value="upload.progress"><span style="color: white; white-space: nowrap;">{{upload.progress}} / 100</span></uib-progressbar>
+            </div>
+        </div>
+    </div>
+</div>

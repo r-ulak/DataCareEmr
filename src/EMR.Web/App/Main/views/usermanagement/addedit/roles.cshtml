@@ -1,0 +1,10 @@
+<div ng-repeat="role in vm.roleData">
+    <div class="action-checkbox">
+        <input id="{{role.name}}" type="checkbox" 
+               value="{{role.id}}"
+                ng-checked="vm.roleselection.indexOf(role.id) > -1"
+                ng-click="vm.toggleRoleSelection(role.id)" />
+        <label for="{{role.name}}"></label>
+        {{role.name}}
+    </div>
+</div>

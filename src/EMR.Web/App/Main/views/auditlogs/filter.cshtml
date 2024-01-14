@@ -1,0 +1,87 @@
+﻿<form ng-submit="vm.search()">
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <input date-range-picker
+                       options="vm.dateRangeOption"
+                       placeholder="@L("DateRange")" class="form-control date-picker" type="text" ng-model="vm.filter.range" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="@L("UserName")"
+                       ng-change="vm.filter.userIdFilter = vm.filter.userName.length > 0 "
+                       name="userName" ng-model="vm.filter.userName">
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="@L("ServiceName")"
+                       ng-change="vm.filter.serviceNameFilter = vm.filter.serviceName.length > 0 "
+                       name="serviceName" ng-model="vm.filter.serviceName">
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="@L("MethodName")"
+                       ng-change="vm.filter.methodNameFilter = vm.filter.methodName.length > 0 "
+                       name="methodName" ng-model="vm.filter.methodName">
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="@L("BrowserInfo")"
+                       ng-change="vm.filter.browserInfoFilter = vm.filter.browserInfo.length > 0 "
+                       name="browserInfo" ng-model="vm.filter.browserInfo">
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <input type="number" ng-min="0" class="form-control" placeholder="@L("MinExecutionTime")"
+                       ng-change="vm.filter.executionDurationFilter = vm.filter.executionDurationMin >= 0 &&  vm.filter.executionDurationMax > 0 "
+                       name="executionDurationMin" ng-model="vm.filter.executionDurationMin">
+                <span class="input-group-addon">---</span>
+                <input type="number" ng-min="1" class="form-control" placeholder="@L("MaxExecutionTime")"
+                       ng-change="vm.filter.executionDurationFilter = vm.filter.executionDurationMin >= 0 &&  vm.filter.executionDurationMax > 0 "
+                       name="executionDurationMax" ng-model="vm.filter.executionDurationMax">
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user " aria-hidden="true"></i>
+                </span>
+                <select class="form-control" name="errorState" ng-model="vm.filter.errorState"
+                        ng-change="vm.filter.errorStateFilter = vm.filter.errorState.length > 0 ">
+                    <option value="">---Please select---</option>
+                    <option value="true">Has Errors</option>
+                    <option value="false">No Errors</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <button type="submit" class="btn btn-primary btn-md pull-right"><i class="fa fa-search"></i> <span>@L("Search")</span></button>
+        </div>
+    </div>
+</form>
+
+<hr />

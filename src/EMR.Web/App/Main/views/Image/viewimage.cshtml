@@ -1,0 +1,49 @@
+﻿<div class="modalImage">
+    <div class="modal-body">
+        <uib-tabset>
+            <uib-tab ng-repeat="image in vm.images" heading="{{image.documentDescription}}">
+                <a class="pull-right" ng-hide="image.isDicom" ng-href="{{image.imageSrc}}" target="_blank">
+                    <span>
+                        (Open in new tab)<i class="fa fa-external-link"></i>
+                    </span>
+                </a>
+                <div class="clearfix product_price">
+                    <h5>
+                        Category:<small>
+                            {{image.documentCategoryCodeName}}
+                        </small>
+                    </h5>
+                    <h5>
+                        Type:<small>
+                            {{image.documentTypeCodeName}}
+                        </small>
+                    </h5>
+                    <h5>
+                        Note:
+                        <small>
+                            {{image.note}}
+                        </small>
+                    </h5>
+                </div>
+
+                <div ng-show="image.isImage">
+                    <a ng-href="{{image.imageSrc}}" target="_blank">
+                        <img class="img-responsive center-block" ng-src={{image.imageSrc}}>
+                    </a>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9" ng-show="image.isPdf">
+                    <object data="{{image.imageSrc}}" type="application/pdf" class="embed-responsive-item">
+                        alt : <a href="{{image.imageSrc}}">{{image.fileName}}</a>
+                    </object>
+                </div>
+                <div ng-if="image.isDicom">
+                    @Html.Partial("~/App/Main/views/Image/dicomviewer.cshtml")
+                </div>
+            </uib-tab>
+        </uib-tabset>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Close</button>
+    </div>
+
+</div>

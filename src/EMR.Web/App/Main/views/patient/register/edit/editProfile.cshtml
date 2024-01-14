@@ -1,0 +1,37 @@
+﻿<h2>Edit Patient</h2>
+<!-- Tabs -->
+<div smartwizard id="wizard_editpatient" class="form_wizard wizard_horizontal" ng-controller="app.views.patientdata.patientedit as vm">
+    <ul class="list-unstyled wizard_steps">
+        <li>
+            <a href="#registerStep1Demographics" title="Demographics">
+                <span class="step_no">1</span>
+                <span class="step_descr">
+                    Step 1<br>
+                    <small>Demographics</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#registerStep2Contact" title="Contact">
+                <span class="step_no">2</span>
+                <span class="step_descr">
+                    Step 2<br>
+                    <small>Contact</small>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="#registerStep3Profile" title="Profile">
+                <span class="step_no">3</span>
+                <span class="step_descr">
+                    Step 3<br>
+                    <small>Profile</small>
+                </span>
+            </a>
+        </li>
+    </ul>
+    @Html.Partial("~/App/Main/views/patient/register/registerStep1Demographics.cshtml")
+    @Html.Partial("~/App/Main/views/patient/register/registerStep2Contact.cshtml")
+    @Html.Partial("~/App/Main/views/patient/register/registerStep3Profile.cshtml")
+</div>
+<!-- End SmartWizard Content -->

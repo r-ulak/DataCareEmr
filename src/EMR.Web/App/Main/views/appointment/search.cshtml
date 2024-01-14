@@ -1,0 +1,21 @@
+﻿<div class="modal-header">
+    <h4 class="modal-title">
+        <span>@L("Search")</span>
+    </h4>
+</div>
+<div class="modal-body ">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <form ng-submit="vm.getSearchResult(false)">
+                <div class="input-group ">
+                    <input type="text" ng-keypress="vm.reset()" class="form-control" ng-model="vm.term" placeholder='@L("SearchByPatient")'>
+                    <span class="input-group-btn">
+                        <button class="btn btn-md" ng-click="vm.getSearchResult(false)" type="button" id="searchGo">Go!</button>
+                        <button class="btn btn-md" ng-click="vm.clear()" type="button">Clear</button>
+                    </span>
+                </div>
+            </form>
+            @Html.Partial("~/App/Main/views/appointment/searchResult.cshtml")
+        </div>
+    </div>
+</div>

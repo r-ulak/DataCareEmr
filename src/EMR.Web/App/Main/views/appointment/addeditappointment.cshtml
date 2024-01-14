@@ -1,0 +1,170 @@
+<div id="addappointment">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span ng-show="vm.isNew">@L("AddAppointment")</span>
+            <span ng-hide="vm.isNew">@L("EditAppointment")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <form form-validation name="addAppointmentCreateForm" role="form" class="form-horizontal form-label-left" novalidate>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Title")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="text" required class="form-control" ng-model="vm.appointment.title" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Provider")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.appointment.providerId" ng-options="item.id as item.fullName + ' (' + item.roleName + ')' for item in vm.providerCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("StartDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker ng-model="vm.appointment.startDate" options="vm.startDateRangeOption" class="form-control has-feedback-left" name="StartDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("EndDate")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                <input required date-range-picker ng-model="vm.appointment.endDate" options="vm.endDateRangeOption" class="form-control has-feedback-left" name="EndDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("PatientIdentifier")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="text" ng-click="vm.search()" class="form-control" ng-model="vm.appointment.pid" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AdministrationSite")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.appointment.administrationSiteId" ng-options="item.administrationSiteId as item.administrationSiteName for item in vm.administrationSiteData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AppointmentCode")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.appointment.appointmentCodeId" ng-options="item.appointmentCodeId as item.appointmentCodeName for item in vm.appointmentCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12" ng-hide="vm.isNew">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("AppointmentStatusCode")*</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <select required class="required form-control" ng-model="vm.appointment.appointmentStatusCodeId" ng-options="item.appointmentStatusCodeId as item.appointmentStatusCodeName for item in vm.appointmentStatusCodeData"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <label class="col-md-12 col-sm-12 col-xs-12 ">@L("Fname")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input type="text" required ng-readonly="vm.appointment.pid > 0" class="form-control" ng-model="vm.appointment.fname" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Lname")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input type="text" required ng-readonly="vm.appointment.pid > 0" class="form-control" ng-model="vm.appointment.lname" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <label class="col-md-12 col-sm-12 col-xs-12">@L("Mname")</label>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <input type="text" ng-readonly="vm.appointment.pid > 0" class="form-control" ng-model="vm.appointment.mname" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("PhoneCell")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="text" class="form-control" ng-model="vm.appointment.phoneCell" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("PhoneHome")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input type="text" class="form-control" ng-model="vm.appointment.phoneHome" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">@L("Note")</label>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea class="form-control" rows="5" ng-model="vm.appointment.note"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="item form-group">
+                        <label class="col-md-12 col-sm-12 col-xs-12">
+                            @L("AllowOverlap")
+                            <input type="checkbox" ng-model="vm.appointment.allowOverlap" />
+                        </label>
+                    </div>
+                </div>
+                <div class="item form-group" ng-show="vm.validationError.length > 0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Please review the following field</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li ng-repeat="message in vm.validationError">
+                                        <span class="black">{{message}}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-success pull-right" ng-disabled="addAppointmentCreateForm.$invalid"
+                ng-show="vm.isNew"
+                ng-click="vm.saveAppointment('addmore')">
+            Save and add another
+        </button>
+        <button type="submit" class="btn btn-success pull-right"
+                ng-show="vm.isNew"
+                ng-disabled="addAppointmentCreateForm.$invalid" ng-click="vm.saveAppointment()">
+            Save
+        </button>
+        <button type="submit" class="btn btn-success pull-right"
+                ng-hide="vm.isNew"
+                ng-disabled="addAppointmentCreateForm.$invalid" ng-click="vm.updateAppointment()">
+            Update
+        </button>
+    </div>
+</div>

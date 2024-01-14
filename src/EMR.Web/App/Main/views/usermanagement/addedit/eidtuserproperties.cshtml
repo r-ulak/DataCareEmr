@@ -1,0 +1,41 @@
+﻿﻿@using Abp.Authorization.Users
+<div class="item form-group">
+    <label>@L("UserName")</label>
+    <input class="form-control" type="text" disabled name="UserName" ng-readonly="true" ng-model="vm.user.userName" required="required" maxlength="@AbpUserBase.MaxUserNameLength">
+</div>
+
+<div class="item form-group">
+    <label>@L("Name")</label>
+    <input type="text" name="Name" class="form-control" ng-model="vm.user.name" required="required" maxlength="@EMR.Users.User.MaxNameLength">
+</div>
+
+<div class="item form-group">
+    <label>@L("Surname")</label>
+    <input type="text" name="Surname" class="form-control" ng-model="vm.user.surname" required="required" maxlength="@EMR.Users.User.MaxSurnameLength">
+</div>
+
+<div class="item form-group">
+    <label>@L("EmailAddress")</label>
+    <input type="email" name="EmailAddress" class="form-control" ng-readonly="true" ng-model="vm.user.emailAddress" required="required" maxlength="@EMR.Users.User.MaxEmailAddressLength">
+</div>
+<div class="item form-group">
+    <label>@L("Password")</label>
+    <input id="password" type="password" name="password" class="form-control" ng-model="vm.user.password"  maxlength="@EMR.Users.User.MaxPlainPasswordLength">
+</div>
+
+<div class="item form-group">
+    <label>@L("ConfirmPassword")</label>
+    <input type="password" name="ConfirmPassword" data-validate-linked="password" class="form-control" maxlength="@EMR.Users.User.MaxPlainPasswordLength">
+</div>
+<div class="checkbox">
+    <label>
+        <input type="checkbox" name="IsActive" ng-model="vm.user.isActive" value="true"> @L("IsActive")
+    </label>
+</div>
+<div class="checkbox">
+    <label>
+        <input type="checkbox" name="ShouldChangePasswordOnNextLogin"
+               ng-model="vm.user.shouldChangePasswordOnNextLogin">
+        @L("ShouldChangePasswordOnNextLogin")
+    </label>
+</div>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:6634/" />
+<title>addTestOrder</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">addTestOrder</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/#/patient/view/7417</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=td.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div/div/div/select</td>
+	<td>label=doctor10 (Doctor)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.addOrderResultCreateForm.loincCodeId[1]</td>
+	<td>Blood</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=CD20 Abnormal blood cells/Abnormal blood cells.total in Blood (14966-6)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.addOrderResultCreateForm.loincCodeId[3]</td>
+	<td>Blood</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Bloodworm IgE Ab RAST class [Presence] in Serum (15582-0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div[5]/div/div/select</td>
+	<td>label=Numeric</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=orderResultResultData</td>
+	<td>hhh</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div[7]/div/div/select</td>
+	<td>label=Saint-Denis</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div[8]/div/div/select</td>
+	<td>label=G/DL</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=orderResultRangeValue</td>
+	<td>hhh</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div[10]/div/div/select</td>
+	<td>label=Low</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div[11]/div/div/textarea</td>
+	<td>tetest</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='addorderResult']/div[2]/div/form/div[12]/div/div/select</td>
+	<td>label=Pending</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='submit'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

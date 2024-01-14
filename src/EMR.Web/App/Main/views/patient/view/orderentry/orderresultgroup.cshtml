@@ -1,0 +1,32 @@
+<div class="row margin-left10" ng-repeat-start="orderResultGroup in resultvm.orderResultData | filter:{ orderId: resultvm.orderId }">
+    <div class="col-md-1 col-sm-1 col-xs-1 abp-clickable" ng-click="orderResultGroup.expanded = !orderResultGroup.expanded">
+        <i ng-class="{'fa fa-lg fa-minus-circle text-warning': orderResultGroup.expanded, 'fa fa-lg fa-plus-circle text-success': !orderResultGroup.expanded}"></i>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-8">
+        <span class="font-bold">
+            {{orderResultGroup.longCommonName}}
+        </span>
+    </div>
+    <div class="col-md-5 col-sm-5 col-xs-3" ng-hide="vm.readonlyview">
+        <div class="form-group" ng-show="orderResultGroup.expanded">
+            <button type="submit" class="btn btn-sm btn-primary pull-right"
+                    ng-show="resultvm.canUpdateLabResult"
+                    ng-click="resultvm.saveAllResultCode(orderResultGroup.orderResult)">    
+                Save
+            </button>
+            <button type="submit" class="btn btn-sm btn-primary pull-right"
+                    ng-show="resultvm.canSignOffLabResult"
+                    ng-click="resultvm.saveAllResultStatusCode(orderResultGroup.orderResult, 'signoff')">
+                Sign Off
+            </button>
+            <button type="submit" class="btn btn-sm btn-primary pull-right"
+                    ng-show="resultvm.canSignOffLabResult"
+                    ng-click="resultvm.saveAllResultStatusCode(orderResultGroup.orderResult, 'notapplicable')">
+                Not Applicable
+            </button>
+    </div>
+        </div>
+</div>
+<div ng-if="orderResultGroup.expanded" class="row margin-left10 " ng-repeat-end="">
+    @Html.Partial("~/App/Main/views/patient/view/orderentry/orderresult.cshtml")
+</div>

@@ -1,0 +1,35 @@
+﻿<div id="roledetail">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span ng-show="vm.role.isNew">@L("AddRole")</span>
+            <span ng-hide="vm.role.isNew">@L("EditRole")</span>
+        </h4>
+    </div>
+    <div class="modal-body ">
+        <form form-validation name="roleCreateOrEditForm" role="form" class="form-horizontal form-label-left" novalidate>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#roleproperties">Role Properties</a></li>
+                <li><a data-toggle="tab" href="#permissions">Permissions</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="roleproperties" class="tab-pane fade in active">
+                    @Html.Partial("~/App/Main/views/rolemanagement/addedit/roleproperties.cshtml")
+                </div>
+                <div id="permissions" class="tab-pane fade">
+                    @Html.Partial("~/App/Main/views/rolemanagement/addedit/permissions.cshtml")
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer noborder">
+        <button type="submit" class="btn btn-default pull-right" ng-click="vm.close()">Cancel</button>
+        <button type="submit" class="btn btn-primary pull-right blue " ng-show="vm.role.isNew"
+                ng-disabled="roleCreateOrEditForm.$invalid" ng-click="vm.save()">
+            Save
+        </button>
+        <button type="submit" class="btn btn-primary pull-right blue " ng-hide="vm.role.isNew"
+                ng-disabled="roleCreateOrEditForm.$invalid" ng-click="vm.update()">
+            Update
+        </button>
+    </div>
+</div>

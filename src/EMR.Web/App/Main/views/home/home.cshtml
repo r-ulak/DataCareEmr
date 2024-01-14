@@ -1,0 +1,22 @@
+﻿<div ng-controller="app.views.patientdata.search as vm">
+    <h4>@L("WellcomeMessage")</h4>
+    <div class="row separator" id="searchContent">
+        <div class="col-md-12 padding-top-20">
+            <div class="col-md-1 col-sm-2">
+            </div>
+            <div class="col-md-10 col-sm-8 col-xs-12 top_search form-group-md">
+                <form ng-submit="vm.getSearchResult(false)">
+                    <div class="input-group ">
+                        <input type="text" id="searchByPatient" ng-keypress="vm.reset()" class="form-control" ng-model="vm.term" placeholder='@L("SearchByPatient")'>
+                        <span class="input-group-btn">
+                            <button class="btn btn-md" id="searchGo" ng-click="vm.getSearchResult(false)" type="button">Go!</button>
+                            <button class="btn btn-md" ng-click="vm.clear()" type="button">Clear</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        @Html.Partial("~/App/Main/views/home/searchResult.cshtml")
+        @Html.Partial("~/App/Main/views/visit/dashboard/dashboard.cshtml")
+    </div>
+</div>

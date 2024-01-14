@@ -1,0 +1,6 @@
+﻿<div ng-controller="app.views.patientdata.allergytop as vm">
+    Allergies <small class="red font-bold" ng-repeat="item in vm.allergyTop3|limitTo:3">
+        {{item.allergyName}}
+        <span ng-if="$index < 2">,</span>
+    </small>...
+</div>

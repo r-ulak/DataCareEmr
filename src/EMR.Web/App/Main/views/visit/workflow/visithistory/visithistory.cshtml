@@ -1,0 +1,81 @@
+﻿<div id="visitdetail" ng-controller="app.views.visit.visithistory as vm">
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>@L("VisitDetail")</span>
+        </h4>
+    </div>
+    <div class="row">
+        <div class="modal-body ">
+            <div class="row">
+                <div class="col-sm-8 col-xs-8 col-md-8">
+                    <input ng-model="vm.searchQuery" placeholder="Global search" class="input-sm form-control" type="search" />
+                </div>
+                <div class="col-sm-4 col-xs-4 col-md-4">
+                    <button type="button" ng-click="vm.searchQuery = ''" class="btn btn-sm btn-primary">
+                        <i class="fa fa-eraser margin-right5"></i>Clear Filter
+                    </button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table st-table="displayedCollection" st-safe-src="vm.visitData" class="table" sttablefilter="vm.searchQuery">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th></th>
+                            <th st-sort="visitCodeId">@L("VisitId")</th>
+                            <th st-sort="visitCodeId">@L("VisitCodeId")</th>
+                            <th st-sort="administrationSiteId">@L("AdministrationSite")</th>
+                            <th st-sort="doctorId">@L("VisitingDoctor")</th>
+                            <th st-sort="reason">@L("ReasonForVisit")</th>
+                            <th st-sort="createDate">@L("VisitDate")</th>
+                            <th st-sort="createDate">@L("DischargeDate")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat-start="visit in (displayedCollection)" class="abp-clickable">
+                            <td ng-click="visit.expanded = !visit.expanded ">
+                                <i ng-class="{'fa fa-lg fa-minus-circle text-warning': visit.expanded, 'fa fa-lg fa-plus-circle text-success': !visit.expanded}"></i>
+                            </td>
+                            <td>{{visit.id}}</td>
+                            <td><a class="blue" ng-click="vm.searchQuery = visit.visitCodeName">{{visit.visitCodeName}}</a></td>
+                            <td><a class="blue" ng-click="vm.searchQuery = visit.administrationSiteName">{{visit.administrationSiteName}}</a></td>
+                            <td><a class="blue" ng-click="vm.searchQuery = visit.doctorName">{{visit.doctorName}}</a></td>
+                            <td>{{visit.reason}}</td>
+                            <td>{{visit.createDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+                            <td>{{visit.updateDate | utctolocal :'MM/DD/YY h:mm:ss a'}}</td>
+
+                        </tr>
+                        <tr ng-if="visit.expanded">
+                            @Html.Partial("/App/Main/views/visit/workflow/visithistory/surgery.cshtml")
+                        </tr>
+                        <tr ng-if="visit.expanded">
+                            @Html.Partial("/App/Main/views/visit/workflow/visithistory/prescription.cshtml")
+                        </tr>
+                        <tr ng-if="visit.expanded">
+                            @Html.Partial("/App/Main/views/visit/workflow/visithistory/lifestyle.cshtml")
+                        </tr>
+                        <tr ng-if="visit.expanded">
+                            @Html.Partial("/App/Main/views/visit/workflow/visithistory/procedureorder.cshtml")
+                        </tr>
+                    <tr ng-if="visit.expanded">
+                        @Html.Partial("/App/Main/views/visit/workflow/visithistory/reviewofsystemcomprehensive.cshtml")
+                    </tr>
+                        <tr ng-if="visit.expanded">
+                            @Html.Partial("/App/Main/views/visit/workflow/visithistory/reviewofsystemshort.cshtml")
+                        </tr>
+                        <tr ng-if="visit.expanded" ng-repeat-end="">
+                            @Html.Partial("/App/Main/views/visit/workflow/visithistory/diagnosis.cshtml")
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="10" class="text-center">
+                                <div st-pagination="" st-items-by-page="vm.itemsByPage" st-displayed-pages=""></div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+﻿<div class="item form-group">
+    <label class="col-md-12 col-sm-12 col-xs-12">@L("RoleName")*</label>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <input ng-model="vm.role.displayName"
+               placeholder="@L("RoleName")"
+               class="form-control"
+               name="roleName"
+               required="required"
+               data-validate-length="1000">
+    </div>
+</div>
+<div class="form-check">
+    <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" ng-model="vm.role.isDefault">
+        Default Role
+    </label>
+</div>
